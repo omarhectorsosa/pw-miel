@@ -1,0 +1,12 @@
+{
+  "users": {
+    "admin": {
+      "name": "27283004",
+      "password": "primavera0"
+    },
+    "ososa": {
+      "name": "ososa",
+      "password": "ososa123"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+stages:
+  - test
+  - deploy
+
+variables:
+  NODE_ENV: ci
+  BASE_URL: "https://campus-atm.psa.com.ar/"
+  PLAYWRIGHT_HTML_REPORT: "playwright-report"
+
+playwright_tests:
+  stage: test
+  image: node:20-bullseye
+  # 👈 etiqueta del runner que querés usar.
+  # tags:
+  #  - mkdocs-material-9
+  #  - shared
+  before_script:
+    - npx playwright install-deps
+    - npx playwright install
+    - npm ci
+  # script:
+    # Ejecutar los tests
+    #- npx playwright test
+    #- npx playwright test tests/init.spec.ts
+    # Generar el reporte HTML
+    # - npx playwright show-report --output=$PLAYWRIGHT_HTML_REPORT > /dev/null 2>&1 || true
+  artifacts:
+    paths:
+      - $PLAYWRIGHT_HTML_REPORT
+      - test-results/**/*.zip
+    expire_in: 1 week
+    when: always
+  after_script:
+    - |
+      if [ -n "$CI_JOB_SUMMARY" ]; then
+        echo "🔗 **Playwright Report:** [Ver reporte de Playwright]($CI_PROJECT_URL/-/jobs/$CI_JOB_ID/artifacts/file/$PLAYWRIGHT_HTML_REPORT/index.html)" >> $CI_JOB_SUMMARY
+      else
+        echo ""
+        echo "-------------------------------------------------------------"
+        echo "🔗 Playwright Report disponible en:"
+        echo "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID/artifacts/file/$PLAYWRIGHT_HTML_REPORT/index.html"
+        echo "-------------------------------------------------------------"
+      fi
+
+pages:
+  stage: deploy
+  # Si deseo usar la imagen para correr el script
+  # image: registry.psa.com.ar/ipsa-dt-doc/mkdocs-material-w-lftp:1.0.0
+  script:
+    # Mover el reporte a la carpeta esperada por GitLab Pages
+    - mv playwright-report public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+  # tags:
+  #  - mkdocs-material-9
+  #  - shared    
