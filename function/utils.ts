@@ -60,13 +60,20 @@ function logStudent(log: string, name: string, id: string) {
    Escritura de resultados
 ========================= */
 
+function ensureHeader(filePath: string) {
+  if (!fs.existsSync(filePath) || fs.statSync(filePath).size === 0) {
+    fs.writeFileSync(filePath, 'curso;clave;nombre;nota\n');
+  }
+}
+
 function writeAbsent(
   courseDir: string,
   course: string,
   studentId: string,
   studentName: string
 ) {
-  const filePath = path.join(courseDir, `estado.txt`);
+  const filePath = path.join(courseDir, `estado.csv`);
+  ensureHeader(filePath);
   const line = `${course};${studentId};${studentName};A;`;
   fs.appendFileSync(filePath, line + '\n');
 }
@@ -77,8 +84,9 @@ function writePresent(
   studentId: string,
   studentName: string
 ) {
-  const filePath = path.join(courseDir, `estado.txt`);
-  const line = `${course};${studentId};${studentName};7;`;
+  const filePath = path.join(courseDir, `estado.csv`);
+  ensureHeader(filePath);
+  const line = `${course};${studentId};${studentName};E;`;
   fs.appendFileSync(filePath, line + '\n');
 }
 
@@ -88,7 +96,7 @@ function replaceAbsentWithPresent(
   studentId: string,
   studentName: string
 ) {
-  const filePath = path.join(courseDir, 'estado.txt');
+  const filePath = path.join(courseDir, 'estado.csv');
 
   if (!fs.existsSync(filePath)) return;
 
@@ -104,7 +112,7 @@ function replaceAbsentWithPresent(
       id === studentId &&
       status === 'A'
     ) {
-      return `${course};${studentId};${studentName};7;`;
+      return `${course};${studentId};${studentName};E;`;
     }
 
     return line;
@@ -262,9 +270,12 @@ export async function seeAndCorrect(
   } else if (Number(estado) >= 7) {
     await page.getByLabel('Estado:').selectOption('1');
     writeLog(logFilePath, '✅ Marcado como APROBADO');
-  } else if (estado='P' ) {
+  } else if (Number(estado) < 7) {
+    await page.getByLabel('Estado:').selectOption('2');
+    writeLog(logFilePath, '⚠️ Marcado como DESAPROBADO');  
+  } else if (estado='E' ) {
     await page.getByLabel('Estado:').selectOption('99');
-    writeLog(logFilePath, '⚠️ Marcado como en pausa');  
+    writeLog(logFilePath, '⚠️ Dejar en pausa');  
   } else {
     writeLog(
       logFilePath,
@@ -321,7 +332,7 @@ export function getStudentStatus(
   const statusFilePath = path.join(
     rootDir,
     commissionCode,
-    'estado.txt'
+    'estado.csv'
   );
 
   if (!fs.existsSync(statusFilePath)) {
