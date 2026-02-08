@@ -62,7 +62,7 @@ function logStudent(log: string, name: string, id: string) {
 
 function ensureHeader(filePath: string) {
   if (!fs.existsSync(filePath) || fs.statSync(filePath).size === 0) {
-    fs.writeFileSync(filePath, 'curso;clave;nombre;nota\n');
+    fs.writeFileSync(filePath, 'curso;clave;nombre;nota;mensaje;check\n');
   }
 }
 
@@ -74,9 +74,13 @@ function writeAbsent(
 ) {
   const filePath = path.join(courseDir, `estado.csv`);
   ensureHeader(filePath);
-  const line = `${course};${studentId};${studentName};A;`;
+
+  const line = `${course};${studentId};${studentName};A;;;`;
   fs.appendFileSync(filePath, line + '\n');
+
+  updateTotals(courseDir);
 }
+
 
 function writePresent(
   courseDir: string,
@@ -86,9 +90,13 @@ function writePresent(
 ) {
   const filePath = path.join(courseDir, `estado.csv`);
   ensureHeader(filePath);
-  const line = `${course};${studentId};${studentName};E;`;
+
+  const line = `${course};${studentId};${studentName};E;;;`;
   fs.appendFileSync(filePath, line + '\n');
+
+  updateTotals(courseDir);
 }
+
 
 function replaceAbsentWithPresent(
   courseDir: string,
@@ -97,7 +105,6 @@ function replaceAbsentWithPresent(
   studentName: string
 ) {
   const filePath = path.join(courseDir, 'estado.csv');
-
   if (!fs.existsSync(filePath)) return;
 
   const lines = fs.readFileSync(filePath, 'utf8').split('\n');
@@ -105,21 +112,117 @@ function replaceAbsentWithPresent(
   const updatedLines = lines.map(line => {
     if (!line.trim()) return line;
 
-    const [c, id, name, status] = line.split(';');
+    const [c, id, , status, message, check] = line.split(';');
 
-    if (
-      c === course &&
-      id === studentId &&
-      status === 'A'
-    ) {
-      return `${course};${studentId};${studentName};E;`;
+    if (c === course && id === studentId && status === 'A') {
+      return `${course};${studentId};${studentName};E;${message};${check};`;
     }
 
     return line;
   });
 
   fs.writeFileSync(filePath, updatedLines.join('\n'));
+  
+  updateTotals(courseDir);
 }
+
+function setCheckPractical(
+  courseDir: string,
+  course: string,
+  studentId: string,
+  studentName: string,
+  check: string
+) {
+  
+  
+  const filePath = path.join(courseDir, 'estado.csv');
+
+  if (!fs.existsSync(filePath)) {
+    console.warn(`⚠️ estado.csv no existe: ${filePath}`);
+    return;
+  }
+
+  const lines = fs.readFileSync(filePath, 'utf8').split('\n');
+
+  const updatedLines = lines.map(line => {
+    if (!line.trim()) return line;
+
+    const [c, id, , status, message] = line.split(';');
+    if (c === course && id === studentId) {
+      return `${course};${studentId};${studentName};${status};${message};${check}`;
+    }
+
+    return line;
+  });
+  
+  
+  fs.writeFileSync(filePath, updatedLines.join('\n'));
+
+  updateTotals(courseDir);
+}
+
+
+function updateTotals(courseDir: string) {
+
+  console.log('Actualizando totales.');
+
+  const estadoPath  = path.join(courseDir, 'estado.csv');
+  const totalesPath = path.join(courseDir, 'totales.csv');
+
+  if (!fs.existsSync(estadoPath)) {
+    console.log(`No existe el ${estadoPath}`);
+    return;
+  }  
+
+  const lines = fs
+    .readFileSync(estadoPath, 'utf8')
+    .split('\n')
+    .filter(l => l.trim());
+
+  // ignorar header
+  const dataLines = lines.slice(1);
+  const now = new Date();
+  const pad = (n: number) => n.toString().padStart(2, '0');
+  let moment = now.getFullYear().toString() + pad(now.getMonth() + 1) + pad(now.getDate()) + now.getHours() + now.getMinutes() + now.getSeconds()
+  
+  console.log(`Momento ${moment}`);
+
+  let total = 0;
+  let totalA = 0;
+  let totalE = 0;
+  let totalC = 0;
+  let totalI = 0;
+
+  for (const line of dataLines) {
+    const [, , , status, message, check ] = line.split(';');
+    if (!status) continue;
+
+    total++;
+
+    if (status === 'A') totalA++;
+    if (status === 'E' || Number(status) > 0) totalE++;
+    if (Number(status) > 0) totalC++;
+    if (check !== '') totalI++;
+
+  }
+
+  const porcentaje =
+    total > 0 ? (((totalE) / total) * 100).toFixed(2) + '%' : '0%';
+
+  const content =
+   `tipo;cantidad
+actualizacion;${moment}   
+total;${total}
+ausentes(A);${totalA}
+entregados(E);${totalE}
+corregidos;${totalC}
+inforfamados;${totalI}
+porcentaje_entregados;${porcentaje}
+`;
+
+  fs.writeFileSync(totalesPath, content);
+}
+
 
 /* =========================
    Descarga principal
@@ -140,6 +243,8 @@ export async function downloadAndSave(
 
     logStudent(logFilePath, studentName, studentId);
 
+    await waitTimeAndLogCustom(page, 'Esperando seccion..', 2);
+
     const entregas = page.locator('.w3-padding.entrega');
 
     const estado = getStudentStatus(
@@ -149,10 +254,14 @@ export async function downloadAndSave(
     );
 
     if (await entregas.count() === 0) {  
+      writeLog(
+          logFilePath,
+          `❌  No se encontro ninguna seccion de descarga ${studentName} (${studentId}) — revisar su perfil`
+      );
       if (estado) {
         writeLog(
           logFilePath,
-          `🔍 Ya se encuentra registrado en estado ${studentName} (${studentId}) — se omite`
+          `🔍 ${studentName} (${studentId}) ya se encuentra registrado en estado ${estado}  — se omite`
         );
       } else {
         writeLog(logFilePath, 'ℹ️  Sin entregas → marcado AUSENTE');
@@ -161,13 +270,18 @@ export async function downloadAndSave(
       return {};
     }
 
+    await waitTimeAndLogCustom(page, 'Esperando link descargar..', 2);
     const archivoLink = entregas.first().locator('a.link');
 
     if (await archivoLink.count() === 0) {
+      writeLog(
+          logFilePath,
+          `ℹ❌  No se encontro ningun archivo para descargar ${studentName} (${studentId}) — revisar su perfil`
+      );
       if (estado) {
         writeLog(
           logFilePath,
-          `🔍 Ya se encuentra registrado en estado ${studentName} (${studentId}) — se omite`
+          `🔍 ${studentName} (${studentId}) ya se encuentra registrado en estado ${estado}  — se omite`
         );
       } else {
         writeLog(logFilePath, 'ℹ️  Entrega sin archivo adjunto → marcado AUSENTE');
@@ -175,41 +289,76 @@ export async function downloadAndSave(
       }
       return {};
     }
+    
+     writeLog(
+        logFilePath,
+        `ℹ️ Se encontro archivo para descargar ${studentName} (${studentId}) — se procede a analizar si existe estado.`
+     );
 
     // Presente confirmado
     if (estado && estado !== 'A') {
         writeLog(
           logFilePath,
-          `🔍 Ya se encuentra registrado en estado ${studentName} (${studentId}) — se omite`
+          `🔍 ${studentName} (${studentId}) ya se encuentra registrado en estado ${estado}  — se omite`
         );
         return {};
     } else {
-        if (estado === 'A') {
-          writeLog(logFilePath, '♻️  Reemplazando estado A → ENTREGADO');
-          replaceAbsentWithPresent(courseDir, course, studentId, studentName);
-        } else {
-          writeLog(logFilePath, 'ℹ️  Entrega con archivo adjunto → marcado ENTREGADO');
-          writePresent(courseDir, course, studentId, studentName);
-        }
-        
         const targetDir = path.join(courseDir, studentName);
         fs.mkdirSync(targetDir, { recursive: true });
 
-        writeLog(logFilePath, '⬇️  Descargando archivo…');
+        let descargaOK = false;
+        let fileName = '';
+        let filePath = '';
 
-        const [download] = await Promise.all([
-          page.waitForEvent('download', { timeout: 10000 }),
-          archivoLink.click(),
-        ]);
+        try {
+          writeLog(logFilePath, '⬇️  Descargando archivo…');
 
-        const fileName = download.suggestedFilename();
-        const filePath = path.join(targetDir, fileName);
+          const [download] = await Promise.all([
+            page.waitForEvent('download', { timeout: 10000 }),
+            archivoLink.click(),
+          ]);
 
-        await download.saveAs(filePath);
+          fileName = download.suggestedFilename();
+          filePath = path.join(targetDir, fileName);
 
-        writeLog(logFilePath, `✅ Descarga OK — ${fileName}`);
+          await download.saveAs(filePath);
 
-        return { filePath, fileName };
+          descargaOK = true;
+          writeLog(logFilePath, `✅ Descarga OK — ${fileName}`);
+
+        } catch (error) {
+          writeLog(
+            logFilePath,
+            `❌ Error en descarga — ${studentName} (${studentId})`
+          );
+        }
+
+        if (descargaOK) {
+          if (estado === 'A') {
+            writeLog(
+              logFilePath,
+              `🔍 ${studentName} (${studentId}) estaba en estado A`
+            );
+            writeLog(logFilePath, '♻️  Reemplazando estado A → ENTREGADO');
+            replaceAbsentWithPresent(courseDir, course, studentId, studentName);
+          } else {
+            writeLog(
+              logFilePath,
+              'ℹ️  Entrega con archivo adjunto → marcado ENTREGADO'
+            );
+            writePresent(courseDir, course, studentId, studentName);
+          }
+          return { filePath, fileName };
+        }
+
+        // ⛔ No se descargó nada → no se marca entregado
+        writeLog(
+          logFilePath,
+          `⚠️  Sin archivo descargado — se mantiene estado ${estado ?? 'A'}`
+        );
+
+        return {};
+
     }    
 }
 
@@ -219,19 +368,23 @@ export async function downloadAndSave(
 
 export async function seeAndCorrect(
   page: Page,
+  rootDir: String,
   commissionCode: string,
   studentId: string,
   studentName: string,
   entregaIndex: number,
   estado: string,
   logFilePath: string,
-  origin: string
+  origin: string,
+  message: string
 ): Promise<void> {
 
   writeLog(
     logFilePath,
     `📝 Corrigiendo a ${studentName} (${studentId}) — estado=${estado}`
   );
+
+  const courseDir = path.join(rootDir.toString(), commissionCode);
 
   await page.goto(`/tutoria/alumnos/comision/${commissionCode}`);
 
@@ -262,32 +415,53 @@ export async function seeAndCorrect(
   }
 
   await corregirLinks.nth(entregaIndex).click();
-
+  await page.getByRole('checkbox', { name: 'Notificar al alumno/a por' }).check();
+  let check = '';
   // 🎯 Selección de estado
   if (estado === 'A') {
-    await page.getByLabel('Estado:').selectOption('10');
-    writeLog(logFilePath, '🚫 Marcado como AUSENTE');
-  } else if (Number(estado) >= 7) {
-    await page.getByLabel('Estado:').selectOption('1');
-    writeLog(logFilePath, '✅ Marcado como APROBADO');
-  } else if (Number(estado) < 7) {
-    await page.getByLabel('Estado:').selectOption('2');
-    writeLog(logFilePath, '⚠️ Marcado como DESAPROBADO');  
-  } else if (estado='E' ) {
-    await page.getByLabel('Estado:').selectOption('99');
-    writeLog(logFilePath, '⚠️ Dejar en pausa');  
-  } else {
-    writeLog(
-      logFilePath,
-      `⚠️ Estado ${estado} no procesado — sin cambios`
-    );
-    await page.goBack();
-    return;
+      // Estados en pausa  
+      // Temporal cambiar el dia de la fecha
+      // await page.getByLabel('Estado:').selectOption('10');
+      // writeLog(logFilePath, '🚫 Marcado como SIN ENTREGAR');
+      //check = 'SIN ENTREGAR';  
+      await page.getByLabel('Estado:').selectOption('99');
+      writeLog(logFilePath, '🚫 Marcado como SIN CORREGIR');
+      check = '';
+    } else if (estado === 'E' ) {
+      await page.getByLabel('Estado:').selectOption('3');
+      writeLog(logFilePath, '⚠️ Dejar en entregado');
+      check = '';  
+    //Corregir con mensajes 
+    } else if (Number(estado) >= 7) {
+      await page.getByLabel('Estado:').selectOption('1');
+      writeLog(logFilePath, '✅ Marcado como APROBADO');
+      check = 'APROBADO';  
+    } else if (Number(estado) < 7) {
+      await page.getByLabel('Estado:').selectOption('4');
+      await page.getByRole('textbox', { name: 'Observaciones (opcional):' }).fill(message);  
+      writeLog(logFilePath, '⚠️ Marcado como REENTREGAR');
+      check = 'REENTREGADO';  
+    } else {  
+      writeLog(
+        logFilePath,
+        `⚠️ Estado ${estado} no procesado — sin cambios`
+      );
+      await page.goBack();
+      return;
   }
 
-  await page.getByRole('link', { name: 'Enviar corrección' }).click();
-  writeLog(logFilePath, '📤 Corrección enviada');
+  setCheckPractical(courseDir,commissionCode,studentId,studentName, check);
 
+  if ( Number(estado) > 0  ) {
+  //ToDo: Sacar el dia de la entrega  
+  // if ( Number(estado) > 0  || estado === 'A' ) {  
+    await page.getByRole('link', { name: 'Enviar corrección' }).click();
+    writeLog(logFilePath, '📤 Corrección enviada');
+  } else {
+    writeLog(logFilePath, '📤 Corrección NO enviada (se supone corregir en la fecha limite)');
+  }
+
+  await waitTimeAndLogCustom(page, `Corrigiendo alumno ${estado}`,5);
   await page.goBack();
 }
 
@@ -348,6 +522,37 @@ export function getStudentStatus(
 
     if (course === commissionCode && id === studentId) {
       return status; // "7" o "A"
+    }
+  }
+
+  return null;
+}
+
+export function getStudentMessage(
+  rootDir: string,
+  commissionCode: string,
+  studentId: string
+): string | null {
+
+  const statusFilePath = path.join(
+    rootDir,
+    commissionCode,
+    'estado.csv'
+  );
+
+  if (!fs.existsSync(statusFilePath)) {
+    return null;
+  }
+
+  const lines = fs.readFileSync(statusFilePath, 'utf8').split('\n');
+
+  for (const line of lines) {
+    if (!line.trim()) continue;
+
+    const [course, id, , status, message] = line.split(';');
+
+    if (course === commissionCode && id === studentId) {
+      return message; // "" o "Mensaje"
     }
   }
 

@@ -1,7 +1,7 @@
 import { Page, expect } from '@playwright/test';
 import fs from 'fs';
 import path from 'path';
-import { downloadAndSave, seeAndCorrect, getStudentStatus, getDateFolder, writeLog, waitTimeAndLogCustom, logRunStart, logRunEnd } from './utils';
+import { downloadAndSave, seeAndCorrect, getStudentStatus,getStudentMessage, getDateFolder, writeLog, waitTimeAndLogCustom, logRunStart, logRunEnd } from './utils';
 
 export async function getPracticalWork(
   page: Page, 
@@ -93,12 +93,15 @@ export async function getPracticalWork(
         }
 
         await studentLink.click();
+        
+        await waitTimeAndLogCustom(page, 'Esperando corregir..', 5);
 
         const corregirLink = page.getByRole('link', { name: '[CORREGIR]' });
         const totalCorrecciones = await corregirLink.count();
 
         if (totalCorrecciones === 0) {
-          console.log(
+          writeLog(
+            logFilePath,
             `❌ Error ${origin}: No se encontró ningún link [CORREGIR] para «${nameStudent}» (${studentId}) en la comisión ${commissionCode}.`
           );
           await page.goBack();
@@ -214,6 +217,12 @@ export async function seePracticalWork(
         studentId
       );
 
+      const message = getStudentMessage(
+        rootDir,
+        commissionCode,
+        studentId
+      );
+
       if (!estado) {
         writeLog(
           logFilePath,
@@ -225,13 +234,15 @@ export async function seePracticalWork(
       try {
         await seeAndCorrect(
           page,
+          rootDir,
           commissionCode,
           studentId,
           studentName,
           entregaIndex,
           estado,
           logFilePath,
-          origin
+          origin,
+          message
         );
       } catch (error) {
         writeLog(
@@ -239,9 +250,6 @@ export async function seePracticalWork(
           `💥 Error ${origin} con ${studentName} (${studentId}): ${String(error)}`
         );
       }
-
-      await waitTimeAndLogCustom(page, `Corrigiendo alumno ${estado}`,2);
-
     }
   }
 

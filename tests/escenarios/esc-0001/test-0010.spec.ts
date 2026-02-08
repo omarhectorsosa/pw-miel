@@ -2,7 +2,7 @@ import { test, chromium } from '@playwright/test';
 import { login } from '../../../function/login';
 import { getPracticalWork } from '../../../function/action';
 
-test.setTimeout(90000);
+test.setTimeout(1000000);
 
 const storageFile = './tests/storage/auth.json';
 
