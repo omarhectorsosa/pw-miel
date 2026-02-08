@@ -1,8 +1,8 @@
 tipo;cantidad
-actualizacion;202602081633   
+actualizacion;20260208131330   
 total;40
-ausentes(A);6
-entregados(E);34
-corregidos;1
-inforfamados;1
-porcentaje_entregados;85.00%
+ausentes(A);5
+entregados(E);35
+corregidos;35
+inforfamados;40
+porcentaje_entregados;87.50%

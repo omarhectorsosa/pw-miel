@@ -385,83 +385,54 @@ export async function seeAndCorrect(
   );
 
   const courseDir = path.join(rootDir.toString(), commissionCode);
+  let check = '';
 
-  await page.goto(`/tutoria/alumnos/comision/${commissionCode}`);
+  // 🎯 Selección de estado
+  if (estado === 'A') {
+    // Estados en pausa  
+    // Temporal cambiar el dia de la fecha
+    await page.getByLabel('Estado:').selectOption('10');
+    writeLog(logFilePath, '🚫 Marcado como SIN CORREGIR — se omite');
+    writeLog(logFilePath, `✉️ ${message}`);
+    check = 'AUSENTE';
+  } else if (estado === 'E' ) {
+    await page.getByLabel('Estado:').selectOption('3');
+    writeLog(logFilePath, '⚠️ Dejar en entregado');
+    check = '';  
+  //Corregir con mensajes 
+  } else if (Number(estado) >= 7) {
+    await page.getByLabel('Estado:').selectOption('1');
+    writeLog(logFilePath, '✅ Marcado como APROBADO');
+    check = 'APROBADO';  
+  } else if (Number(estado) < 7) {
+    await page.getByLabel('Estado:').selectOption('4');
+    await page.getByRole('textbox', { name: 'Observaciones (opcional):' }).fill(message);  
+    writeLog(logFilePath, '⚠️ Marcado como REENTREGAR');
+    writeLog(logFilePath, `✉️ ${message}`);
 
-  const studentLink = page.getByRole('link', { name: studentName });
-
-  if (await studentLink.count() === 0) {
+    check = 'REENTREGADO';  
+  } else {  
     writeLog(
       logFilePath,
-      `❌ Error ${origin}: No se encontró al alumno ${studentName}`
-    );
-    return;
-  }
-
-  await studentLink.click();
-  
-  await waitTimeAndLogCustom(page, `Esperando corregir ${studentName}`,2);
-
-  const corregirLinks = page.getByRole('link', { name: '[CORREGIR]' });
-  const total = await corregirLinks.count();
-
-  if (total === 0 || entregaIndex >= total) {
-    writeLog(
-      logFilePath,
-      `❌ Error ${origin}: No hay correcciones válidas para ${studentName}`
+      `⚠️ Estado ${estado} no procesado — sin cambios`
     );
     await page.goBack();
     return;
   }
 
-  await corregirLinks.nth(entregaIndex).click();
-  await page.getByRole('checkbox', { name: 'Notificar al alumno/a por' }).check();
-  let check = '';
-  // 🎯 Selección de estado
-  if (estado === 'A') {
-      // Estados en pausa  
-      // Temporal cambiar el dia de la fecha
-      // await page.getByLabel('Estado:').selectOption('10');
-      // writeLog(logFilePath, '🚫 Marcado como SIN ENTREGAR');
-      //check = 'SIN ENTREGAR';  
-      await page.getByLabel('Estado:').selectOption('99');
-      writeLog(logFilePath, '🚫 Marcado como SIN CORREGIR');
-      check = '';
-    } else if (estado === 'E' ) {
-      await page.getByLabel('Estado:').selectOption('3');
-      writeLog(logFilePath, '⚠️ Dejar en entregado');
-      check = '';  
-    //Corregir con mensajes 
-    } else if (Number(estado) >= 7) {
-      await page.getByLabel('Estado:').selectOption('1');
-      writeLog(logFilePath, '✅ Marcado como APROBADO');
-      check = 'APROBADO';  
-    } else if (Number(estado) < 7) {
-      await page.getByLabel('Estado:').selectOption('4');
-      await page.getByRole('textbox', { name: 'Observaciones (opcional):' }).fill(message);  
-      writeLog(logFilePath, '⚠️ Marcado como REENTREGAR');
-      check = 'REENTREGADO';  
-    } else {  
-      writeLog(
-        logFilePath,
-        `⚠️ Estado ${estado} no procesado — sin cambios`
-      );
-      await page.goBack();
-      return;
-  }
-
   setCheckPractical(courseDir,commissionCode,studentId,studentName, check);
 
-  if ( Number(estado) > 0  ) {
-  //ToDo: Sacar el dia de la entrega  
-  // if ( Number(estado) > 0  || estado === 'A' ) {  
+  if ( estado === 'A'  ) {
+    // Descomentar para informar de su estado actual
+    await page.getByRole('textbox', { name: 'Observaciones (opcional):' }).fill(message);  
     await page.getByRole('link', { name: 'Enviar corrección' }).click();
-    writeLog(logFilePath, '📤 Corrección enviada');
+    writeLog(logFilePath, '🚫 Corrección NO enviada (informar por ausente se paso fecha limite)');
   } else {
-    writeLog(logFilePath, '📤 Corrección NO enviada (se supone corregir en la fecha limite)');
+    await page.getByRole('link', { name: 'Enviar corrección' }).click();
+    writeLog(logFilePath, `📤 Corrección enviada ${check}`);
   }
 
-  await waitTimeAndLogCustom(page, `Corrigiendo alumno ${estado}`,5);
+  //await waitTimeAndLogCustom(page, `Fin de corrección`,5);
   await page.goBack();
 }
 

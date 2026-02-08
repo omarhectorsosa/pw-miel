@@ -2,7 +2,7 @@ import { test, chromium } from '@playwright/test';
 import { login } from '../../../function/login';
 import { seePracticalWork } from '../../../function/action';
 
-test.setTimeout(90000);
+test.setTimeout(1000000);
 
 const storageFile = './tests/storage/auth.json';
 
@@ -23,6 +23,6 @@ test('Corregir practicos.', async ({ browser }) => {
   });
 
   const page = await context.newPage();
-  await seePracticalWork(page, 40, 25,'test-0009');
+  await seePracticalWork(page, 40, 45,'test-0009');
 
 });

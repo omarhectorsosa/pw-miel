@@ -50,7 +50,7 @@ export async function getPracticalWork(
   // 🔁 Comisiones
   for (const commissionCode of Object.keys(studentsByCommission)) {
 
-    writeLog(logFilePath, `Procesando comisión ${commissionCode}`);
+    writeLog(logFilePath, `📘 Corrigiendo comisión ${commissionCode}`);
     const studentsInCommission = studentsByCommission[commissionCode];
 
     const studentIds = Object.keys(studentsInCommission)
@@ -76,10 +76,10 @@ export async function getPracticalWork(
 
       try {
         await page.goto(`/tutoria/alumnos/comision/${commissionCode}`);
-        // await page.getByRole('link', { name: 'Resumen de prácticas' }).click();
         
-        console.log ( `Descargando práctico de ${nameStudent} (${studentId} [${commissionCode}])`);
-        writeLog(logFilePath, `Descargando práctico de ${nameStudent} (${studentId} [${commissionCode}])`);
+        console.log ( `Comenzando busqueda práctico de ${nameStudent} (${studentId} [${commissionCode}])`);
+        writeLog(logFilePath, '');
+        writeLog(logFilePath, `Comenzando busqueda práctico de ${nameStudent} (${studentId} [${commissionCode}])`);
 
         // 🔍 Verificar link del estudiante
         const studentLink = page.getByRole('link', { name: nameStudent });
@@ -209,15 +209,9 @@ export async function seePracticalWork(
     for (const studentId of studentIds) {
 
       const student = studentsInCommission[studentId];
-      const studentName = student.name;
+      const nameStudent = student.name;
 
       const estado = getStudentStatus(
-        rootDir,
-        commissionCode,
-        studentId
-      );
-
-      const message = getStudentMessage(
         rootDir,
         commissionCode,
         studentId
@@ -226,10 +220,60 @@ export async function seePracticalWork(
       if (!estado) {
         writeLog(
           logFilePath,
-          `⚠️ Sin estado para ${studentName} (${studentId}) — se omite`
+          `⚠️ Sin estado para ${nameStudent} (${studentId}) — se omite`
         );
         continue;
       }
+
+      let message = getStudentMessage(
+        rootDir,
+        commissionCode,
+        studentId
+      );
+
+      await page.goto(`/tutoria/alumnos/comision/${commissionCode}`);
+      console.log ( `Comenzando corrección práctico de ${nameStudent} (${studentId} [${commissionCode}])`);
+      writeLog(logFilePath, '');
+      writeLog(logFilePath, `Comenzando corrección práctico de ${nameStudent} (${studentId} [${commissionCode}])`);
+
+      await waitTimeAndLogCustom(page, 'Esperando listado alumno..', 2);
+
+      // 🔍 Verificar link del estudiante
+      const studentLink = page.getByRole('link', { name: nameStudent });
+
+      if (await studentLink.count() === 0) {
+        writeLog(
+          logFilePath,
+          `❌ Error ${origin}: El estudiante «${nameStudent}» (${studentId}) - [${commissionCode}] no se pudo encontrar en el resumen de los prácticos.`
+        );
+        continue;
+      }
+
+      await studentLink.click();
+      await waitTimeAndLogCustom(page, 'Esperando corregir..', 2);   
+
+      const corregirLink = page.getByRole('link', { name: '[CORREGIR]' });
+      const totalCorrecciones = await corregirLink.count();
+
+      if (totalCorrecciones === 0) {
+        writeLog(
+          logFilePath,
+          `❌ Error ${origin}: No se encontró ningún link [CORREGIR] para «${nameStudent}» (${studentId}) en la comisión ${commissionCode}.`
+        );
+        await page.goBack();
+        continue;
+      }
+
+      if (entregaIndex >= totalCorrecciones) {
+        console.log(
+          `❌ Error ${origin}: El índice ${entregaIndex} (${entregaKey}) supera la cantidad de correcciones (${totalCorrecciones}) para «${nameStudent}» (${studentId}).`
+        );
+        await page.goBack();
+        continue;
+      }
+
+      // console.log(`📝 Abriendo corrección #${entregaIndex} (${entregaKey})`);
+      await corregirLink.nth(entregaIndex).click();
 
       try {
         await seeAndCorrect(
@@ -237,7 +281,7 @@ export async function seePracticalWork(
           rootDir,
           commissionCode,
           studentId,
-          studentName,
+          nameStudent,
           entregaIndex,
           estado,
           logFilePath,
@@ -247,7 +291,7 @@ export async function seePracticalWork(
       } catch (error) {
         writeLog(
           logFilePath,
-          `💥 Error ${origin} con ${studentName} (${studentId}): ${String(error)}`
+          `💥 Error ${origin} con ${nameStudent} (${studentId}): ${String(error)}`
         );
       }
     }
