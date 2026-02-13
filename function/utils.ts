@@ -428,7 +428,7 @@ function updateTotals(courseDir: string) {
   const dataLines = lines.slice(1);
   const now = new Date();
   const pad = (n: number) => n.toString().padStart(2, '0');
-  let moment = now.getFullYear().toString() + pad(now.getMonth() + 1) + pad(now.getDate()) + now.getHours() + now.getMinutes() + now.getSeconds()
+  let moment = now.getFullYear().toString() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate()) +' '+ now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds()
   
   console.log(`Momento ${moment}`);
 
