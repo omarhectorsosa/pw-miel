@@ -11,7 +11,8 @@ export async function downloadAndSave(
   rootDir: string,
   course: string,
   studentId: string,
-  studentName: string
+  studentName: string,
+  entregaIndex: number
 ): Promise<{ filePath?: string; fileName?: string }> {
 
     const logFilePath = path.join(rootDir, 'log.txt');
@@ -25,10 +26,33 @@ export async function downloadAndSave(
 
     const entregas = page.locator('.w3-padding.entrega');
 
-    const estado = getStudentStatus(
+    const is_absence = isAbsence(
         rootDir,
         course,
         studentId
+    );
+
+    if (is_absence) {  
+      writeLog(
+          logFilePath,
+          `🚫 El alumno ${studentName} (${studentId}) se inhabilito por ausente en sus entregas anteriores — revisar su estado`
+      );
+
+      writeLog(
+        logFilePath, 
+        'ℹ️  Sin entregas → marcado AUSENTE(0)'
+      );
+      
+      saveAbsence(courseDir, course, studentId, studentName, entregaIndex);
+      
+      return {};
+    }
+
+    const estado = getStudentStatus(
+        rootDir,
+        course,
+        studentId,
+        entregaIndex
     );
 
     if (await entregas.count() === 0) {  
@@ -43,7 +67,7 @@ export async function downloadAndSave(
         );
       } else {
         writeLog(logFilePath, 'ℹ️  Sin entregas → marcado AUSENTE');
-        writeAbsent(courseDir, course, studentId, studentName);
+        saveAbsence(courseDir, course, studentId, studentName,entregaIndex);
       }
       return {};
     }
@@ -63,7 +87,7 @@ export async function downloadAndSave(
         );
       } else {
         writeLog(logFilePath, 'ℹ️  Entrega sin archivo adjunto → marcado AUSENTE');
-        writeAbsent(courseDir, course, studentId, studentName);
+        saveAbsence(courseDir, course, studentId, studentName, entregaIndex);
       }
       return {};
     }
@@ -74,7 +98,7 @@ export async function downloadAndSave(
      );
 
     // Presente confirmado
-    if (estado && estado !== 'A') {
+    if (estado && estado !== '0') {
         writeLog(
           logFilePath,
           `🔍 ${studentName} (${studentId}) ya se encuentra registrado en estado ${estado}  — se omite`
@@ -112,19 +136,19 @@ export async function downloadAndSave(
         }
 
         if (descargaOK) {
-          if (estado === 'A') {
+          if (estado === '0') {
             writeLog(
               logFilePath,
-              `🔍 ${studentName} (${studentId}) estaba en estado A`
+              `🔍 ${studentName} (${studentId}) estaba en estado 0 (AUSENTE)`
             );
-            writeLog(logFilePath, '♻️  Reemplazando estado A → ENTREGADO');
-            replaceAbsentWithPresent(courseDir, course, studentId, studentName);
+            writeLog(logFilePath, '♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)');
+            replaceAbsencetByDelivery(courseDir, course, studentId, studentName, entregaIndex);
           } else {
             writeLog(
               logFilePath,
               'ℹ️  Entrega con archivo adjunto → marcado ENTREGADO'
             );
-            writePresent(courseDir, course, studentId, studentName);
+            saveDelivery(courseDir, course, studentId, studentName, entregaIndex);
           }
           return { filePath, fileName };
         }
@@ -132,7 +156,7 @@ export async function downloadAndSave(
         // ⛔ No se descargó nada → no se marca entregado
         writeLog(
           logFilePath,
-          `⚠️  Sin archivo descargado — se mantiene estado ${estado ?? 'A'}`
+          `⚠️  Sin archivo descargado — se mantiene estado ${estado ?? '0'}`
         );
 
         return {};
@@ -150,11 +174,10 @@ export async function seeAndCorrect(
   commissionCode: string,
   studentId: string,
   studentName: string,
-  entregaIndex: number,
   estado: string,
   logFilePath: string,
-  origin: string,
-  message: string
+  message: string,
+  entregaIndex: number
 ): Promise<void> {
 
   writeLog(
@@ -166,7 +189,7 @@ export async function seeAndCorrect(
   let check = '';
 
   // 🎯 Selección de estado
-  if (estado === 'A') {
+  if (estado === '0') {
     // Estados en pausa  
     // Temporal cambiar el dia de la fecha
     await page.getByLabel('Estado:').selectOption('10');
@@ -182,7 +205,7 @@ export async function seeAndCorrect(
     await page.getByLabel('Estado:').selectOption('1');
     writeLog(logFilePath, '✅ Marcado como APROBADO');
     check = 'APROBADO';  
-  } else if (Number(estado) < 7) {
+  } else if (Number(estado) < 7 && Number(estado) > 0 ) {
     await page.getByLabel('Estado:').selectOption('4');
     await page.getByRole('textbox', { name: 'Observaciones (opcional):' }).fill(message);  
     writeLog(logFilePath, '⚠️ Marcado como REENTREGAR');
@@ -198,9 +221,9 @@ export async function seeAndCorrect(
     return;
   }
 
-  setCheckPractical(courseDir,commissionCode,studentId,studentName, check);
+  setCheckPractical(courseDir,commissionCode,studentId,studentName, check, entregaIndex);
 
-  if ( estado === 'A'  ) {
+  if ( estado === '0'  ) {
     // Descomentar para informar de su estado actual
     await page.getByRole('textbox', { name: 'Observaciones (opcional):' }).fill(message);  
     await page.getByRole('link', { name: 'Enviar corrección' }).click();
@@ -241,7 +264,8 @@ export function getDateFolder(): string {
 export function getStudentStatus(
   rootDir: string,
   commissionCode: string,
-  studentId: string
+  studentId: string,
+  entregaIndex: number
 ): string | null {
 
   const statusFilePath = path.join(
@@ -256,13 +280,29 @@ export function getStudentStatus(
 
   const lines = fs.readFileSync(statusFilePath, 'utf8').split('\n');
 
+  // 🔹 Determinar columna según entrega
+  let col = 3;
+
+  switch (entregaIndex) {
+    case 1:  col = 3; break;
+    case 6:  col = 4; break;
+    case 10: col = 5; break;
+    case 13: col = 6; break;
+    case 15: col = 7; break;
+    case 16: col = 8; break;
+    default: col = 3;
+  }
+
   for (const line of lines) {
     if (!line.trim()) continue;
 
-    const [course, id, , status] = line.split(';');
+    const parts = line.split(';');
+
+    const course = parts[0];
+    const id = parts[1];
 
     if (course === commissionCode && id === studentId) {
-      return status; // "7" o "A"
+      return parts[col] || null;
     }
   }
 
@@ -272,7 +312,8 @@ export function getStudentStatus(
 export function getStudentMessage(
   rootDir: string,
   commissionCode: string,
-  studentId: string
+  studentId: string,
+  entregaIndex: number
 ): string | null {
 
   const statusFilePath = path.join(
@@ -287,17 +328,121 @@ export function getStudentMessage(
 
   const lines = fs.readFileSync(statusFilePath, 'utf8').split('\n');
 
+  // 🔹 Determinar columna según entrega
+  let col = 3;
+
+  switch (entregaIndex) {
+    case 1:  col = 3; break;
+    case 6:  col = 4; break;
+    case 10: col = 5; break;
+    case 13: col = 6; break;
+    case 15: col = 7; break;
+    case 16: col = 8; break;
+    default: col = 3;
+  }
+
   for (const line of lines) {
     if (!line.trim()) continue;
 
-    const [course, id, , status, message] = line.split(';');
+    const parts = line.split(';');
+
+    const course = parts[0];
+    const id = parts[1];
 
     if (course === commissionCode && id === studentId) {
-      return message; // "" o "Mensaje"
+
+      const status = parts[col];
+      const message = parts[9]; // columna mensaje
+
+      // 🔹 Solo devolver mensaje si hay estado en esa entrega
+      if (status && status !== '') {
+        return message || null;
+      }
+
+      return null;
     }
   }
 
   return null;
+}
+
+
+function findStudentRecord(
+  courseDir: string,
+  course: string,
+  studentId: string
+) {
+  const filePath = path.join(courseDir, 'estado.csv');
+
+  if (!fs.existsSync(filePath)) return null;
+
+  const lines = fs.readFileSync(filePath, 'utf8').split('\n');
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (!line.trim()) continue;
+
+    const cols = line.split(';');
+    const [c, id] = cols;
+
+    if (c === course && id === studentId) {
+      return {
+        index: i,
+        lines,
+        record: {
+          internet: cols[3] || '',
+          word: cols[4] || '',
+          excel1: cols[5] || '',
+          excel2: cols[6] || '',
+          excel3: cols[7] || '',
+          diseño: cols[8] || '',
+          mensaje: cols[9] || '',
+          check: cols[10] || ''
+        }
+      };
+    }
+  }
+
+  return null;
+}
+
+export function isAbsence(
+  rootDir: string,
+  commissionCode: string,
+  studentId: string
+): boolean {
+
+  const statusFilePath = path.join(
+    rootDir,
+    commissionCode,
+    'estado.csv'
+  );
+
+  if (!fs.existsSync(statusFilePath)) {
+    return false;
+  }
+
+  const lines = fs.readFileSync(statusFilePath, 'utf8').split('\n');
+
+  for (const line of lines) {
+    if (!line.trim()) continue;
+
+    const parts = line.split(';');
+
+    const course = parts[0];
+    const id = parts[1];
+
+    if (course === commissionCode && id === studentId) {
+      
+      // 🔹 columnas donde están las notas (ajustar si cambia el CSV)
+      const thematicCols = [3, 4, 5, 6, 7, 8];
+
+      // 🔹 true si tiene al menos un 0
+      return thematicCols.some(col => parts[col] === '0');
+    }
+  }
+
+  return false;
 }
 
 
@@ -307,47 +452,130 @@ export function getStudentMessage(
 
 function ensureHeader(filePath: string) {
   if (!fs.existsSync(filePath) || fs.statSync(filePath).size === 0) {
-    fs.writeFileSync(filePath, 'curso;clave;nombre;nota;mensaje;check\n');
+    fs.writeFileSync(filePath, 'curso;clave;nombre;1;6;mensaje;check\n');
   }
 }
 
-function writeAbsent(
+function saveAbsence(
   courseDir: string,
   course: string,
   studentId: string,
-  studentName: string
+  studentName: string,
+  entregaIndex: number
 ) {
   const filePath = path.join(courseDir, `estado.csv`);
   ensureHeader(filePath);
 
-  const line = `${course};${studentId};${studentName};A;;;`;
-  fs.appendFileSync(filePath, line + '\n');
+  const found = findStudentRecord(courseDir, course, studentId);
+  const r = found?.record;
 
-  updateTotals(courseDir);
+  let line = '';
+
+  switch (entregaIndex) {
+    case 1:
+      line = `${course};${studentId};${studentName};0;;;;;;;;`;
+      break;
+
+    case 6:
+      line = `${course};${studentId};${studentName};${r?.internet || ''};0;;;;;;;`;
+      break;
+
+    case 10:
+      line = `${course};${studentId};${studentName};${r?.internet || ''};${r?.word || ''};0;;;;;;`;
+      break;
+
+    case 13:
+      line = `${course};${studentId};${studentName};${r?.internet || ''};${r?.word || ''};${r?.excel2 || ''};0;;;;;`;
+      break;
+
+    case 15:
+      line = `${course};${studentId};${studentName};${r?.internet || ''};${r?.word || ''};${r?.excel1 || ''};${r?.excel3 || ''};0;;;;`;
+      break;
+
+    case 16:
+      line = `${course};${studentId};${studentName};${r?.internet || ''};${r?.word || ''};${r?.excel1 || ''};${r?.excel2 || ''};${r?.excel3 || ''};0;;;`;
+      break;
+
+    default:
+      return;
+  }
+
+  // 👉 Si existe → reemplazar SIN agregar \n
+  if (found) {
+    found.lines[found.index] = line;
+    fs.writeFileSync(filePath, found.lines.join('\n'));
+  } 
+  // 👉 Si no existe → append CON \n
+  else {
+    fs.appendFileSync(filePath, line + '\n');
+  }
+
+  updateTotals(courseDir, entregaIndex);
 }
 
-
-function writePresent(
+function saveDelivery(
   courseDir: string,
   course: string,
   studentId: string,
-  studentName: string
+  studentName: string,
+  entregaIndex: number
 ) {
   const filePath = path.join(courseDir, `estado.csv`);
   ensureHeader(filePath);
 
-  const line = `${course};${studentId};${studentName};E;;;`;
-  fs.appendFileSync(filePath, line + '\n');
+  const found = findStudentRecord(courseDir, course, studentId);
+  const r = found?.record;
 
-  updateTotals(courseDir);
+  let line = '';
+
+  switch (entregaIndex) {
+    case 1:
+      line = `${course};${studentId};${studentName};E;;;;;;;;`;
+      break;
+
+    case 6:
+      line = `${course};${studentId};${studentName};${r?.internet || 'E'};E;;;;;;;`;
+      break;
+
+    case 10:
+      line = `${course};${studentId};${studentName};${r?.internet || ''};${r?.word || 'E'};E;;;;;;`;
+      break;
+
+    case 13:
+      line = `${course};${studentId};${studentName};${r?.internet || ''};${r?.word || ''};${r?.excel2 || 'E'};E;;;;;`;
+      break;
+
+    case 15:
+      line = `${course};${studentId};${studentName};${r?.internet || ''};${r?.word || ''};${r?.excel1 || ''};${r?.excel3 || 'E'};E;;;;`;
+      break;
+
+    case 16:
+      line = `${course};${studentId};${studentName};${r?.internet || ''};${r?.word || ''};${r?.excel1 || ''};${r?.excel2 || ''};${r?.excel3 || 'E'};E;;;`;
+      break;
+
+    default:
+      return;
+  }
+
+  // 👉 reemplazo sin \n
+  if (found) {
+    found.lines[found.index] = line;
+    fs.writeFileSync(filePath, found.lines.join('\n'));
+  } 
+  // 👉 append con \n
+  else {
+    fs.appendFileSync(filePath, line + '\n');
+  }
+
+  updateTotals(courseDir, entregaIndex);
 }
 
-
-function replaceAbsentWithPresent(
+function replaceAbsencetByDelivery(
   courseDir: string,
   course: string,
   studentId: string,
-  studentName: string
+  studentName: string,
+  entregaIndex: number
 ) {
   const filePath = path.join(courseDir, 'estado.csv');
   if (!fs.existsSync(filePath)) return;
@@ -357,18 +585,53 @@ function replaceAbsentWithPresent(
   const updatedLines = lines.map(line => {
     if (!line.trim()) return line;
 
-    const [c, id, , status, message, check] = line.split(';');
+    const parts = line.split(';');
+    const c = parts[0];
+    const id = parts[1];
 
-    if (c === course && id === studentId && status === 'A') {
-      return `${course};${studentId};${studentName};E;${message};${check};`;
+    if (c === course && id === studentId) {
+
+      switch (entregaIndex) {
+        case 1:
+          if (parts[3] === '0') parts[3] = 'E';
+          break;
+
+        case 6:
+          if (parts[4] === '0') parts[4] = 'E';
+          break;
+
+        case 10:
+          if (parts[5] === '0') parts[5] = 'E';
+          break;
+
+        case 13:
+          if (parts[6] === '0') parts[6] = 'E';
+          break;
+
+        case 15:
+          if (parts[7] === '0') parts[7] = 'E';
+          break;
+
+        case 16:
+          if (parts[8] === '0') parts[8] = 'E';
+          break;
+
+        default:
+          break;
+      }
+
+      // reconstruir la línea con el nombre actualizado
+      parts[2] = studentName;
+
+      return parts.join(';');
     }
 
     return line;
   });
 
   fs.writeFileSync(filePath, updatedLines.join('\n'));
-  
-  updateTotals(courseDir);
+
+  updateTotals(courseDir, entregaIndex);
 }
 
 function setCheckPractical(
@@ -376,10 +639,10 @@ function setCheckPractical(
   course: string,
   studentId: string,
   studentName: string,
-  check: string
+  check: string,
+  entregaIndex: number
 ) {
-  
-  
+
   const filePath = path.join(courseDir, 'estado.csv');
 
   if (!fs.existsSync(filePath)) {
@@ -389,25 +652,48 @@ function setCheckPractical(
 
   const lines = fs.readFileSync(filePath, 'utf8').split('\n');
 
+  // 🔹 Determinar columna según entrega
+  let col = 3;
+
+  switch (entregaIndex) {
+    case 1:  col = 3; break;
+    case 6:  col = 4; break;
+    case 10: col = 5; break;
+    case 13: col = 6; break;
+    case 15: col = 7; break;
+    case 16: col = 8; break;
+    default: col = 3;
+  }
+
   const updatedLines = lines.map(line => {
     if (!line.trim()) return line;
 
-    const [c, id, , status, message] = line.split(';');
+    const parts = line.split(';');
+
+    const c = parts[0];
+    const id = parts[1];
+
     if (c === course && id === studentId) {
-      return `${course};${studentId};${studentName};${status};${message};${check}`;
+
+      // 🔹 Solo permitir check si existe estado en esa entrega
+      const status = parts[col];
+
+      if (status && status !== '') {
+        parts[2] = studentName; // actualizar nombre
+        parts[10] = check;      // columna check
+        return parts.join(';');
+      }
     }
 
     return line;
   });
-  
-  
+
   fs.writeFileSync(filePath, updatedLines.join('\n'));
 
-  updateTotals(courseDir);
+  updateTotals(courseDir, entregaIndex);
 }
 
-
-function updateTotals(courseDir: string) {
+function updateTotals(courseDir: string, entregaIndex: number) {
 
   console.log('Actualizando totales.');
 
@@ -417,7 +703,7 @@ function updateTotals(courseDir: string) {
   if (!fs.existsSync(estadoPath)) {
     console.log(`No existe el ${estadoPath}`);
     return;
-  }  
+  }
 
   const lines = fs
     .readFileSync(estadoPath, 'utf8')
@@ -426,10 +712,29 @@ function updateTotals(courseDir: string) {
 
   // ignorar header
   const dataLines = lines.slice(1);
+
+  // 🟢 Mapeo dinámico de columna
+  let col = 3; // default internet
+
+  switch (entregaIndex) {
+    case 1:  col = 3; break;
+    case 6:  col = 4; break;
+    case 10: col = 5; break;
+    case 13: col = 6; break;
+    case 15: col = 7; break;
+    case 16: col = 8; break;
+  }
+
   const now = new Date();
   const pad = (n: number) => n.toString().padStart(2, '0');
-  let moment = now.getFullYear().toString() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate()) +' '+ now.getHours() + ':' + now.getMinutes() + ':' + now.getSeconds()
-  
+  const moment =
+    now.getFullYear() + '-' +
+    pad(now.getMonth() + 1) + '-' +
+    pad(now.getDate()) + ' ' +
+    pad(now.getHours()) + ':' +
+    pad(now.getMinutes()) + ':' +
+    pad(now.getSeconds());
+
   console.log(`Momento ${moment}`);
 
   let total = 0;
@@ -439,24 +744,34 @@ function updateTotals(courseDir: string) {
   let totalI = 0;
 
   for (const line of dataLines) {
-    const [, , , status, message, check ] = line.split(';');
+
+    const parts = line.split(';');
+    const status = parts[col];
+    const check  = parts[10]; // última columna
+
     if (!status) continue;
 
     total++;
 
-    if (status === 'A') totalA++;
-    if (status === 'E' || Number(status) > 0) totalE++;
-    if (Number(status) > 0) totalC++;
-    if (check !== '') totalI++;
+    // 🟢 AUSENTES
+    if (status === 'A' || status === '0') totalA++;
 
+    // 🟢 ENTREGADOS
+    if (status === 'E' || Number(status) > 0) totalE++;
+
+    // 🟢 CORREGIDOS (nota)
+    if (Number(status) > 0) totalC++;
+
+    // 🟢 INFORMADOS
+    if (check && check !== '') totalI++;
   }
 
   const porcentaje =
-    total > 0 ? (((totalE) / total) * 100).toFixed(2) + '%' : '0%';
+    total > 0 ? ((totalE / total) * 100).toFixed(2) + '%' : '0%';
 
   const content =
-   `campo;valor
-Actualización;${moment}   
+`campo;valor
+Actualización;${moment}
 Total;${total}
 Ausentes(A);${totalA}
 Entregados(E);${totalE}

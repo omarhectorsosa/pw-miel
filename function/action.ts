@@ -128,7 +128,8 @@ export async function getPracticalWork(
           rootDir,
           commissionCode,
           studentId,
-          nameStudent
+          nameStudent,
+          entregaIndex
         );
 
         // ✅ Validaciones si hubo archivo
@@ -214,7 +215,8 @@ export async function seePracticalWork(
       const estado = getStudentStatus(
         rootDir,
         commissionCode,
-        studentId
+        studentId,
+        entregaIndex
       );
 
       if (!estado) {
@@ -225,10 +227,11 @@ export async function seePracticalWork(
         continue;
       }
 
-      let message = getStudentMessage(
+      const message = getStudentMessage(
         rootDir,
         commissionCode,
-        studentId
+        studentId,
+        entregaIndex
       );
 
       await page.goto(`/tutoria/alumnos/comision/${commissionCode}`);
@@ -282,11 +285,10 @@ export async function seePracticalWork(
           commissionCode,
           studentId,
           nameStudent,
-          entregaIndex,
           estado,
           logFilePath,
-          origin,
-          message
+          message,
+          entregaIndex
         );
       } catch (error) {
         writeLog(
