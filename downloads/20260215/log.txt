@@ -1,306 +1,156 @@
-[2026-02-15T03:09:57.136Z] 🚀 =======================================================
-[2026-02-15T03:09:57.137Z] 🚀 Inicio de corrida — Entrega: WORD [test-0001]
-[2026-02-15T03:09:57.137Z] 🚀 =======================================================
-[2026-02-15T03:09:57.137Z]  
-[2026-02-15T03:09:57.137Z] ========================================
-[2026-02-15T03:09:57.137Z] 📘 Corrigiendo comisión 30101482
-[2026-02-15T03:09:57.153Z] 👥 Alumnos 0 a 4 (total: 5)
-[2026-02-15T03:09:58.178Z] 
-[2026-02-15T03:09:58.179Z] Comenzando corrección práctico de DOSANTOS, MARÍA LAURA (31307264 [30101482])
-[2026-02-15T03:10:03.321Z] 📝 Corrigiendo a DOSANTOS, MARÍA LAURA (31307264) — estado=7
-[2026-02-15T03:10:03.404Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:10:04.048Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:10:10.213Z] 
-[2026-02-15T03:10:10.214Z] Comenzando corrección práctico de ESCALANTE, LUCIANO GABRIEL (42353334 [30101482])
-[2026-02-15T03:10:15.367Z] 📝 Corrigiendo a ESCALANTE, LUCIANO GABRIEL (42353334) — estado=7
-[2026-02-15T03:10:15.429Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:10:16.063Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:10:22.177Z] 
-[2026-02-15T03:10:22.180Z] Comenzando corrección práctico de ESCALERA, LEANDRO AGUSTIN (43444202 [30101482])
-[2026-02-15T03:10:27.357Z] 📝 Corrigiendo a ESCALERA, LEANDRO AGUSTIN (43444202) — estado=7
-[2026-02-15T03:10:27.479Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:10:28.111Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:10:34.273Z] 
-[2026-02-15T03:10:34.273Z] Comenzando corrección práctico de FRANCIA, MARCELA NATALIA (33152536 [30101482])
-[2026-02-15T03:10:39.539Z] 📝 Corrigiendo a FRANCIA, MARCELA NATALIA (33152536) — estado=7
-[2026-02-15T03:10:39.597Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:10:40.287Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:10:46.497Z] 
-[2026-02-15T03:10:46.498Z] Comenzando corrección práctico de GALLEGO, RODRIGO NAHUEL (42489636 [30101482])
-[2026-02-15T03:10:51.521Z] 📝 Corrigiendo a GALLEGO, RODRIGO NAHUEL (42489636) — estado=7
-[2026-02-15T03:10:51.578Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:10:52.191Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:10:57.702Z]  
-[2026-02-15T03:10:57.703Z] ========================================
-[2026-02-15T03:10:57.703Z] 📘 Corrigiendo comisión 30101491
-[2026-02-15T03:10:57.703Z] 👥 Alumnos 0 a 4 (total: 5)
-[2026-02-15T03:10:58.438Z] 
-[2026-02-15T03:10:58.438Z] Comenzando corrección práctico de AGUILAR, FLORENCIA MICAELA (44239429 [30101491])
-[2026-02-15T03:11:03.668Z] 📝 Corrigiendo a AGUILAR, FLORENCIA MICAELA (44239429) — estado=7
-[2026-02-15T03:11:03.793Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:11:04.488Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:11:10.608Z] 
-[2026-02-15T03:11:10.608Z] Comenzando corrección práctico de AGUILAR, MATIAS LAUTARO (44354414 [30101491])
-[2026-02-15T03:11:15.990Z] 📝 Corrigiendo a AGUILAR, MATIAS LAUTARO (44354414) — estado=7
-[2026-02-15T03:11:16.058Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:11:16.733Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:11:22.905Z] 
-[2026-02-15T03:11:22.905Z] Comenzando corrección práctico de AGUIRRE, LUCILA GUILLERMINA (43506620 [30101491])
-[2026-02-15T03:11:27.997Z] 📝 Corrigiendo a AGUIRRE, LUCILA GUILLERMINA (43506620) — estado=7
-[2026-02-15T03:11:28.060Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:11:28.773Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:11:34.936Z] 
-[2026-02-15T03:11:34.937Z] Comenzando corrección práctico de ALMARAZ, MAURO AGUSTÍN (42394294 [30101491])
-[2026-02-15T03:11:40.129Z] 📝 Corrigiendo a ALMARAZ, MAURO AGUSTÍN (42394294) — estado=7
-[2026-02-15T03:11:40.182Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:11:40.919Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:11:47.189Z] 
-[2026-02-15T03:11:47.191Z] Comenzando corrección práctico de ALMARAZ, NICOLÃƒï†S ARIEL (45744864 [30101491])
-[2026-02-15T03:11:52.379Z] 📝 Corrigiendo a ALMARAZ, NICOLÃƒï†S ARIEL (45744864) — estado=7
-[2026-02-15T03:11:52.444Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:11:53.094Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:11:58.624Z] 🏁 =============================================================
-[2026-02-15T03:11:58.624Z] 🏁 Fin de corrida
-[2026-02-15T03:11:58.624Z] 🏁 =============================================================
-[2026-02-15T03:11:58.624Z] 
-[2026-02-15T03:12:11.787Z] 🚀 =======================================================
-[2026-02-15T03:12:11.787Z] 🚀 Inicio de corrida — Entrega: WORD [test-0002]
-[2026-02-15T03:12:11.787Z] 🚀 =======================================================
-[2026-02-15T03:12:11.787Z]  
-[2026-02-15T03:12:11.787Z] ========================================
-[2026-02-15T03:12:11.787Z] 📘 Corrigiendo comisión 30101482
-[2026-02-15T03:12:11.787Z] 👥 Alumnos 5 a 9 (total: 5)
-[2026-02-15T03:12:12.855Z] 
-[2026-02-15T03:12:12.855Z] Comenzando corrección práctico de GAMBARTE, MAXIMO (44355194 [30101482])
-[2026-02-15T03:12:18.166Z] 📝 Corrigiendo a GAMBARTE, MAXIMO (44355194) — estado=7
-[2026-02-15T03:12:18.276Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:12:19.014Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:12:25.055Z] 
-[2026-02-15T03:12:25.056Z] Comenzando corrección práctico de GARCÍA, MARTINA IARA (45042979 [30101482])
-[2026-02-15T03:12:30.149Z] 📝 Corrigiendo a GARCÍA, MARTINA IARA (45042979) — estado=7
-[2026-02-15T03:12:30.207Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:12:30.794Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:12:37.001Z] 
-[2026-02-15T03:12:37.002Z] Comenzando corrección práctico de GARRIDO, JOAQUIN (44302586 [30101482])
-[2026-02-15T03:12:42.108Z] 📝 Corrigiendo a GARRIDO, JOAQUIN (44302586) — estado=7
-[2026-02-15T03:12:42.166Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:12:42.674Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:12:48.915Z] 
-[2026-02-15T03:12:48.917Z] Comenzando corrección práctico de GAUJÁN, JULIETA BELEN (42196152 [30101482])
-[2026-02-15T03:12:54.211Z] 📝 Corrigiendo a GAUJÁN, JULIETA BELEN (42196152) — estado=7
-[2026-02-15T03:12:54.309Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:12:54.927Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:13:01.190Z] 
-[2026-02-15T03:13:01.190Z] Comenzando corrección práctico de GOMEZ LACASA, RAMIRO (45237271 [30101482])
-[2026-02-15T03:13:06.396Z] 📝 Corrigiendo a GOMEZ LACASA, RAMIRO (45237271) — estado=7
-[2026-02-15T03:13:06.490Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:13:07.260Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:13:12.751Z]  
-[2026-02-15T03:13:12.753Z] ========================================
-[2026-02-15T03:13:12.753Z] 📘 Corrigiendo comisión 30101491
-[2026-02-15T03:13:12.753Z] 👥 Alumnos 5 a 9 (total: 5)
-[2026-02-15T03:13:13.447Z] 
-[2026-02-15T03:13:13.447Z] Comenzando corrección práctico de ARIAS RIOS ELIZABETH (33786888 [30101491])
-[2026-02-15T03:13:18.607Z] 📝 Corrigiendo a ARIAS RIOS ELIZABETH (33786888) — estado=7
-[2026-02-15T03:13:18.690Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:13:19.332Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:13:25.601Z] 
-[2026-02-15T03:13:25.603Z] Comenzando corrección práctico de BAHL, LUCIA MARIEL (33088259 [30101491])
-[2026-02-15T03:13:30.850Z] 📝 Corrigiendo a BAHL, LUCIA MARIEL (33088259) — estado=7
-[2026-02-15T03:13:30.910Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:13:31.518Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:13:37.831Z] 
-[2026-02-15T03:13:37.832Z] Comenzando corrección práctico de BALSA, MARIANELA AILEN (43723510 [30101491])
-[2026-02-15T03:13:43.137Z] 📝 Corrigiendo a BALSA, MARIANELA AILEN (43723510) — estado=7
-[2026-02-15T03:13:43.195Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:13:43.887Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:13:50.035Z] 
-[2026-02-15T03:13:50.035Z] Comenzando corrección práctico de BASILE, MATEO DAVID (45238348 [30101491])
-[2026-02-15T03:13:55.307Z] 📝 Corrigiendo a BASILE, MATEO DAVID (45238348) — estado=7
-[2026-02-15T03:13:55.402Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:13:55.974Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:14:02.136Z] 
-[2026-02-15T03:14:02.136Z] Comenzando corrección práctico de BERGARA LEDESMA, MELODY ANAHÍ (41744020 [30101491])
-[2026-02-15T03:14:07.404Z] 📝 Corrigiendo a BERGARA LEDESMA, MELODY ANAHÍ (41744020) — estado=0
-[2026-02-15T03:14:07.489Z] 🚫 Marcado como SIN CORREGIR — se omite
-[2026-02-15T03:14:07.489Z] ✉️ Se informa AUSENTE como condición final por entrega fuera de termino.
-[2026-02-15T03:14:08.131Z] 📤 Corrección enviada AUSENTE
-[2026-02-15T03:14:13.622Z] 🏁 =============================================================
-[2026-02-15T03:14:13.622Z] 🏁 Fin de corrida
-[2026-02-15T03:14:13.622Z] 🏁 =============================================================
-[2026-02-15T03:14:13.622Z] 
-[2026-02-15T03:14:28.884Z] 🚀 =======================================================
-[2026-02-15T03:14:28.885Z] 🚀 Inicio de corrida — Entrega: WORD [test-0003]
-[2026-02-15T03:14:28.885Z] 🚀 =======================================================
-[2026-02-15T03:14:28.885Z]  
-[2026-02-15T03:14:28.885Z] ========================================
-[2026-02-15T03:14:28.885Z] 📘 Corrigiendo comisión 30101482
-[2026-02-15T03:14:28.885Z] 👥 Alumnos 10 a 14 (total: 5)
-[2026-02-15T03:14:29.916Z] 
-[2026-02-15T03:14:29.916Z] Comenzando corrección práctico de JUAREZ, LUCAS DAMIAN (45869090 [30101482])
-[2026-02-15T03:14:35.164Z] 📝 Corrigiendo a JUAREZ, LUCAS DAMIAN (45869090) — estado=7
-[2026-02-15T03:14:35.245Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:14:35.914Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:14:42.168Z] 
-[2026-02-15T03:14:42.168Z] Comenzando corrección práctico de LEIVA, LUDMILA BELEN (43104132 [30101482])
-[2026-02-15T03:14:47.230Z] 📝 Corrigiendo a LEIVA, LUDMILA BELEN (43104132) — estado=7
-[2026-02-15T03:14:47.359Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:14:48.035Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:14:54.176Z] 
-[2026-02-15T03:14:54.177Z] Comenzando corrección práctico de LEZANO, ANA VANESA (46356110 [30101482])
-[2026-02-15T03:14:59.512Z] 📝 Corrigiendo a LEZANO, ANA VANESA (46356110) — estado=0
-[2026-02-15T03:14:59.587Z] 🚫 Marcado como SIN CORREGIR — se omite
-[2026-02-15T03:14:59.588Z] ✉️ Se informa AUSENTE como condicion final por entrega fuera de termino.
-[2026-02-15T03:15:00.315Z] 📤 Corrección enviada AUSENTE
-[2026-02-15T03:15:06.279Z] 
-[2026-02-15T03:15:06.279Z] Comenzando corrección práctico de LOMBARDO, MATIAS NICOLAS (43584721 [30101482])
-[2026-02-15T03:15:11.511Z] 📝 Corrigiendo a LOMBARDO, MATIAS NICOLAS (43584721) — estado=7
-[2026-02-15T03:15:11.590Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:15:12.204Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:15:18.433Z] 
-[2026-02-15T03:15:18.433Z] Comenzando corrección práctico de MACEIRAS, THIAGO IVAN (45068960 [30101482])
-[2026-02-15T03:15:23.623Z] 📝 Corrigiendo a MACEIRAS, THIAGO IVAN (45068960) — estado=7
-[2026-02-15T03:15:23.692Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:15:24.151Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:15:29.595Z]  
-[2026-02-15T03:15:29.599Z] ========================================
-[2026-02-15T03:15:29.599Z] 📘 Corrigiendo comisión 30101491
-[2026-02-15T03:15:29.600Z] 👥 Alumnos 10 a 14 (total: 5)
-[2026-02-15T03:15:30.264Z] 
-[2026-02-15T03:15:30.266Z] Comenzando corrección práctico de BOGADO, LUNA AYELEN (43721726 [30101491])
-[2026-02-15T03:15:35.472Z] 📝 Corrigiendo a BOGADO, LUNA AYELEN (43721726) — estado=7
-[2026-02-15T03:15:35.547Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:15:36.218Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:15:42.454Z] 
-[2026-02-15T03:15:42.454Z] Comenzando corrección práctico de BRANDAN ROBERTO MANUEL (34000575 [30101491])
-[2026-02-15T03:15:47.628Z] 📝 Corrigiendo a BRANDAN ROBERTO MANUEL (34000575) — estado=0
-[2026-02-15T03:15:47.697Z] 🚫 Marcado como SIN CORREGIR — se omite
-[2026-02-15T03:15:47.698Z] ✉️ Se informa AUSENTE como condición final por entrega fuera de termino.
-[2026-02-15T03:15:48.340Z] 📤 Corrección enviada AUSENTE
-[2026-02-15T03:15:54.466Z] 
-[2026-02-15T03:15:54.466Z] Comenzando corrección práctico de CARDOZO PORCO, ELISA (43239607 [30101491])
-[2026-02-15T03:15:59.719Z] 📝 Corrigiendo a CARDOZO PORCO, ELISA (43239607) — estado=7
-[2026-02-15T03:15:59.829Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:16:00.548Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:16:06.594Z] 
-[2026-02-15T03:16:06.595Z] Comenzando corrección práctico de CASTILLO, YESICA SOFIA (30061670 [30101491])
-[2026-02-15T03:16:11.645Z] 📝 Corrigiendo a CASTILLO, YESICA SOFIA (30061670) — estado=7
-[2026-02-15T03:16:11.736Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:16:12.287Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:16:18.411Z] 
-[2026-02-15T03:16:18.412Z] Comenzando corrección práctico de CASTRO, MICAELA MABEL (41200873 [30101491])
-[2026-02-15T03:16:23.493Z] 📝 Corrigiendo a CASTRO, MICAELA MABEL (41200873) — estado=7
-[2026-02-15T03:16:23.558Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:16:24.245Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:16:29.645Z] 🏁 =============================================================
-[2026-02-15T03:16:29.645Z] 🏁 Fin de corrida
-[2026-02-15T03:16:29.646Z] 🏁 =============================================================
-[2026-02-15T03:16:29.646Z] 
-[2026-02-15T03:16:43.860Z] 🚀 =======================================================
-[2026-02-15T03:16:43.861Z] 🚀 Inicio de corrida — Entrega: WORD [test-0004]
-[2026-02-15T03:16:43.861Z] 🚀 =======================================================
-[2026-02-15T03:16:43.861Z]  
-[2026-02-15T03:16:43.862Z] ========================================
-[2026-02-15T03:16:43.862Z] 📘 Corrigiendo comisión 30101482
-[2026-02-15T03:16:43.865Z] 👥 Alumnos 15 a 19 (total: 5)
-[2026-02-15T03:16:44.925Z] 
-[2026-02-15T03:16:44.925Z] Comenzando corrección práctico de MARINO, ELIZABETH (38619442 [30101482])
-[2026-02-15T03:16:50.062Z] 📝 Corrigiendo a MARINO, ELIZABETH (38619442) — estado=7
-[2026-02-15T03:16:50.133Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:16:50.739Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:16:57.000Z] 
-[2026-02-15T03:16:57.002Z] Comenzando corrección práctico de MAZA, MATIAS ALBERTO (33035038 [30101482])
-[2026-02-15T03:17:02.208Z] 📝 Corrigiendo a MAZA, MATIAS ALBERTO (33035038) — estado=7
-[2026-02-15T03:17:02.274Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:17:02.873Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:17:09.098Z] 
-[2026-02-15T03:17:09.098Z] Comenzando corrección práctico de MIRANDA, LUCILA SOLEDAD (41470161 [30101482])
-[2026-02-15T03:17:14.387Z] 📝 Corrigiendo a MIRANDA, LUCILA SOLEDAD (41470161) — estado=7
-[2026-02-15T03:17:14.448Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:17:15.139Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:17:21.409Z] 
-[2026-02-15T03:17:21.409Z] Comenzando corrección práctico de MIRANDA, MAGDALENA (42587948 [30101482])
-[2026-02-15T03:17:26.839Z] 📝 Corrigiendo a MIRANDA, MAGDALENA (42587948) — estado=2
-[2026-02-15T03:17:26.904Z] ⚠️ Marcado como REENTREGAR
-[2026-02-15T03:17:26.934Z] ✉️ El archivo que subio esta corrupto o roto. Porfavor reentregar.
-[2026-02-15T03:17:27.562Z] 📤 Corrección enviada REENTREGADO
-[2026-02-15T03:17:33.772Z] 
-[2026-02-15T03:17:33.775Z] Comenzando corrección práctico de MUÑOZ, ARIADNA AYLEN (45011630 [30101482])
-[2026-02-15T03:17:38.849Z] 📝 Corrigiendo a MUÑOZ, ARIADNA AYLEN (45011630) — estado=7
-[2026-02-15T03:17:38.914Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:17:39.591Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:17:44.995Z]  
-[2026-02-15T03:17:44.996Z] ========================================
-[2026-02-15T03:17:44.996Z] 📘 Corrigiendo comisión 30101491
-[2026-02-15T03:17:44.996Z] 👥 Alumnos 15 a 19 (total: 5)
-[2026-02-15T03:17:45.675Z] 
-[2026-02-15T03:17:45.676Z] Comenzando corrección práctico de CASTRO, MIGUEL ANGEL (22606388 [30101491])
-[2026-02-15T03:17:50.910Z] 📝 Corrigiendo a CASTRO, MIGUEL ANGEL (22606388) — estado=7
-[2026-02-15T03:17:50.973Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:17:51.528Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:17:57.712Z] 
-[2026-02-15T03:17:57.712Z] Comenzando corrección práctico de CHAVERO, CINTIA (29801629 [30101491])
-[2026-02-15T03:18:02.921Z] 📝 Corrigiendo a CHAVERO, CINTIA (29801629) — estado=0
-[2026-02-15T03:18:02.980Z] 🚫 Marcado como SIN CORREGIR — se omite
-[2026-02-15T03:18:02.982Z] ✉️ Se informa AUSENTE como condición final por entrega fuera de termino.
-[2026-02-15T03:18:03.652Z] 📤 Corrección enviada AUSENTE
-[2026-02-15T03:18:09.729Z] 
-[2026-02-15T03:18:09.731Z] Comenzando corrección práctico de CHURRUARIN, ARIEL (39167544 [30101491])
-[2026-02-15T03:18:14.906Z] 📝 Corrigiendo a CHURRUARIN, ARIEL (39167544) — estado=7
-[2026-02-15T03:18:14.983Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:18:15.584Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:18:21.802Z] 
-[2026-02-15T03:18:21.803Z] Comenzando corrección práctico de CORONEL COLMAN, MARÍA FLORENCIA (44392905 [30101491])
-[2026-02-15T03:18:27.087Z] 📝 Corrigiendo a CORONEL COLMAN, MARÍA FLORENCIA (44392905) — estado=7
-[2026-02-15T03:18:27.174Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:18:27.765Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:18:33.875Z] 
-[2026-02-15T03:18:33.878Z] Comenzando corrección práctico de CORONEL, VANESA MARIELA (27217827 [30101491])
-[2026-02-15T03:18:39.039Z] 📝 Corrigiendo a CORONEL, VANESA MARIELA (27217827) — estado=7
-[2026-02-15T03:18:39.102Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:18:39.749Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:18:45.242Z] 🏁 =============================================================
-[2026-02-15T03:18:45.243Z] 🏁 Fin de corrida
-[2026-02-15T03:18:45.243Z] 🏁 =============================================================
-[2026-02-15T03:18:45.243Z] 
-[2026-02-15T03:19:00.532Z] 🚀 =======================================================
-[2026-02-15T03:19:00.532Z] 🚀 Inicio de corrida — Entrega: WORD [test-0005]
-[2026-02-15T03:19:00.532Z] 🚀 =======================================================
-[2026-02-15T03:19:00.532Z]  
-[2026-02-15T03:19:00.532Z] ========================================
-[2026-02-15T03:19:00.532Z] 📘 Corrigiendo comisión 30101482
-[2026-02-15T03:19:00.533Z] 👥 Alumnos 20 a 24 (total: 5)
-[2026-02-15T03:19:01.631Z] 
-[2026-02-15T03:19:01.631Z] Comenzando corrección práctico de NARVAEZ, LUCIA BELEN (43202459 [30101482])
-[2026-02-15T03:19:06.540Z] 📝 Corrigiendo a NARVAEZ, LUCIA BELEN (43202459) — estado=7
-[2026-02-15T03:19:06.645Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:19:07.073Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:19:13.146Z] 
-[2026-02-15T03:19:13.146Z] Comenzando corrección práctico de NECEFOR, SHEILA MARIEL (38073768 [30101482])
-[2026-02-15T03:19:18.178Z] 📝 Corrigiendo a NECEFOR, SHEILA MARIEL (38073768) — estado=7
-[2026-02-15T03:19:18.246Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:19:18.857Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:19:25.112Z] 
-[2026-02-15T03:19:25.113Z] Comenzando corrección práctico de NEUBAUER, ALDANA LIDIA (41677908 [30101482])
-[2026-02-15T03:19:30.271Z] 📝 Corrigiendo a NEUBAUER, ALDANA LIDIA (41677908) — estado=7
-[2026-02-15T03:19:30.337Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:19:30.911Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:19:37.220Z] 
-[2026-02-15T03:19:37.220Z] Comenzando corrección práctico de NINA, BELLA HAYDEE (43443117 [30101482])
-[2026-02-15T03:19:42.284Z] 📝 Corrigiendo a NINA, BELLA HAYDEE (43443117) — estado=7
-[2026-02-15T03:19:42.381Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:19:42.869Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:19:49.099Z] 
-[2026-02-15T03:19:49.099Z] Comenzando corrección práctico de NOGUERA, DAIANA C?NDIDA (38325306 [30101482])
-[2026-02-15T03:19:54.068Z] 📝 Corrigiendo a NOGUERA, DAIANA C?NDIDA (38325306) — estado=7
-[2026-02-15T03:19:54.175Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:19:54.755Z] 📤 Corrección enviada APROBADO
-[2026-02-15T03:20:00.102Z]  
-[2026-02-15T03:20:00.102Z] ========================================
-[2026-02-15T03:20:00.102Z] 📘 Corrigiendo comisión 30101491
-[2026-02-15T03:20:00.102Z] 👥 Alumnos 20 a 24 (total: 5)
-[2026-02-15T03:20:03.471Z] 
-[2026-02-15T03:20:03.473Z] Comenzando corrección práctico de CRISTALDO, AMBAR MAILEN (46349468 [30101491])
-[2026-02-15T03:20:11.227Z] 📝 Corrigiendo a CRISTALDO, AMBAR MAILEN (46349468) — estado=7
-[2026-02-15T03:20:11.344Z] ⚠️ Marcado como APROBADO
-[2026-02-15T03:20:11.983Z] 📤 Corrección enviada APROBADO
+[2026-02-15T04:42:40.117Z] 🚀 =======================================================
+[2026-02-15T04:42:40.119Z] 🚀 Inicio de corrida — Entrega: WORD [test-0001]
+[2026-02-15T04:42:40.119Z] 🚀 =======================================================
+[2026-02-15T04:42:40.119Z]  
+[2026-02-15T04:42:40.119Z] ========================================
+[2026-02-15T04:42:40.119Z] 📘 Inhabilitando en comisión 30101472
+[2026-02-15T04:42:40.142Z] 👥 Alumnos 0 a 4 (total: 5)
+[2026-02-15T04:42:40.143Z] ℹ️  El estudiante «DOSANTOS, MARÍA LAURA» (31307264) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:42:40.143Z] ℹ️  El estudiante «ESCALANTE, LUCIANO GABRIEL» (42353334) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:42:40.143Z] ℹ️  El estudiante «ESCALERA, LEANDRO AGUSTIN» (43444202) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:42:40.143Z] ℹ️  El estudiante «FRANCIA, MARCELA NATALIA» (33152536) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:42:40.143Z] ℹ️  El estudiante «GALLEGO, RODRIGO NAHUEL» (42489636) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:42:40.143Z]  
+[2026-02-15T04:42:40.143Z] ========================================
+[2026-02-15T04:42:40.143Z] 📘 Inhabilitando en comisión 30101474
+[2026-02-15T04:42:40.144Z] 👥 Alumnos 0 a 4 (total: 5)
+[2026-02-15T04:42:40.144Z] ℹ️  El estudiante «AGUILAR, FLORENCIA MICAELA» (44239429) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:42:40.144Z] ℹ️  El estudiante «AGUILAR, MATIAS LAUTARO» (44354414) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:42:40.144Z] ℹ️  El estudiante «AGUIRRE, LUCILA GUILLERMINA» (43506620) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:42:40.144Z] ℹ️  El estudiante «ALMARAZ, MAURO AGUSTÍN» (42394294) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:42:40.144Z] ℹ️  El estudiante «ALMARAZ, NICOLÃƒï†S ARIEL» (45744864) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:42:47.379Z] 🚀 =======================================================
+[2026-02-15T04:42:47.379Z] 🚀 Inicio de corrida — Entrega: WORD [test-0002]
+[2026-02-15T04:42:47.379Z] 🚀 =======================================================
+[2026-02-15T04:42:47.379Z]  
+[2026-02-15T04:42:47.382Z] ========================================
+[2026-02-15T04:42:47.382Z] 📘 Inhabilitando en comisión 30101472
+[2026-02-15T04:42:47.382Z] 👥 Alumnos 5 a 9 (total: 5)
+[2026-02-15T04:42:47.382Z] ℹ️  El estudiante «GAMBARTE, MAXIMO» (44355194) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:42:47.382Z] ℹ️  El estudiante «GARCÍA, MARTINA IARA» (45042979) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:42:47.382Z] ℹ️  El estudiante «GARRIDO, JOAQUIN» (44302586) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:42:47.382Z] ℹ️  El estudiante «GAUJÁN, JULIETA BELEN» (42196152) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:42:47.383Z] ℹ️  El estudiante «GOMEZ LACASA, RAMIRO» (45237271) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:42:47.383Z]  
+[2026-02-15T04:42:47.383Z] ========================================
+[2026-02-15T04:42:47.383Z] 📘 Inhabilitando en comisión 30101474
+[2026-02-15T04:42:47.383Z] 👥 Alumnos 5 a 9 (total: 5)
+[2026-02-15T04:42:47.383Z] ℹ️  El estudiante «ARIAS RIOS ELIZABETH» (33786888) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:42:47.383Z] ℹ️  El estudiante «BAHL, LUCIA MARIEL» (33088259) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:42:47.383Z] ℹ️  El estudiante «BALSA, MARIANELA AILEN» (43723510) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:42:47.383Z] ℹ️  El estudiante «BASILE, MATEO DAVID» (45238348) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:42:49.399Z] ❌ No se pudo mostrar el cuadro de mensaje para «BERGARA LEDESMA, MELODY ANAHÍ» (41744020) - [30101474]. Se cancela la operación.
+[2026-02-15T04:43:02.457Z] 🚀 =======================================================
+[2026-02-15T04:43:02.457Z] 🚀 Inicio de corrida — Entrega: WORD [test-0003]
+[2026-02-15T04:43:02.457Z] 🚀 =======================================================
+[2026-02-15T04:43:02.457Z]  
+[2026-02-15T04:43:02.457Z] ========================================
+[2026-02-15T04:43:02.457Z] 📘 Inhabilitando en comisión 30101472
+[2026-02-15T04:43:02.457Z] 👥 Alumnos 10 a 14 (total: 5)
+[2026-02-15T04:43:02.457Z] ℹ️  El estudiante «JUAREZ, LUCAS DAMIAN» (45869090) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:02.457Z] ℹ️  El estudiante «LEIVA, LUDMILA BELEN» (43104132) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:04.398Z] ❌ No se pudo mostrar el cuadro de mensaje para «LEZANO, ANA VANESA» (46356110) - [30101472]. Se cancela la operación.
+[2026-02-15T04:43:09.625Z] ℹ️  El estudiante «LOMBARDO, MATIAS NICOLAS» (43584721) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:09.626Z] ℹ️  El estudiante «MACEIRAS, THIAGO IVAN» (45068960) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:09.626Z]  
+[2026-02-15T04:43:09.627Z] ========================================
+[2026-02-15T04:43:09.627Z] 📘 Inhabilitando en comisión 30101474
+[2026-02-15T04:43:09.628Z] 👥 Alumnos 10 a 14 (total: 5)
+[2026-02-15T04:43:09.628Z] ℹ️  El estudiante «BOGADO, LUNA AYELEN» (43721726) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:11.546Z] ❌ No se pudo mostrar el cuadro de mensaje para «BRANDAN ROBERTO MANUEL» (34000575) - [30101474]. Se cancela la operación.
+[2026-02-15T04:43:16.895Z] ℹ️  El estudiante «CARDOZO PORCO, ELISA» (43239607) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:16.896Z] ℹ️  El estudiante «CASTILLO, YESICA SOFIA» (30061670) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:16.896Z] ℹ️  El estudiante «CASTRO, MICAELA MABEL» (41200873) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:25.506Z] 🚀 =======================================================
+[2026-02-15T04:43:25.506Z] 🚀 Inicio de corrida — Entrega: WORD [test-0004]
+[2026-02-15T04:43:25.506Z] 🚀 =======================================================
+[2026-02-15T04:43:25.506Z]  
+[2026-02-15T04:43:25.506Z] ========================================
+[2026-02-15T04:43:25.506Z] 📘 Inhabilitando en comisión 30101472
+[2026-02-15T04:43:25.506Z] 👥 Alumnos 15 a 19 (total: 5)
+[2026-02-15T04:43:25.506Z] ℹ️  El estudiante «MARINO, ELIZABETH» (38619442) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:25.507Z] ℹ️  El estudiante «MAZA, MATIAS ALBERTO» (33035038) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:25.507Z] ℹ️  El estudiante «MIRANDA, LUCILA SOLEDAD» (41470161) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:25.507Z] ℹ️  El estudiante «MIRANDA, MAGDALENA» (42587948) - [30101472] no se inhabilita,  estado=2.
+[2026-02-15T04:43:25.507Z] ℹ️  El estudiante «MUÑOZ, ARIADNA AYLEN» (45011630) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:25.507Z]  
+[2026-02-15T04:43:25.507Z] ========================================
+[2026-02-15T04:43:25.507Z] 📘 Inhabilitando en comisión 30101474
+[2026-02-15T04:43:25.508Z] 👥 Alumnos 15 a 19 (total: 5)
+[2026-02-15T04:43:25.508Z] ℹ️  El estudiante «CASTRO, MIGUEL ANGEL» (22606388) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:27.731Z] ❌ No se pudo mostrar el cuadro de mensaje para «CHAVERO, CINTIA» (29801629) - [30101474]. Se cancela la operación.
+[2026-02-15T04:43:32.949Z] ℹ️  El estudiante «CHURRUARIN, ARIEL» (39167544) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:32.950Z] ℹ️  El estudiante «CORONEL COLMAN, MARÍA FLORENCIA» (44392905) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:32.952Z] ℹ️  El estudiante «CORONEL, VANESA MARIELA» (27217827) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:41.830Z] 🚀 =======================================================
+[2026-02-15T04:43:41.831Z] 🚀 Inicio de corrida — Entrega: WORD [test-0005]
+[2026-02-15T04:43:41.832Z] 🚀 =======================================================
+[2026-02-15T04:43:41.832Z]  
+[2026-02-15T04:43:41.832Z] ========================================
+[2026-02-15T04:43:41.832Z] 📘 Inhabilitando en comisión 30101472
+[2026-02-15T04:43:41.833Z] 👥 Alumnos 20 a 24 (total: 5)
+[2026-02-15T04:43:41.833Z] ℹ️  El estudiante «NARVAEZ, LUCIA BELEN» (43202459) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:41.833Z] ℹ️  El estudiante «NECEFOR, SHEILA MARIEL» (38073768) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:41.833Z] ℹ️  El estudiante «NEUBAUER, ALDANA LIDIA» (41677908) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:41.833Z] ℹ️  El estudiante «NINA, BELLA HAYDEE» (43443117) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:41.834Z] ℹ️  El estudiante «NOGUERA, DAIANA C?NDIDA» (38325306) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:41.834Z]  
+[2026-02-15T04:43:41.834Z] ========================================
+[2026-02-15T04:43:41.834Z] 📘 Inhabilitando en comisión 30101474
+[2026-02-15T04:43:41.834Z] 👥 Alumnos 20 a 24 (total: 5)
+[2026-02-15T04:43:41.834Z] ℹ️  El estudiante «CRISTALDO, AMBAR MAILEN» (46349468) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:41.835Z] ℹ️  El estudiante «CRISTALDO, ORNELLA NAHIR» (41005643) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:41.835Z] ℹ️  El estudiante «CRUCEÃƒâ€˜O, CAMILA MARIANA» (46276674) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:41.835Z] ℹ️  El estudiante «DARROZA GARCIA, CAMILA BELÉN» (41543883) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:41.835Z] ℹ️  El estudiante «DIAZ FERRANTINI, MAITENA» (44816493) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:43:50.872Z] 🚀 =======================================================
+[2026-02-15T04:43:50.872Z] 🚀 Inicio de corrida — Entrega: WORD [test-0006]
+[2026-02-15T04:43:50.872Z] 🚀 =======================================================
+[2026-02-15T04:43:50.872Z]  
+[2026-02-15T04:43:50.872Z] ========================================
+[2026-02-15T04:43:50.872Z] 📘 Inhabilitando en comisión 30101472
+[2026-02-15T04:43:50.872Z] 👥 Alumnos 25 a 29 (total: 5)
+[2026-02-15T04:43:50.872Z] ℹ️  El estudiante «NÚÑEZ, CAMILA» (41921227) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:43:53.030Z] ⚠️  Alumno ORTEGA CAYLLANTE, LENNY BRENDA INHABILITADO
+[2026-02-15T04:43:58.033Z] ℹ️  El estudiante «OSUNA PILAR» (44939038) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:44:00.463Z] ⚠️  Alumno QUIROGA, AGUSTIN INHABILITADO
+[2026-02-15T04:44:05.464Z] ℹ️  El estudiante «RAGGIO, FACUNDO ESTEBAN» (34873652) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:44:05.465Z]  
+[2026-02-15T04:44:05.465Z] ========================================
+[2026-02-15T04:44:05.465Z] 📘 Inhabilitando en comisión 30101474
+[2026-02-15T04:44:05.467Z] 👥 Alumnos 25 a 29 (total: 5)
+[2026-02-15T04:44:05.468Z] ℹ️  El estudiante «ENCINA, FLORENCIA MAIA» (41853542) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:44:05.469Z] ℹ️  El estudiante «FERNANDEZ, SILVINA» (19043067) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:44:05.470Z] ℹ️  El estudiante «ORTEGA, MIGUEL ALEJANDRO» (43922269) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:44:05.470Z] ℹ️  El estudiante «PACHECO, LUDMILA NAHIR» (46564479) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:44:07.757Z] ⚠️  Alumno PÁEZ, CELESTE PRISCILA INHABILITADO
+[2026-02-15T04:44:21.885Z] 🚀 =======================================================
+[2026-02-15T04:44:21.886Z] 🚀 Inicio de corrida — Entrega: WORD [test-0007]
+[2026-02-15T04:44:21.886Z] 🚀 =======================================================
+[2026-02-15T04:44:21.887Z]  
+[2026-02-15T04:44:21.887Z] ========================================
+[2026-02-15T04:44:21.887Z] 📘 Inhabilitando en comisión 30101472
+[2026-02-15T04:44:21.888Z] 👥 Alumnos 30 a 34 (total: 5)
+[2026-02-15T04:44:21.890Z] ℹ️  El estudiante «RIVAS, ROBERTO FABIAN» (40233227) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:44:24.406Z] ⚠️  Alumno ROCA, FLORENCIA NATALIA INHABILITADO
+[2026-02-15T04:44:29.407Z] ℹ️  El estudiante «RODRIGUEZ MARIA LAURA» (27658996) - [30101472] no se inhabilita,  estado=2.
+[2026-02-15T04:44:29.408Z] ℹ️  El estudiante «RODRIGUEZ, CARLA GISELE» (39159087) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:44:31.671Z] ⚠️  Alumno RODRIGUEZ, MELANY BELEN INHABILITADO
+[2026-02-15T04:44:36.671Z]  
+[2026-02-15T04:44:36.672Z] ========================================
+[2026-02-15T04:44:36.672Z] 📘 Inhabilitando en comisión 30101474
+[2026-02-15T04:44:36.673Z] 👥 Alumnos 30 a 34 (total: 5)
+[2026-02-15T04:44:36.674Z] ℹ️  El estudiante «PASINI, AGUSTINA VICTORIA» (43916507) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:44:36.675Z] ℹ️  El estudiante «RIZZO LAUTARO NICOLAS» (45128008) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:44:38.744Z] ❌ No se pudo mostrar el cuadro de mensaje para «ROCCA, IRINA ANA» (43629448) - [30101474]. Se cancela la operación.
+[2026-02-15T04:44:44.012Z] ℹ️  El estudiante «SAMPER, SOL AGUSTINA» (41587072) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:44:44.013Z] ℹ️  El estudiante «SAUCEDO, MARIA JOSE» (38126609) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:44:53.458Z] 🚀 =======================================================
+[2026-02-15T04:44:53.458Z] 🚀 Inicio de corrida — Entrega: WORD [test-0008]
+[2026-02-15T04:44:53.458Z] 🚀 =======================================================
+[2026-02-15T04:44:53.458Z]  
+[2026-02-15T04:44:53.458Z] ========================================
+[2026-02-15T04:44:53.458Z] 📘 Inhabilitando en comisión 30101472
+[2026-02-15T04:44:53.459Z] 👥 Alumnos 35 a 39 (total: 5)
+[2026-02-15T04:44:53.459Z] ℹ️  El estudiante «RUIZ ESPINOLA, LAURA SOFIA» (44685656) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:44:53.459Z] ℹ️  El estudiante «SALABERRY GONZÁLEZ, FERNANDA SOFÍA» (42144815) - [30101472] no se inhabilita,  estado=7.

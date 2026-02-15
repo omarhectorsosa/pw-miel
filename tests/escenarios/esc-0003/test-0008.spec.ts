@@ -1,6 +1,6 @@
 import { test, chromium } from '@playwright/test';
 import { login } from '../../../function/login';
-import { getPracticalWork } from '../../../function/action';
+import { setAbisenceInTeam } from '../../../function/action';
 
 test.setTimeout(1000000);
 
@@ -17,12 +17,12 @@ test('Login', async () => {
   await browser.close();
 });
 
-test('Descargar practicos.', async ({ browser }) => {
+test('Marcar ausente en comisión TEAM.', async ({ browser }) => {
   const context = await browser.newContext({
     storageState: storageFile,
-    acceptDownloads: true, // 🔴 importante
   });
 
   const page = await context.newPage();
-  await getPracticalWork(page,50, 55, 'test-0011');
+  await setAbisenceInTeam(page, 35, 40,'test-0008');
+
 });

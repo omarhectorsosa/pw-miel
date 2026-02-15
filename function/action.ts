@@ -306,5 +306,130 @@ export async function seePracticalWork(
   logRunEnd(logFilePath);
 }
 
+export async function setAbisenceInTeam(
+  page: Page,
+  start_index: number,
+  end_index: number,
+  origin: string
+): Promise<void> {
+
+  const data = JSON.parse(
+    fs.readFileSync('./data/team.json', 'utf8')
+  );
+
+  const dateFolder = getDateFolder();
+  const entregaKey = `E${dateFolder}`;
+  const entregaRaw = process.env[entregaKey];
+
+  if (!entregaRaw) {
+    throw new Error(`❌ Error ${origin}: No existe ${entregaKey}`);
+  }
+
+  const [entregaIndexRaw, entregaTematica] = entregaRaw.split(',');
+  const entregaIndex = Number(entregaIndexRaw);
+
+  if (Number.isNaN(entregaIndex)) {
+    throw new Error(`❌ Error ${origin}: ${entregaKey} inválido`);
+  }
+
+  const rootDir = path.join('./downloads', dateFolder);
+  fs.mkdirSync(rootDir, { recursive: true });
+
+  const logFilePath = path.join(rootDir, 'log.txt');
+  logRunStart(logFilePath, `${entregaTematica} [${origin}]`);
+
+  const studentsByCommission = data.students;
+  
+  // await waitTimeAndLogCustom(page, `Inicio inhabilitación`,5);
+
+  for (const commissionCode of Object.keys(studentsByCommission)) {
+
+    writeLog(logFilePath, ` `);
+    writeLog(logFilePath, `========================================`);
+    writeLog(logFilePath, `📘 Inhabilitando en comisión ${commissionCode}`);
+
+    const studentsInCommission = studentsByCommission[commissionCode];
+
+    const studentIds = Object.keys(studentsInCommission)
+      .sort((a, b) =>
+        studentsInCommission[a].name.localeCompare(
+          studentsInCommission[b].name,
+          'es'
+        )
+      )
+      .slice(start_index, end_index);
+
+    writeLog(
+      logFilePath,
+      `👥 Alumnos ${start_index} a ${end_index - 1} (total: ${studentIds.length})`
+    );
+
+    for (const studentId of studentIds) {
+
+        const student = studentsInCommission[studentId];
+        const nameStudent = student.name;
+
+        const estado = getStudentStatus(
+          rootDir,
+          commissionCode,
+          studentId,
+          entregaIndex
+        );
+
+        if (!estado) {
+          writeLog(
+            logFilePath,
+            `⚠️ Sin estado para ${nameStudent} (${studentId}) — se omite`
+          );
+          continue;
+        }
+
+        if (estado === '0') {
+              await page.goto(`/tutoria/alumnos/comision/${commissionCode}`);
+
+              // 🔍 Verificar link del estudiante
+              const row = page.locator('tr', {
+                  has: page.locator('a.link', { hasText: nameStudent })
+              });
+
+              if (await row.count() === 0) {
+                writeLog(
+                  logFilePath,
+                  `❌ El estudiante «${nameStudent}» (${studentId}) - [${commissionCode}] no se pudo encontrar en el resumen de los prácticos.`
+                );
+              }
+
+              await row.locator('.botonHabilitarAlumno').click();
+
+             // Verificar si aparece el textbox
+              const messageBox = page.getByRole('textbox', {
+                name: 'Ingrese aquí su mensaje...'
+              });
+
+              if (await messageBox.count() === 0) {
+                writeLog(
+                  logFilePath,
+                  `❌ No se pudo mostrar el cuadro de mensaje para «${nameStudent}» (${studentId}) - [${commissionCode}]. Se cancela la operación.`
+                );
+                await page.getByRole('link', { name: 'Cancelar' }).click();
+              } else {
+                await messageBox.fill(
+                  'Se deshabilita por entrega de TPs fuera de termino.'
+                );
+                await page.getByRole('link', { name: 'Aceptar' }).click();
+                writeLog(logFilePath, `⚠️  Alumno ${nameStudent} INHABILITADO`);
+              }   
+              await waitTimeAndLogCustom(page, `Fin de inhabilitación`,5);
+        } else {
+          writeLog(
+            logFilePath,
+            `ℹ️  El estudiante «${nameStudent}» (${studentId}) - [${commissionCode}] no se inhabilita,  estado=${estado}.`
+          );          
+        }  
+    }    
+  }
+
+}      
+
 
 

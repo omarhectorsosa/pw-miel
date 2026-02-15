@@ -24,5 +24,5 @@ test('Descargar practicos.', async ({ browser }) => {
   });
 
   const page = await context.newPage();
-  await getPracticalWork(page,35, 40, 'test-0009');
+  await getPracticalWork(page,40, 45, 'test-0009');
 });

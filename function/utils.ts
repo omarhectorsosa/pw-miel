@@ -274,7 +274,7 @@ export async function seeAndCorrect(
   await page.getByRole('link', { name: 'Enviar corrección' }).click();
   setCheckPractical(courseDir,commissionCode,studentId,studentName, check, entregaIndex);
   writeLog(logFilePath, `📤 Corrección enviada ${check}`);
-  await waitTimeAndLogCustom(page, `Fin de corrección`,5);
+  // await waitTimeAndLogCustom(page, `Fin de corrección`,5);
   await page.goBack();
 }
 
