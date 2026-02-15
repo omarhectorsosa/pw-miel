@@ -1,0 +1,31 @@
+Preguntas de Verdadero/Falso sobre el documento de IoT
+
+IoT solo se refiere a dispositivos conectados por cable.
+Falso
+
+La inteligencia artificial potencia el análisis de datos en redes IoT.
+Verdadero
+
+En 2021 había más de 10 millones de dispositivos IoT en el mundo.
+Falso
+
+El precio promedio de los sensores IoT ha aumentado desde 2004.
+Falso
+
+Las redes inteligentes permiten redistribuir energía para evitar cortes.
+Verdadero
+
+Las ciudades inteligentes usan IoT para monitorear desagües y prevenir inundaciones.
+Verdadero
+
+Los automóviles conectados no interactúan con semáforos ni peatones.
+Falso
+
+La telesalud con IoT permite cirugías guiadas a distancia.
+Verdadero
+
+La etapa final del proceso IoT es compartir los datos.
+Falso
+
+El futuro de IoT incluye experiencias sensoriales más reales gracias al 5G.
+Verdadero

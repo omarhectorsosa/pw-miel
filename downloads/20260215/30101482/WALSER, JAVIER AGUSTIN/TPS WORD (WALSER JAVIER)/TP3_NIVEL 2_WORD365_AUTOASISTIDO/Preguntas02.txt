@@ -1,0 +1,79 @@
+Aquí tienes un cuestionario de **10 preguntas de selección múltiple** sobre el texto de *Internet de las Cosas (IoT)*, con su respuesta correcta indicada:
+
+---
+
+## 📘 Preguntas de selección múltiple
+
+1. **¿Qué es el Internet de las Cosas (IoT)?**  
+   a) Una red social de usuarios  
+   b) Una red de objetos conectados con sensores y software  
+   c) Un sistema de almacenamiento en la nube  
+   d) Un lenguaje de programación  
+   → **Respuesta correcta: b**
+
+2. **¿Cuál fue un factor clave en la evolución del IoT?**  
+   a) El aumento del precio de los sensores  
+   b) La falta de conectividad  
+   c) El abaratamiento de los sensores y mejoras en conectividad  
+   d) La desaparición de la computación en la nube  
+   → **Respuesta correcta: c**
+
+3. **¿Cuántas etapas clave tiene el funcionamiento del IoT?**  
+   a) Dos  
+   b) Tres  
+   c) Cuatro  
+   d) Cinco  
+   → **Respuesta correcta: c (Cuatro)**
+
+4. **¿Cuál de las siguientes NO es una etapa del IoT?**  
+   a) Capturar datos  
+   b) Compartir datos  
+   c) Procesar datos  
+   d) Destruir datos  
+   → **Respuesta correcta: d**
+
+5. **¿Qué aplicación del IoT permite controlar iluminación y electrodomésticos a distancia?**  
+   a) Ciudades inteligentes  
+   b) Hogares inteligentes  
+   c) Automóviles conectados  
+   d) Redes eléctricas inteligentes  
+   → **Respuesta correcta: b**
+
+6. **¿Qué tecnología potencia el análisis de grandes volúmenes de datos en IoT?**  
+   a) Inteligencia Artificial y Machine Learning  
+   b) Wi-Fi  
+   c) Bluetooth  
+   d) GPS  
+   → **Respuesta correcta: a**
+
+7. **¿Qué sector utiliza el IoT para optimizar cadenas de suministro y fábricas inteligentes?**  
+   a) IoT doméstico  
+   b) IoT industrial (IIoT)  
+   c) IoT educativo  
+   d) IoT médico  
+   → **Respuesta correcta: b**
+
+8. **¿Cuál de estas aplicaciones del IoT ayuda a reducir la congestión del tránsito?**  
+   a) Hogares inteligentes  
+   b) Automóviles conectados  
+   c) Gestión del tránsito  
+   d) Comercio minorista  
+   → **Respuesta correcta: c**
+
+9. **¿Qué avance tecnológico está ligado al futuro del IoT?**  
+   a) Realidad virtual y 5G  
+   b) Fax y disquetes  
+   c) Televisión analógica  
+   d) CD-ROM  
+   → **Respuesta correcta: a**
+
+10. **¿Qué describe mejor a las ciudades inteligentes apoyadas en IoT?**  
+   a) Uso de sensores y dispositivos para mejorar la urbanización  
+   b) Exclusivamente edificios con Wi-Fi gratuito  
+   c) Ciudades con más centros comerciales  
+   d) Ciudades sin transporte público  
+   → **Respuesta correcta: a**
+
+---
+
+¿Quieres que te prepare estas preguntas en **formato de examen interactivo** (tipo cuestionario autocorregible) para que lo uses como práctica?

@@ -1,0 +1,80 @@
+Aquí tenés 10 preguntas de selección múltiple basadas en el texto sobre IoT, cada una con cuatro opciones y marcada la respuesta correcta.
+
+? Preguntas de selección múltiple sobre IoT
+
+1. ¿Qué describe mejor al Internet de las Cosas (IoT)?
+A. Una red social para compartir datos
+B. Una red de objetos conectados que capturan y transmiten datos
+C. Un servicio para almacenar archivos en la nube
+D. Un tipo de software empresarial
+Respuesta correcta: B
+
+2. ¿Cuál de estas tecnologías ha sido clave para el crecimiento de IoT?
+A. Cable coaxial
+B. Motores eléctricos
+C. Sensores más económicos y avanzados
+D. Impresión 3D
+Respuesta correcta: C
+
+3. ¿Cuál NO es una etapa del funcionamiento de IoT?
+A. Captura de datos
+B. Transmisión de datos
+C. Creación automática de hardware
+D. Procesamiento de datos
+Respuesta correcta: C
+
+4. ¿Qué papel cumple la computación en la nube en IoT?
+A. Eliminar la necesidad de sensores
+B. Proveer almacenamiento y procesamiento para grandes volúmenes de datos
+C. Reemplazar redes inalámbricas
+D. Permitir que los dispositivos funcionen sin electricidad
+Respuesta correcta: B
+
+5. ¿En qué sector es más común el uso de IoT industrial (IIoT)?
+A. Videojuegos
+B. Publicidad digital
+C. Fábricas y cadenas de suministro
+D. Educación primaria
+Respuesta correcta: C
+
+6. ¿Cuál es un ejemplo de aplicación de IoT en ciudades inteligentes?
+A. Librerías automatizadas
+B. Monitorización de niveles de agua para prevenir inundaciones
+C. Robots domésticos
+D. Televisión por satélite
+Respuesta correcta: B
+
+7. ¿Qué función tienen los sistemas ADAS en autos conectados?
+A. Mejorar la cobertura de Wi-Fi
+B. Ayudar en la conducción y evitar colisiones
+C. Controlar el consumo eléctrico doméstico
+D. Administrar redes de sensores urbanos
+Respuesta correcta: B
+
+8. ¿Qué caracteriza a las redes inteligentes de energía apoyadas en IoT?
+A. Predicen el clima
+B. Detectan riesgos y redistribuyen energía
+C. Solo usan energía solar
+D. Funcionan sin sensores
+Respuesta correcta: B
+
+9. ¿Cuál de los siguientes es un beneficio del IoT en el comercio minorista?
+A. Impresión automática de facturas
+B. Seguimiento del inventario mediante RFID y estanterías inteligentes
+C. Eliminación de todos los empleados
+D. Prohibición de pagos electrónicos
+Respuesta correcta: B
+
+10. ¿Qué avance futuro se menciona en el texto sobre IoT?
+A. Reemplazo total de celulares
+B. Integración con experiencias inmersivas como realidad virtual y audio 3D
+C. Eliminación de la inteligencia artificial
+D. Fin de las redes 5G
+Respuesta correcta: B
+
+Si querés, puedo generarte también:
+?? 20 preguntas más,
+?? una evaluación lista para imprimir,
+?? preguntas tipo examen,
+o incluso un cuestionario autocorregible en Forms. ¿Querés algo de eso?
+

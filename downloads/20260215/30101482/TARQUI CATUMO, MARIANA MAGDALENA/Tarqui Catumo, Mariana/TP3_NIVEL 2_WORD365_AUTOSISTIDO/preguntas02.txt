@@ -1,0 +1,71 @@
+Preguntas de Selección Múltiple – Internet de las Cosas (IoT)
+
+1. ¿Qué es el Internet de las Cosas (IoT)?
+A) Una red social digital
+B) Una red de objetos físicos conectados que intercambian datos
+C) Un tipo de software empresarial
+D) Una base de datos en la nube
+Respuesta correcta: B
+
+2. ¿Cuál es uno de los componentes esenciales del IoT?
+A) Servidores físicos únicamente
+B) Sensores
+C) Navegadores web
+D) Redes sociales
+Respuesta correcta: B
+
+3. ¿Con qué concepto se asocia principalmente el IoT en el ámbito industrial?
+A) Web 2.0
+B) Industria 2.0
+C) Industria 4.0
+D) Comercio electrónico
+Respuesta correcta: C
+
+4. ¿Cuál es la primera etapa del funcionamiento del IoT?
+A) Procesar los datos
+B) Actuar a partir de los datos
+C) Compartir los datos
+D) Capturar los datos
+Respuesta correcta: D
+
+5. ¿Qué tecnología permite analizar grandes volúmenes de datos generados por IoT?
+A) Procesadores de texto
+B) Big Data
+C) Correo electrónico
+D) Redes locales
+Respuesta correcta: B
+
+6. ¿Cuál de las siguientes es una aplicación del IoT?
+A) Edición de documentos
+B) Hogares inteligentes
+C) Programación básica
+D) Diseño gráfico
+Respuesta correcta: B
+
+7. ¿Qué ventaja aporta la computación en la nube al IoT?
+A) Reduce la conectividad
+B) Limita el almacenamiento
+C) Permite procesamiento y almacenamiento escalable
+D) Elimina el uso de sensores
+Respuesta correcta: C
+
+8. ¿En qué sector se utiliza el IoT para monitorear pacientes a distancia?
+A) Educación
+B) Agricultura
+C) Telesalud
+D) Turismo
+Respuesta correcta: C
+
+9. ¿Cuál es un uso del IoT industrial (IIoT)?
+A) Juegos en línea
+B) Mantenimiento predictivo
+C) Redes sociales
+D) Streaming de video
+Respuesta correcta: B
+
+10. ¿Hacia dónde apunta el futuro del IoT?
+A) Menor automatización
+B) Eliminación de la IA
+C) Integración con IA, 5G y tecnologías inmersivas
+D) Uso exclusivo en hogares
+Respuesta correcta: C

@@ -1,6 +1,8 @@
 import { Page } from '@playwright/test';
 import fs from 'fs';
 import path from 'path';
+import unzipper from 'unzipper';
+import tar from 'tar';
 
 /* ==================================================
    Descarga principal
@@ -29,7 +31,8 @@ export async function downloadAndSave(
     const is_absence = isAbsence(
         rootDir,
         course,
-        studentId
+        studentId,
+        entregaIndex
     );
 
     if (is_absence) {  
@@ -128,12 +131,61 @@ export async function downloadAndSave(
           descargaOK = true;
           writeLog(logFilePath, `✅ Descarga OK — ${fileName}`);
 
+          // 🔎 Verificar tipo de archivo
+          const lower = fileName.toLowerCase();
+
+          try {
+            if (lower.endsWith('.zip')) {
+              writeLog(logFilePath, '📦 Archivo ZIP detectado');
+              writeLog(logFilePath, '🗜️  Descomprimiendo ZIP…');
+
+              await fs
+                .createReadStream(filePath)
+                .pipe(unzipper.Extract({ path: targetDir }))
+                .promise();
+
+              writeLog(logFilePath, '✅ ZIP descomprimido correctamente');
+            }
+
+            else if (
+              lower.endsWith('.tar') ||
+              lower.endsWith('.tar.gz') ||
+              lower.endsWith('.tgz')
+            ) {
+              writeLog(logFilePath, '📦 Archivo TAR detectado');
+              writeLog(logFilePath, '🗜️  Descomprimiendo TAR…');
+
+              await tar.x({
+                file: filePath,
+                cwd: targetDir,
+              });
+
+              writeLog(logFilePath, '✅ TAR descomprimido correctamente');
+            }
+
+            else if (lower.endsWith('.rar')) {
+              writeLog(logFilePath, '📦 Archivo RAR detectado');
+              writeLog(logFilePath, '⚠️  Soporte RAR opcional (requiere librería)');
+            }
+
+            else {
+              writeLog(logFilePath, '📄 Archivo no comprimido');
+            }
+
+          } catch (decompressError) {
+            writeLog(
+              logFilePath,
+              `❌ Error al descomprimir — ${fileName}`
+            );
+          }
+
         } catch (error) {
           writeLog(
             logFilePath,
             `❌ Error en descarga — ${studentName} (${studentId})`
           );
         }
+
 
         if (descargaOK) {
           if (estado === '0') {
@@ -190,11 +242,10 @@ export async function seeAndCorrect(
 
   // 🎯 Selección de estado
   if (estado === '0') {
-    // Estados en pausa  
-    // Temporal cambiar el dia de la fecha
     await page.getByLabel('Estado:').selectOption('10');
     writeLog(logFilePath, '🚫 Marcado como SIN CORREGIR — se omite');
     writeLog(logFilePath, `✉️ ${message}`);
+    await page.getByRole('textbox', { name: 'Observaciones (opcional):' }).fill(message);  
     check = 'AUSENTE';
   } else if (estado === 'E' ) {
     await page.getByLabel('Estado:').selectOption('3');
@@ -203,14 +254,13 @@ export async function seeAndCorrect(
   //Corregir con mensajes 
   } else if (Number(estado) >= 7) {
     await page.getByLabel('Estado:').selectOption('1');
-    writeLog(logFilePath, '✅ Marcado como APROBADO');
+    writeLog(logFilePath, '⚠️ Marcado como APROBADO');
     check = 'APROBADO';  
   } else if (Number(estado) < 7 && Number(estado) > 0 ) {
     await page.getByLabel('Estado:').selectOption('4');
+     writeLog(logFilePath, '⚠️ Marcado como REENTREGAR');
     await page.getByRole('textbox', { name: 'Observaciones (opcional):' }).fill(message);  
-    writeLog(logFilePath, '⚠️ Marcado como REENTREGAR');
     writeLog(logFilePath, `✉️ ${message}`);
-
     check = 'REENTREGADO';  
   } else {  
     writeLog(
@@ -220,20 +270,11 @@ export async function seeAndCorrect(
     await page.goBack();
     return;
   }
-
+  await page.getByRole('checkbox', { name: 'Notificar al alumno/a por' }).check();
+  await page.getByRole('link', { name: 'Enviar corrección' }).click();
   setCheckPractical(courseDir,commissionCode,studentId,studentName, check, entregaIndex);
-
-  if ( estado === '0'  ) {
-    // Descomentar para informar de su estado actual
-    await page.getByRole('textbox', { name: 'Observaciones (opcional):' }).fill(message);  
-    await page.getByRole('link', { name: 'Enviar corrección' }).click();
-    writeLog(logFilePath, '🚫 Corrección NO enviada (informar por ausente se paso fecha limite)');
-  } else {
-    await page.getByRole('link', { name: 'Enviar corrección' }).click();
-    writeLog(logFilePath, `📤 Corrección enviada ${check}`);
-  }
-
-  //await waitTimeAndLogCustom(page, `Fin de corrección`,5);
+  writeLog(logFilePath, `📤 Corrección enviada ${check}`);
+  await waitTimeAndLogCustom(page, `Fin de corrección`,5);
   await page.goBack();
 }
 
@@ -409,20 +450,31 @@ function findStudentRecord(
 export function isAbsence(
   rootDir: string,
   commissionCode: string,
-  studentId: string
+  studentId: string,
+  entregaIndex: number
 ): boolean {
 
-  const statusFilePath = path.join(
-    rootDir,
-    commissionCode,
-    'estado.csv'
-  );
+  const statusFilePath = path.join(rootDir, commissionCode, 'estado.csv');
 
+  // 📄 Si no existe el archivo
   if (!fs.existsSync(statusFilePath)) {
     return false;
   }
 
   const lines = fs.readFileSync(statusFilePath, 'utf8').split('\n');
+
+  // 🔎 Obtener columna actual según la lógica definida
+  let currentCol: number;
+
+  switch (entregaIndex) {
+    case 1:  currentCol = 3; break;
+    case 6:  currentCol = 4; break;
+    case 10: currentCol = 5; break;
+    case 13: currentCol = 6; break;
+    case 15: currentCol = 7; break;
+    case 16: currentCol = 8; break;
+    default: currentCol = 3;
+  }
 
   for (const line of lines) {
     if (!line.trim()) continue;
@@ -433,17 +485,25 @@ export function isAbsence(
     const id = parts[1];
 
     if (course === commissionCode && id === studentId) {
-      
-      // 🔹 columnas donde están las notas (ajustar si cambia el CSV)
-      const thematicCols = [3, 4, 5, 6, 7, 8];
 
-      // 🔹 true si tiene al menos un 0
-      return thematicCols.some(col => parts[col] === '0');
+      // 🔹 Revisar SOLO columnas anteriores a la actual
+      for (let col = 3; col < currentCol; col++) {
+
+        // Evitar errores si el CSV tiene menos columnas
+        if (col >= parts.length) continue;
+
+        if (parts[col]?.trim() === '0') {
+          return true; // 🚨 Tiene ausencia previa
+        }
+      }
+
+      return false;
     }
   }
 
   return false;
 }
+
 
 
 /* ==================================================

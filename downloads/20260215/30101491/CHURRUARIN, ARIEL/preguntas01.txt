@@ -1,0 +1,23 @@
+Preguntas de Verdadero/Falso (con respuestas) 
+
+IoT utiliza únicamente redes Wi‑Fi para conectar dispositivos. Respuesta: Falso 
+
+Los sensores permiten que los dispositivos IoT capturen datos del entorno. Respuesta: Verdadero 
+
+La disminución del costo de los sensores ha impulsado el crecimiento de IoT. Respuesta: Verdadero 
+
+La computación en la nube no influye en el desarrollo de IoT. Respuesta: Falso 
+
+Una etapa del funcionamiento de IoT consiste en procesar datos para ejecutar acciones automáticas. Respuesta: Verdadero 
+
+Los hogares inteligentes pueden usar protocolos como Z‑Wave o Zigbee. Respuesta: Verdadero 
+
+Las ciudades inteligentes no utilizan sensores para anticipar problemas como inundaciones. Respuesta: Falso 
+
+Los automóviles conectados pueden comunicarse con semáforos y servicios externos. Respuesta: Verdadero 
+
+La IoT industrial es uno de los sectores que más datos genera actualmente. Respuesta: Verdadero 
+
+El futuro de IoT incluye experiencias inmersivas con tecnologías como audio 3D y realidad virtual avanzada. Respuesta: Verdadero 
+
+ 

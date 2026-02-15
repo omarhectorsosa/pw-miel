@@ -1,0 +1,13 @@
+
+Preguntas Verdadero/Falso sobre IoT
+
+1. IoT es una red de objetos físicos que pueden captar, enviar y recibir datos. - Verdadero
+2. Los sensores de IoT han aumentado su precio en los últimos años. - Falso
+3. El IoT funciona mediante cuatro etapas: capturar, compartir, procesar y actuar. - Verdadero
+4. El 5G no tiene relación con el crecimiento del IoT. - Falso
+5. Las ciudades inteligentes utilizan IoT para monitorar infraestructura y servicios. - Verdadero
+6. IoT Industrial (IIoT) es actualmente el mayor productor de datos a nivel mundial. - Verdadero
+7. Los automóviles modernos no incluyen tecnología IoT. - Falso
+8. La computación en la nube favoreció el crecimiento del IoT. - Verdadero
+9. El IoT solo se utiliza en hogares. - Falso
+10. Una de las tendencias futuras del IoT es la integración con realidad virtual y háptica. - Verdadero

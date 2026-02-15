@@ -1,0 +1,84 @@
+﻿Aquí tienes 10 preguntas de selección múltiple diseñadas a partir del contenido del documento, con sus respectivas respuestas y fuentes citadas.
+Cuestionario de Selección Múltiple: Internet de las Cosas (IoT)
+1. Según el documento, ¿cuál es la definición específica de IoT hoy en día?
+* a) Cualquier objeto conectado a una red Wi-Fi de forma exclusiva.
+
+* b) Cosas conectadas con sensores y software para informar usuarios o automatizar acciones.
+
+* c) Discos flexibles de la década de 1990 conectados entre sí.
+
+* d) Redes sociales que conectan personas globalmente.
+2. ¿Qué volumen de datos globales se espera que genere el IoT para el año 2025?
+   * a) 10.000 millones de gigabytes.
+
+   * b) 73 terabytes.
+   * c) Más de 73 zettabytes.
+
+   * d) 5000 zettabytes.
+
+3. ¿Cuál de los siguientes factores NO es mencionado como un desencadenante del auge del IoT?
+      * a) La tecnología de Big Data.
+
+      * b) La caída del precio de los sensores en más de un 70%.
+
+      * c) La invención de los primeros módems en los años 80.
+
+      * d) La computación en la nube.
+
+4. ¿Cuál es el orden correcto de las cuatro etapas clave del proceso de IoT?
+         * a) Capturar, Procesar, Compartir y Actuar.
+         * b) Procesar, Capturar, Compartir y Actuar.
+         * c) Capturar, Compartir, Procesar y Actuar.
++1
+
+         * d) Compartir, Capturar, Actuar y Procesar.
+5. ¿Qué papel juegan la IA y el Machine Learning en el ecosistema IoT?
+            * a) Únicamente sirven para conectar los dispositivos al Wi-Fi.
+
+            * b) Brindan la capacidad de gestionar, analizar y aprender de grandes cantidades de datos.
+
+            * c) Reducen la necesidad de usar sensores físicos.
+
+            * d) Reemplazan por completo a la computación en la nube.
+6. En el contexto de las ciudades inteligentes, ¿qué utilidad tienen los sensores en los desagües?
+               * a) Medir la calidad del aire urbano.
+               * b) Sincronizar los semáforos automáticamente.
+
+               * c) Detectar niveles de agua para automatizar acciones y prevenir inundaciones.
+
+               * d) Detectar accidentes de tráfico en tiempo real.
+
+7. ¿Qué sector es actualmente el mayor productor de datos de IoT y el de más rápido crecimiento?
+                  * a) El comercio minorista (Retail).
+
+                  * b) El hogar inteligente (Smart Home).
+
+                  * c) La IoT industrial (IIoT).
+
+                  * d) La telesalud y medicina.
+
+8. ¿Qué protocolos de comunicación se mencionan específicamente para la automatización del hogar?
+                     * a) 5G y Bluetooth.
+
+                     * b) Z-Wave o Zigbee.
+
+                     * c) Wi-Fi y Ethernet.
+                     * d) RFID y Beacons.
+
+9. ¿Cuál es un beneficio directo del IoT en la telesalud según el texto?
+                        * a) Permite a los pacientes evitar el uso de medicación.
+                        * b) Permite cirugías guiadas y diagnósticos a distancia en zonas remotas.
+
+                        * c) Sustituye la necesidad de cirujanos humanos.
+                        * d) Elimina el uso de relojes inteligentes.
+
+10. ¿Qué se puede esperar de la interacción humana con los dispositivos en el futuro?
+                           * a) Una reducción en el uso de datos debido al costo de los sensores.
+                           * b) El fin de la conectividad 5G global.
+
+                           * c) Experiencias sensoriales más reales mediante audio 3D, realidad virtual y sensaciones hápticas.
+
+                           * d) La desconexión total de los dispositivos externos como semáforos.
+
+________________
+¿Te gustaría que te ayude a crear una clave de respuestas detallada o prefieres que genere preguntas sobre un tema específico del texto, como la industria?

@@ -1,0 +1,49 @@
+Aquí tenés 10 preguntas de verdadero o falso basadas en el texto que analizamos, junto con la respuesta correcta de cada una:
+
+? Preguntas de Verdadero/Falso sobre IoT
+1.
+Los dispositivos IoT siempre necesitan estar conectados por cable para transmitir datos.
+Respuesta: ? Falso — Pueden conectarse de forma inalámbrica (WiFi, 5G, Zigbee, etc.).
+
+2.
+El precio de los sensores de IoT ha disminuido más del 70% desde 2004.
+Respuesta: ?? Verdadero
+
+3.
+La IA y el machine learning no tienen un rol importante en el crecimiento de IoT.
+Respuesta: ? Falso — Son esenciales para analizar grandes volúmenes de datos.
+
+4.
+Una de las etapas clave del funcionamiento de IoT es la captura de datos mediante sensores.
+Respuesta: ?? Verdadero
+
+5.
+La computación en la nube facilita que los dispositivos IoT almacenen y procesen grandes datasets.
+Respuesta: ?? Verdadero
+
+6.
+Los autos modernos no incluyen tecnologías IoT.
+Respuesta: ? Falso — La mayoría incorpora IoT y sistemas ADAS.
+
+7.
+Las ciudades inteligentes usan sensores y medidores IoT para monitorear y resolver problemas urbanos.
+Respuesta: ?? Verdadero
+
+8.
+La IoT industrial (IIoT) es uno de los sectores que genera menos datos en el mundo.
+Respuesta: ? Falso — Es el mayor generador de datos globalmente.
+
+9.
+El proceso de IoT incluye la transmisión de datos a la nube, a otros dispositivos o al edge.
+Respuesta: ?? Verdadero
+
+10.
+La telesalud usa dispositivos IoT para monitorear pacientes y asistir cirugías a distancia.
+Respuesta: ?? Verdadero
+
+Si querés, puedo generar también:
+?? Preguntas de opción múltiple
+?? Actividades evaluativas
+?? Preguntas para examen parcial
+¿Querés más ejercicios?
+

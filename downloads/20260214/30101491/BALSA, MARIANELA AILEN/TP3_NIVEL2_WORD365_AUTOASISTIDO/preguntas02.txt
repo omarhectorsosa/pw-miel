@@ -1,0 +1,72 @@
+
+Preguntas de Selección Múltiple sobre IoT
+
+1. ¿Qué describe mejor al Internet de las Cosas (IoT)?
+A) Una red social para dispositivos inteligentes
+B) Una red de objetos conectados que capturan y transmiten datos
+C) Un protocolo de seguridad para datos en la nube
+D) Un tipo de hardware exclusivo para industria
+Respuesta correcta: B
+
+2. ¿Cuál de las siguientes tecnologías NO es mencionada como habilitadora del IoT?
+A) Sensores
+B) Big Data
+C) Computación en la nube
+D) Motores de combustión interna
+Respuesta correcta: D
+
+3. ¿Qué factor contribuyó al crecimiento del IoT según el documento?
+A) El aumento en el precio de los sensores
+B) La limitada capacidad de almacenamiento
+C) La caída del precio de los sensores de IoT
+D) La desaparición de la computación en la nube
+Respuesta correcta: C
+
+4. ¿Cuál es la primera etapa del funcionamiento del IoT?
+A) Procesar los datos
+B) Actuar a partir de los datos
+C) Compartir los datos
+D) Capturar los datos
+Respuesta correcta: D
+
+5. ¿Cuál de estas es una aplicación del IoT en ciudades inteligentes?
+A) Optimizar la velocidad del Wi-Fi del hogar
+B) Detectar niveles de agua en desagües para prevenir inundaciones
+C) Aumentar la calidad gráfica de videojuegos
+D) Mejorar la experiencia en redes sociales
+Respuesta correcta: B
+
+6. ¿Qué ejemplo describe el uso de IoT en automóviles?
+A) Control exclusivo del equipo de sonido
+B) Asistencia a la conducción mediante ADAS
+C) Incorporación de cámaras únicamente estéticas
+D) Control manual del motor sin sensores
+Respuesta correcta: B
+
+7. ¿Qué caracteriza al IoT en comercio minorista según el documento?
+A) Solo se utiliza para controlar inventarios manualmente
+B) Elimina por completo la interacción con clientes
+C) Emplea beacons, RFID y cámaras inteligentes para mejorar la experiencia
+D) Solo funciona en tiendas virtuales
+Respuesta correcta: C
+
+8. ¿Cuál es el principal productor de datos dentro del ecosistema IoT?
+A) IoT doméstico
+B) IoT automotriz
+C) IoT industrial (IIoT)
+D) Telesalud
+Respuesta correcta: C
+
+9. ¿Qué permite la telesalud basada en IoT?
+A) Reducir la conectividad médica rural
+B) Realizar monitoreo remoto y asistencia quirúrgica a distancia
+C) Limitar la interacción entre médicos
+D) Eliminar por completo las consultas presenciales
+Respuesta correcta: B
+
+10. ¿Qué se espera para el futuro del IoT?
+A) Menor integración con la vida diaria
+B) Capacidades inmersivas como realidad virtual avanzada y hápticos
+C) Reducción del uso de IA en dispositivos
+D) Eliminación del uso de 5G
+Respuesta correcta: B

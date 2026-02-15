@@ -1,0 +1,71 @@
+Preguntas de Selección Múltiple sobre IoT
+
+1. ¿Qué significa IoT?
+a) Internet de los teléfonos
+b) Internet de las cosas
+c) Internet de la televisión
+d) Internet de los transportes
+Respuesta correcta: b) Internet de las cosas
+
+2. ¿Cuál de estas tecnologías potencia el análisis de datos en IoT?
+a) Inteligencia Artificial y Machine Learning
+b) Televisión digital
+c) Radio FM
+d) GPS
+Respuesta correcta: a) Inteligencia Artificial y Machine Learning
+
+3. ¿Cuántos dispositivos IoT había en el mundo en 2021?
+a) 1 millón
+b) 10 millones
+c) 10.000 millones
+d) 100.000 millones
+Respuesta correcta: c) 10.000 millones
+
+4. Desde 2004, el precio promedio de los sensores IoT:
+a) Aumentó un 70%
+b) Se mantuvo igual
+c) Disminuyó más del 70%
+d) Desapareció del mercado
+Respuesta correcta: c) Disminuyó más del 70%
+
+5. ¿Cuál NO es una etapa clave del funcionamiento de IoT?
+a) Capturar datos
+b) Compartir datos
+c) Procesar datos
+d) Pintar datos
+Respuesta correcta: d) Pintar datos
+
+6. ¿Qué aplicación de IoT permite controlar luces y electrodomésticos a distancia?
+a) Redes inteligentes
+b) Hogares inteligentes
+c) Ciudades inteligentes
+d) Autos conectados
+Respuesta correcta: b) Hogares inteligentes
+
+7. ¿Qué aplicación de IoT ayuda a prevenir inundaciones mediante sensores en desagües?
+a) Comercio minorista
+b) Ciudades inteligentes
+c) Telesalud
+d) Gestión del tránsito
+Respuesta correcta: b) Ciudades inteligentes
+
+8. ¿Qué aplicación de IoT permite realizar cirugías guiadas a distancia?
+a) Hogares inteligentes
+b) Telesalud
+c) Autos conectados
+d) Comercio minorista
+Respuesta correcta: b) Telesalud
+
+9. ¿En qué área industrial IoT ayuda a optimizar procesos y prever fallos mecánicos?
+a) Fábricas inteligentes
+b) Comercio minorista
+c) Ciudades inteligentes
+d) Hogares inteligentes
+Respuesta correcta: a) Fábricas inteligentes
+
+10. ¿Qué se espera en el futuro de IoT?
+a) Menos conectividad
+b) Experiencias sensoriales más realistas con VR y 5G
+c) Eliminación de sensores
+d) Uso exclusivo de Wi-Fi
+Respuesta correcta: b) Experiencias sensoriales más realistas con VR y 5G

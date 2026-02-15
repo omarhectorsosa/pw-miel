@@ -1,0 +1,64 @@
+¡Claro! Aquí tienes 10 preguntas de selección múltiple sobre el tema del Internet de las 
+Cosas (IoT), con sus respuestas correctas: 
+1. ¿Qué es IoT? a) Una red de computadoras personales conectadas. 
+2. b) Una red de objetos y dispositivos conectados. 
+3. c) Una red de servicios de telecomunicaciones. 
+4. d) Una red de aplicaciones móviles.  
+a. Respuesta correcta: b) Una red de objetos y dispositivos conectados. 
+5. ¿Cuál es una de las principales tecnologías que impulsan el funcionamiento 
+de IoT? a) Procesamiento de texto. 
+b) Tecnología de sensores. 
+c) Publicidad digital. 
+d) Edición de video.  
+a. Respuesta correcta: b) Tecnología de sensores. 
+6. En 2021, ¿cuántos dispositivos IoT había aproximadamente en el mundo? a) 
+1 millón. 
+b) 100 millones. 
+c) 1.000 millones. 
+d) 10.000 millones.  
+a. Respuesta correcta: d) 10.000 millones. 
+7. ¿Cuál de las siguientes es una aplicación de IoT en el hogar? a) Redes 
+sociales. 
+b) Automóviles conectados. 
+c) Hogares inteligentes. 
+d) Servicios de streaming.  
+a. Respuesta correcta: c) Hogares inteligentes. 
+8. ¿Qué etapa del proceso de IoT implica la transmisión de datos a un sistema 
+en la nube? a) Capturar los datos. 
+b) Compartir los datos. 
+c) Procesar los datos. 
+d) Actuar a partir de los datos.  
+a. Respuesta correcta: b) Compartir los datos. 
+9. ¿Qué tecnología permite analizar y aprender de los grandes conjuntos de 
+datos generados por IoT? a) Inteligencia artificial y machine learning. 
+b) Programación web. 
+c) Diseño gráfico. 
+d) Hardware de computadoras.  
+a. Respuesta correcta: a) Inteligencia artificial y machine learning. 
+10. ¿Qué solución de IoT se utiliza para monitorear a los pacientes de forma 
+remota? a) IoT en el comercio minorista. 
+b) Telesalud. 
+c) Gestión del tránsito. 
+d) Redes inteligentes.  
+a. Respuesta correcta: b) Telesalud. 
+11. ¿Cuál es una de las principales aplicaciones de IoT en la industria? a) 
+Publicidad en línea. 
+b) Entretenimiento. 
+c) Gestión de la cadena de suministro. 
+d) Redes sociales.  
+a. Respuesta correcta: c) Gestión de la cadena de suministro. 
+12. ¿Cuál es una característica del futuro de IoT? a) La disminución de la 
+conectividad global. 
+b) La integración más fluida entre tecnología y experiencia humana. 
+c) La eliminación de los sensores de IoT. 
+d) El fin del uso de la inteligencia artificial.  
+a. Respuesta correcta: b) La integración más fluida entre tecnología y 
+experiencia humana. 
+13. ¿Qué etapa del proceso de IoT incluye el análisis de datos acumulados 
+desde todos los dispositivos de una red? a) Capturar los datos. 
+b) Compartir los datos. 
+c) Procesar los datos. 
+d) Actuar a partir de los datos.  
+a. Respuesta correcta: d) Actuar a partir de los datos. 
+Espero que estas preguntas te sean útiles para repasar el tema de IoT. ¡Si necesitas 
+más ayuda, no dudes en decírmelo!

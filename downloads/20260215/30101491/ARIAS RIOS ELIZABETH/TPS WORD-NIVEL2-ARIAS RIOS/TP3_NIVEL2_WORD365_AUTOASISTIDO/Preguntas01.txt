@@ -1,0 +1,25 @@
+Aquí tenés 10 preguntas de verdadero o falso basadas en el texto, junto con sus respuestas correctas. Están formuladas de manera clara y técnica.
+
+? Preguntas de Verdadero o Falso (con respuestas)
+1. IoT es una red de dispositivos que pueden conectarse a Internet y transmitir datos.
+?? Verdadero
+2. La conectividad 5G no tiene impacto en el crecimiento de IoT.
+? Falso — El 5G impulsa IoT al permitir más velocidad y capacidad.
+3. Una de las etapas del funcionamiento de IoT es procesar los datos recopilados por los sensores.
+?? Verdadero
+4. Los sensores de IoT han aumentado su costo promedio desde 2004.
+? Falso — El precio promedio cayó más del 70%.
+5. Las ciudades inteligentes utilizan sensores de IoT para prevenir inundaciones y mejorar la gestión urbana.
+?? Verdadero
+6. En IoT industrial, una de las aplicaciones es detectar fallas o problemas mecánicos en fábricas.
+?? Verdadero
+7. La telesalud basada en IoT solo incluye dispositivos de consumo como relojes inteligentes.
+? Falso — También incluye herramientas quirúrgicas inteligentes.
+8. Los automóviles conectados no interactúan con elementos externos como semáforos o servicios de tráfico.
+? Falso — La conectividad externa es parte del desarrollo actual.
+9. IoT permite analizar datos para automatizar acciones o tomar decisiones más precisas.
+?? Verdadero
+10. En el futuro, IoT se integrará con tecnologías inmersivas como realidad virtual y experiencias hápticas.
+?? Verdadero
+
+Si querés, puedo generar otro set de preguntas, preguntas multiple choice, o una actividad para evaluación. ¿Te gustaría algo más?

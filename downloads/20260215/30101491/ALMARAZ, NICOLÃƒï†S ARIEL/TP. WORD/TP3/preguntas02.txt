@@ -1,0 +1,69 @@
+1. ¿Qué es el Internet de las Cosas (IoT)?
+A) Una red de computadoras de alta potencia
+B) Una red de objetos conectados con sensores y tecnología
+C) Un sistema exclusivo para la industria
+D) Un protocolo de Internet
+✔ Respuesta correcta: B 
+
+2. ¿Cuál de las siguientes tecnologías impulsó el crecimiento de IoT?
+A) Sensores más económicos
+B) Discos duros externos
+C) Redes sociales
+D) Impresoras láser
+✔ Respuesta correcta: A 
+
+3. ¿Cuál es la primera etapa del funcionamiento de IoT?
+A) Compartir los datos
+B) Procesar los datos
+C) Capturar los datos
+D) Actuar sobre los datos
+✔ Respuesta correcta: C 
+
+4. ¿Qué rol cumple el 5G en IoT?
+A) Reduce la capacidad de transmisión de datos
+B) Permite manejar grandes volúmenes de datos con mayor velocidad
+C) Elimina la necesidad de sensores
+D) Sustituye la computación en la nube
+✔ Respuesta correcta: B 
+
+5. ¿Qué ejemplo corresponde al uso de IoT en hogares?
+A) Sincronización automática de semáforos
+B) Control remoto de iluminación y climatización
+C) Asistencia quirúrgica remota
+D) Gestión de inventarios en fábricas
+✔ Respuesta correcta: B 
+
+6. ¿Qué caracteriza a una ciudad inteligente según IoT?
+A) Uso de sensores para monitorear problemas urbanos
+B) Conectividad exclusiva 4G
+C) Ausencia total de automatización
+D) Dependencia de infraestructura antigua
+✔ Respuesta correcta: A 
+
+7. ¿Qué industria genera la mayor cantidad de datos IoT?
+A) Educación
+B) Agro
+C) IoT Industrial (IIoT)
+D) Turismo
+✔ Respuesta correcta: C 
+
+8. ¿Cuál es un ejemplo de IoT en automóviles?
+A) Cambio de color automático
+B) Planificación de rutas y asistencia al conductor
+C) Control de inventarios
+D) Proyección holográfica
+✔ Respuesta correcta: B 
+
+9. ¿Qué permite IoT en las cadenas de suministro?
+A) Eliminar completamente el transporte
+B) Supervisión en tiempo real y trazabilidad
+C) Crear productos sin materia prima
+D) Desactivar sensores en tránsito
+✔ Respuesta correcta: B 
+
+10. ¿Qué se espera en el futuro del IoT?
+A) Menos interacción entre humanos y tecnología
+B) Experiencias inmersivas y personalización en tiempo real
+C) Reducción global de la conectividad
+D) Eliminación del uso de IA
+✔ Respuesta correcta: B 

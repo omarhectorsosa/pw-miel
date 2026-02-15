@@ -1,0 +1,70 @@
+
+1. ¿Qué característica define a un dispositivo IoT?
+A) Su capacidad de funcionar sin electricidad
+B) Su capacidad de conectarse inalámbricamente y transmitir datos
+C) Su uso exclusivo en hogares
+D) Su capacidad de almacenar grandes cantidades de datos
+Respuesta correcta: B
+
+2. ¿Cuál fue uno de los factores clave que permitió el crecimiento de IoT?
+A) La disminución de la velocidad de Internet
+B) La falta de sensores disponibles
+C) La mejora en la conectividad y la computación en la nube
+D) La reducción del uso de redes móviles
+Respuesta correcta: C
+
+3. ¿Qué sucedió con el precio promedio de los sensores de IoT desde 2004?
+A) Aumentó un 50%
+B) Se mantuvo igual
+C) Aumentó un 20%
+D) Disminuyó más del 70%
+Respuesta correcta: D
+
+4. ¿Cuál es la primera etapa del funcionamiento de IoT?
+A) Analizar los datos
+B) Procesar los datos
+C) Capturar los datos con sensores
+D) Compartir los datos
+Respuesta correcta: C
+
+5. ¿Qué uso de IoT se menciona dentro del hogar?
+A) Curación remota de enfermedades
+B) Control de iluminación y climatización
+C) Automatización industrial
+D) Conducción autónoma
+Respuesta correcta: B
+
+6. ¿Qué tecnología mejora el funcionamiento de las redes inteligentes?
+A) Realidad virtual
+B) IA y analíticas avanzadas
+C) Blockchain
+D) Hologramas
+Respuesta correcta: B
+
+7. ¿Qué permiten los sistemas ADAS en los automóviles conectados?
+A) Crear redes privadas de Internet
+B) Evitar colisiones y planificar rutas
+C) Enviar mensajes automáticos
+D) Fabricar piezas del automóvil
+Respuesta correcta: B
+
+8. ¿Qué beneficio ofrece IoT en el comercio minorista?
+A) Permite fabricar productos más baratos
+B) Facilita que las apps ayuden a localizar artículos en la tienda
+C) Reduce el uso de sensores
+D) Evita completamente las compras online
+Respuesta correcta: B
+
+9. ¿Qué permite IoT dentro de una fábrica inteligente?
+A) Eliminar la necesidad de mantenimiento
+B) Detectar y prever problemas mecánicos
+C) Evitar el uso de robots
+D) Aumentar la contaminación
+Respuesta correcta: B
+
+10. ¿Qué se espera para el futuro de IoT?
+A) Menos interacción entre humanos y tecnología
+B) Desaparición de la conectividad 5G
+C) Experiencias más inmersivas con IA, realidad virtual y audio 3D
+D) Reducción del uso de sensores en dispositivos
+Respuesta correcta: C

@@ -1,0 +1,20 @@
+
+1. IoT es una red de objetos y dispositivos conectados equipados con sensores que permiten transmitir y recibir datos. (Verdadero)
+
+2. La conectividad de IoT depende exclusivamente del wifi y no utiliza otras tecnologías como 5G. (Falso)
+
+3. Los sensores de IoT han disminuido su costo más de un 70% desde 2004. (Verdadero)
+
+4. El procesamiento de datos en IoT no puede automatizar acciones como encender un dispositivo o enviar alertas. (Falso)
+
+5. Los hogares inteligentes utilizan protocolos como Z-Wave o Zigbee para conectar dispositivos. (Verdadero)
+
+6. Las redes inteligentes usan IoT para racionar energía y detectar problemas antes de que ocurran. (Verdadero)
+
+7. En las ciudades inteligentes, la IoT no se utiliza para monitorear infraestructuras o prevenir inundaciones. (Falso)
+
+8. Los automóviles modernos integran IoT para asistencia a conductores y conectividad con infraestructura externa. (Verdadero)
+
+9. La IIoT genera pocos datos en comparación con otras industrias. (Falso)
+
+10. El futuro de IoT incluye experiencias más inmersivas gracias a tecnologías como realidad virtual, audio 3D y IA. (Verdadero)

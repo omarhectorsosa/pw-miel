@@ -1,0 +1,30 @@
+
+1. Los dispositivos de IoT pueden capturar, enviar, recibir y procesar datos. 
+Verdadero. 
+
+2. El IoT se utiliza ampliamente en la Industria 4.0. 
+Verdadero. 
+
+3. Los sensores de IoT han aumentado más del 70% en precio desde 2004. 
+Falso. Disminuyeron más del 70%. 
+
+4. Una de las etapas del funcionamiento de IoT es compartir los datos. 
+Verdadero. 
+
+5. Las redes inteligentes utilizan IoT para mejorar el uso y distribución de energía. 
+Verdadero. 
+
+6. Los automóviles conectados no pueden interactuar con semáforos u otros dispositivos externos. 
+Falso. Sí pueden conectar con semáforos, peatones y más. 
+
+7. La telesalud utiliza dispositivos IoT para monitoreo remoto de pacientes. 
+Verdadero. 
+
+8. El IoT industrial (IIoT) no genera grandes volúmenes de datos. 
+Falso. Es el mayor generador de datos. 
+
+9. En el comercio minorista, el IoT se usa para enviar promociones en tiempo real a los clientes. 
+Verdadero. 
+
+10. El futuro del IoT incluye experiencias más inmersivas gracias a tecnologías avanzadas como VR y audio 3D. 
+Verdadero. 

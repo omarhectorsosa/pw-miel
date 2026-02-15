@@ -1,0 +1,30 @@
+
+1. IoT es una red de dispositivos conectados que pueden transmitir y recibir datos mediante sensores y otras tecnologías.
+Respuesta: Verdadero.
+
+2. En IoT, los datos capturados por los sensores se procesan siempre de forma local y nunca en la nube.
+Respuesta: Falso.
+
+3. Una de las etapas clave del funcionamiento de IoT es la captura de datos desde el entorno mediante sensores.
+Respuesta: Verdadero.
+
+4. Los avances en Big Data y la computación en la nube han sido fundamentales para el crecimiento de IoT.
+Respuesta: Verdadero.
+
+5. Las ciudades inteligentes no utilizan IoT para gestionar problemas como inundaciones o congestión del tránsito.
+Respuesta: Falso.
+
+6. Los automóviles modernos incluyen funcionalidades IoT como asistencia avanzada al conductor y conexión con dispositivos externos.
+Respuesta: Verdadero.
+
+7. En el comercio minorista, las soluciones de IoT solo se utilizan para controlar el inventario interno y no para mejorar la experiencia del cliente.
+Respuesta: Falso.
+
+8. La Industrial IoT (IIoT) es uno de los mayores generadores de datos a nivel global.
+Respuesta: Verdadero.
+
+9. En las fábricas inteligentes, los sensores de IoT pueden predecir fallas mecánicas y optimizar procesos.
+Respuesta: Verdadero.
+
+10. El futuro de IoT incluye la integración con tecnologías inmersivas como realidad virtual, audio 3D y sensaciones hápticas.
+Respuesta: Verdadero.

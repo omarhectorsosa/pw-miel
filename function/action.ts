@@ -50,6 +50,8 @@ export async function getPracticalWork(
   // 🔁 Comisiones
   for (const commissionCode of Object.keys(studentsByCommission)) {
 
+    writeLog(logFilePath, ` `);
+    writeLog(logFilePath, `========================================`);
     writeLog(logFilePath, `📘 Corrigiendo comisión ${commissionCode}`);
     const studentsInCommission = studentsByCommission[commissionCode];
 
@@ -189,6 +191,8 @@ export async function seePracticalWork(
 
   for (const commissionCode of Object.keys(studentsByCommission)) {
 
+    writeLog(logFilePath, ` `);
+    writeLog(logFilePath, `========================================`);
     writeLog(logFilePath, `📘 Corrigiendo comisión ${commissionCode}`);
 
     const studentsInCommission = studentsByCommission[commissionCode];

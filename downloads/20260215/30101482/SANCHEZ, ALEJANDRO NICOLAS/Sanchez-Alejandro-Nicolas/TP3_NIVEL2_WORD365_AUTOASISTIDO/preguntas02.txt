@@ -1,0 +1,69 @@
+1. ¿Qué define fundamentalmente al Internet de las Cosas (IoT)?
+A) Una red exclusiva de computadoras y servidores de alta velocidad.
+B) Una red de objetos conectados con sensores que transmiten y reciben datos.
+C) Un sistema de almacenamiento de datos en discos flexibles.
+D) Una tecnología que solo funciona a través de cables de fibra óptica.
+Respuesta correcta: B
+
+2. ¿Cuál es el papel de la Inteligencia Artificial (IA) en las redes de IoT?
+A) Sustituir por completo a los sensores físicos.
+B) Reducir la cantidad de datos que los dispositivos pueden capturar.
+C) Potenciar las redes con analíticas avanzadas y machine learning para obtener información estratégica.
+D) Evitar que los dispositivos se conecten a la nube.
+Respuesta correcta: C
+
+3. ¿Qué cambio significativo ocurrió en la tecnología de sensores desde 2004?
+A) El precio promedio aumentó un 70% debido a la escasez.
+B) Los sensores se volvieron más caros por la complejidad de la Industria 4.0.
+C) El precio promedio cayó más de un 70%, aumentando su funcionalidad y diversidad.
+D) Dejaron de ser necesarios gracias al uso de redes 5G.
+Respuesta correcta: C
+
+4. Según el texto, ¿qué cantidad de datos se espera que se generen globalmente para 2025?
+A) 10 billones de gigabytes.
+B) 73 zettabytes.
+C) 5000 zettabytes.
+D) 10.000 millones de discos flexibles.
+Respuesta correcta: B
+
+5. ¿Cuáles son las cuatro etapas clave del funcionamiento de IoT?
+A) Comprar, encender, conectar y vender.
+B) Capturar, compartir, procesar y actuar a partir de los datos.
+C) Sensorizar, cablear, formatear y borrar.
+D) Programar, enfriar, transmitir y almacenar físicamente.
+Respuesta correcta: B
+
+6. ¿Cómo ayuda el IoT en la gestión de "Redes Inteligentes" de energía?
+A) Eliminando el uso de paneles solares.
+B) Detectando riesgos potenciales y problemas mecánicos para evitar cortes de energía.
+C) Aumentando el consumo eléctrico de los hogares automáticamente.
+D) Prohibiendo el uso de energía durante las horas pico.
+Respuesta correcta: B
+
+7. En el contexto de "Ciudades Inteligentes", ¿qué acción puede automatizar un sensor en un desagüe?
+A) Cambiar el color del agua.
+B) Alertar sobre el tráfico de internet en la zona.
+C) Detectar niveles de agua para prevenir inundaciones.
+D) Cobrar impuestos a los ciudadanos según su consumo.
+Respuesta correcta: C
+
+8. ¿Cuál es una de las aplicaciones más avanzadas del IoT en "Telesalud"?
+A) La venta de medicamentos por redes sociales.
+B) El uso de herramientas quirúrgicas inteligentes para cirugías guiadas a distancia.
+C) La sustitución de médicos por asistentes de voz básicos.
+D) El seguimiento de la dieta a través de cámaras en el refrigerador.
+Respuesta correcta: B
+
+9. ¿Qué sector es identificado como el mayor productor de datos de IoT y de más rápido crecimiento?
+A) El sector de hogares inteligentes.
+B) El comercio minorista (Retail).
+C) La IoT Industrial (IIoT).
+D) La gestión de redes sociales.
+Respuesta correcta: C
+
+10. ¿Qué se espera del futuro de IoT en relación con la experiencia humana?
+A) Que la tecnología y la experiencia humana se separen definitivamente.
+B) Una integración más fluida con experiencias sensoriales "reales" mediante audio 3D y realidad virtual.
+C) El regreso al uso de módems analógicos para mayor seguridad.
+D) La eliminación de la conectividad 5G por ser demasiado lenta.
+Respuesta correcta: B

@@ -1,0 +1,30 @@
+✅ Preguntas y respuestas
+El Internet de las Cosas (IoT) se define como una red de objetos conectados que transmiten y reciben datos.
+Respuesta: Verdadero
+
+El principal objetivo del IoT es únicamente almacenar información en la nube.
+Respuesta: Falso (su objetivo es informar y automatizar acciones, no solo almacenar).
+
+En 2021 había más de 10.000 millones de dispositivos IoT en funcionamiento.
+Respuesta: Verdadero
+
+Se espera que para 2025 el volumen de datos generados por IoT supere los 73 zettabytes.
+Respuesta: Verdadero
+
+El funcionamiento del IoT se basa en cuatro etapas: capturar, compartir, procesar y actuar.
+Respuesta: Verdadero
+
+Los hogares inteligentes son un ejemplo de aplicación del IoT.
+Respuesta: Verdadero
+
+El IoT no tiene aplicaciones en el sector salud.
+Respuesta: Falso (sí tiene aplicaciones como la telesalud y monitoreo remoto).
+
+El IIoT (Internet Industrial de las Cosas) se utiliza para mantenimiento predictivo y optimización de cadenas de suministro.
+Respuesta: Verdadero
+
+La inteligencia artificial y el machine learning no tienen relación con el IoT.
+Respuesta: Falso (son motores clave para generar valor en IoT).
+
+El futuro del IoT incluye experiencias inmersivas como realidad virtual y audio 3D.
+Respuesta: Verdadero

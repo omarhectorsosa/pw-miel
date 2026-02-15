@@ -1,0 +1,13 @@
+✅ Preguntas y respuestas
+1.	El IoT se define como una red de objetos conectados que recopilan y comparten datos. → Verdadero
+2.	El costo de los sensores ha aumentado más del 70% desde 2004, lo que limita el crecimiento del IoT. → Falso (en realidad, los costos han disminuido más del 70%).
+3.	El proceso de funcionamiento del IoT incluye cuatro etapas: captura, transmisión, procesamiento y acción. → Verdadero
+4.	Una de las aplicaciones del IoT en el hogar es la automatización de la iluminación y la climatización. → Verdadero
+5.	La telesalud no se considera una aplicación del IoT. → Falso (sí es una aplicación importante).
+6.	El IoT industrial (IIoT) se utiliza en la fabricación para el mantenimiento predictivo. → Verdadero
+7.	Las cadenas de suministro no se benefician del IoT porque no requieren seguimiento en tiempo real. → Falso (el IoT optimiza la logística y el seguimiento en tiempo real).
+8.	El futuro del IoT incluye integración con tecnologías como realidad virtual y audio 3D. → Verdadero
+9.	Los automóviles conectados permiten la comunicación con semáforos y servicios externos. → Verdadero
+10.	El IoT solo tiene impacto en el sector tecnológico y no en áreas como salud, comercio o viajes. → Falso (su impacto es transversal en múltiples sectores).
+
+

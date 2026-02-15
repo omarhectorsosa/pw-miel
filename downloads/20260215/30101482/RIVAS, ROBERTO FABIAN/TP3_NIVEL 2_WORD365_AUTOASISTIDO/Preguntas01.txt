@@ -1,0 +1,32 @@
+Preguntas verdadero/falso
+
+1. El Internet de las Cosas se define como una red de objetos conectados que transmiten y reciben datos.  
+   **Respuesta:** Verdadero  
+
+2. El ciclo de funcionamiento del IoT consta de tres etapas principales: captura, transmisión y acción.  
+   **Respuesta:** Falso (son cuatro: captura, transmisión, procesamiento y acción)  
+
+3. En 2021 había más de 10.000 millones de dispositivos IoT en el mundo.  
+   **Respuesta:** Verdadero  
+
+4. El costo de los sensores ha aumentado más del 70% desde 2004, lo que ha limitado la expansión del IoT.  
+   **Respuesta:** Falso (ha disminuido más del 70%)  
+
+5. Una aplicación del IoT en el hogar es el control remoto de iluminación y electrodomésticos.  
+   **Respuesta:** Verdadero  
+
+6. La IoT industrial (IIoT) es el mayor productor de datos, especialmente en vigilancia y manufactura.  
+   **Respuesta:** Verdadero  
+
+7. Los automóviles conectados permiten comunicación con semáforos y peatones.  
+   **Respuesta:** Verdadero  
+
+8. El IoT no tiene aplicaciones en el sector salud.  
+   **Respuesta:** Falso (sí tiene, por ejemplo en telesalud y monitoreo remoto)  
+
+9. El futuro del IoT incluye integración con tecnologías como 5G, realidad virtual y experiencias inmersivas.  
+   **Respuesta:** Verdadero  
+
+10. Las ciudades inteligentes utilizan IoT para gestionar tránsito, infraestructura y prevenir inundaciones.  
+   **Respuesta:** Verdadero  
+

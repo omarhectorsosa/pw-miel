@@ -1,0 +1,70 @@
+
+1. ¿Qué describe mejor al Internet de las Cosas (IoT)?
+A) Una red de computadoras interconectadas
+B) Una red de objetos físicos capaces de capturar y transmitir datos
+C) Un sistema exclusivo de teléfonos inteligentes
+D) Un software para gestionar bases de datos
+Respuesta correcta: B
+
+2. ¿Cuál de las siguientes tecnologías es esencial para el funcionamiento moderno de IoT?
+A) Televisión por cable
+B) Sensores y conectividad 5G
+C) Acero reforzado
+D) Fibra textil inteligente
+Respuesta correcta: B
+
+3. Según el texto, ¿qué factor contribuyó significativamente al crecimiento de IoT?
+A) Aumento del precio de los sensores
+B) Lento desarrollo de la nube
+C) Reducción del costo de los sensores
+D) Reducción de la velocidad de Internet
+Respuesta correcta: C
+
+4. ¿Cuántos dispositivos IoT existían aproximadamente en 2021?
+A) 500 mil
+B) 10 millones
+C) 10.000 millones
+D) 100.000 millones
+Respuesta correcta: C
+
+5. ¿Cuál es la secuencia correcta de las cuatro etapas del funcionamiento de IoT?
+A) Compartir → Actuar → Capturar → Procesar
+B) Procesar → Capturar → Actuar → Compartir
+C) Capturar → Compartir → Procesar → Actuar
+D) Capturar → Procesar → Compartir → Actuar
+Respuesta correcta: C
+
+6. ¿Cuál de las siguientes NO es una aplicación cotidiana del IoT mencionada en el texto?
+A) Hogares inteligentes
+B) Ciudades inteligentes
+C) Retail inteligente
+D) Ingeniería genética
+Respuesta correcta: D
+
+7. ¿Cuál de estas opciones corresponde a un uso industrial (IIoT)?
+A) Videojuegos en línea
+B) Mantenimiento predictivo
+C) Riego de jardines en hogares
+D) Reproducción de música
+Respuesta correcta: B
+
+8. ¿Qué permiten los sensores utilizados en ciudades inteligentes?
+A) Mejorar el sonido de los vehículos
+B) Detectar niveles de agua, tránsito y residuos
+C) Editar imágenes automáticamente
+D) Transformar energía solar en datos
+Respuesta correcta: B
+
+9. ¿Qué tendencia futura se menciona para el IoT?
+A) Menor uso de IA
+B) Reducción del uso de redes 5G
+C) Integración con tecnologías inmersivas como realidad virtual
+D) Eliminación del uso de sensores
+Respuesta correcta: C
+
+10. ¿Qué relación existe entre IoT y Big Data según el texto?
+A) IoT reduce la generación de datos
+B) IoT genera grandes volúmenes de datos que alimentan Big Data
+C) Big Data reemplaza a IoT
+D) No existe relación entre ambos
+Respuesta correcta: B

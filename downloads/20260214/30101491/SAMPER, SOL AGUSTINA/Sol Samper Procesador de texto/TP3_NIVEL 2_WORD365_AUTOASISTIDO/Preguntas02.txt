@@ -1,0 +1,69 @@
+1.¿Qué es el Internet de las cosas (IoT)?  
+a) Una red social de usuarios
+b) Una red de objetos conectados con sensores
+c) Un sistema de almacenamiento físico
+d) Un lenguaje de programación
+✅ Respuesta correcta: b) Una red de objetos conectados con sensores
+
+2.¿Cuál es el propósito principal de los dispositivos IoT?  
+a) Almacenar datos sin procesarlos
+b) Transmitir y recibir datos para informar o automatizar acciones
+c) Sustituir la conexión a internet
+d) Crear videojuegos
+✅ Respuesta correcta: b) Transmitir y recibir datos para informar o automatizar acciones
+
+3.¿Qué tecnología ha permitido manejar grandes volúmenes de datos en IoT?  
+a) Wi-Fi únicamente
+b) 5G y plataformas de red avanzadas
+c) Bluetooth clásico
+d) Discos duros externos
+✅ Respuesta correcta: b) 5G y plataformas de red avanzadas
+
+4.¿Cuál de las siguientes tecnologías es esencial para el crecimiento de IoT?  
+a) Sensores más baratos y diversos
+b) Cámaras digitales
+c) Redes sociales
+d) Consolas de videojuegos
+✅ Respuesta correcta: a) Sensores más baratos y diversos
+
+5.¿Qué papel juega la inteligencia artificial en IoT?  
+a) Reemplazar sensores físicos
+b) Analizar y aprender de grandes volúmenes de datos
+c) Sustituir la conectividad a internet
+d) Crear hardware especializado
+✅ Respuesta correcta: b) Analizar y aprender de grandes volúmenes de datos
+
+6.¿Cuál es la primera etapa del funcionamiento de IoT?  
+a) Procesar los datos
+b) Capturar los datos mediante sensores
+c) Actuar sobre los datos
+d) Compartir los datos
+✅ Respuesta correcta: b) Capturar los datos mediante sensores
+
+7.¿Qué ejemplo corresponde a IoT en el hogar?  
+a) Semáforos inteligentes
+b) Sensores de iluminación controlados desde el teléfono
+c) Cámaras de vigilancia en fábricas
+d) Vehículos autónomos
+✅ Respuesta correcta: b) Sensores de iluminación controlados desde el teléfono
+
+8.¿Qué beneficio aportan las redes inteligentes con IoT?  
+a) Mayor entretenimiento en casa
+b) Mejor control del consumo y distribución de energía
+c) Sustitución de la energía solar
+d) Eliminación de la necesidad de sensores
+✅ Respuesta correcta: b) Mejor control del consumo y distribución de energía
+
+9.¿Qué aplicación de IoT se usa en telesalud?  
+a) Videojuegos médicos
+b) Relojes inteligentes y herramientas quirúrgicas conectadas
+c) Redes sociales de pacientes
+d) Cámaras de seguridad en hospitales
+✅ Respuesta correcta: b) Relojes inteligentes y herramientas quirúrgicas conectadas
+
+10.¿Qué se espera del futuro de IoT?
+a) Menor integración con la experiencia humana
+b) Integración fluida con tecnologías como realidad virtual y 5G
+c) Sustitución de internet por IoT
+d) Reducción del uso de datos
+✅ Respuesta correcta: b) Integración fluida con tecnologías como realidad virtual y 5G

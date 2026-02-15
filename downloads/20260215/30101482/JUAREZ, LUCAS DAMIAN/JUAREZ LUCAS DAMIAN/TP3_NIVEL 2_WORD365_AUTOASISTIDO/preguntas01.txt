@@ -1,0 +1,46 @@
+¡Acá tenés 10 preguntas de **Verdadero o Falso** basadas exclusivamente en el documento que compartiste, junto con la respuesta correcta!
+
+***
+
+# ✅ **10 Preguntas Verdadero/Falso sobre el texto de IoT**
+
+1.  **IoT se refiere únicamente a dispositivos conectados mediante Wi-Fi.**  
+    **Falso.** El texto indica que también incluye tecnologías como 5G y otras plataformas de red.
+
+2.  **Hoy IoT es ampliamente usado en entornos industriales y se asocia con la Industria 4.0.**  
+    **Verdadero.**
+
+3.  **El precio promedio de los sensores de IoT aumentó más de un 70% desde 2004.**  
+    **Falso.** Se menciona que **disminuyó** más del 70%.
+
+4.  **El proceso de funcionamiento de IoT incluye cuatro etapas: capturar, compartir, procesar y actuar.**  
+    **Verdadero.**
+
+5.  **Las redes inteligentes utilizan IoT para mejorar el consumo energético y detectar fallas antes de que ocurran.**  
+    **Verdadero.**
+
+6.  **Los autos modernos no utilizan IoT para asistencia avanzada al conductor.**  
+    **Falso.** El texto explica que casi todos los autos nuevos incluyen IoT y ADAS.
+
+7.  **Las ciudades inteligentes usan sensores de IoT para monitorear drenajes y prevenir inundaciones.**  
+    **Verdadero.**
+
+8.  **La telesalud no se beneficia de dispositivos IoT, ya que requieren siempre presencia física del médico.**  
+    **Falso.** El documento explica el uso de wearables, dispensadores de medicación y cirugía remota con IoT.
+
+9.  **El sector industrial (IIoT) es el mayor productor de datos IoT a nivel mundial.**  
+    **Verdadero.**
+
+10. **El futuro de IoT prevé una menor integración entre humanos y tecnología debido a limitaciones del 5G.**  
+    **Falso.** El texto afirma que habrá **mayor integración**, experiencias inmersivas y conectividad 5G ubicua.
+
+***
+
+Si querés, puedo generarte:
+
+📘 **Preguntas de opción múltiple**,  
+📝 **Actividades tipo examen**,  
+🎓 **Cuestionarios para estudiar**,  
+o incluso armar un **archivo Word/PowerPoint** con el cuestionario.
+
+¿Querés más preguntas?

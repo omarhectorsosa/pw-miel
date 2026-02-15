@@ -1,0 +1,13 @@
+
+PREGUNTAS VERDADERO/FALSO SOBRE IoT
+
+1. IoT es una red de dispositivos conectados que pueden transmitir y recibir datos. — Verdadero
+2. La tecnología 5G no tiene relación con el crecimiento del IoT. — Falso
+3. Los sensores son una parte fundamental para la captura de datos en IoT. — Verdadero
+4. El procesamiento de datos no forma parte de las etapas del funcionamiento de IoT. — Falso
+5. Los hogares inteligentes son un ejemplo real de aplicación de IoT. — Verdadero
+6. IoT no se utiliza en la industria ni en procesos de fabricación. — Falso
+7. Las ciudades inteligentes utilizan sensores y sistemas conectados para mejorar servicios urbanos. — Verdadero
+8. La computación en la nube no influye en el desarrollo del IoT. — Falso
+9. La telesalud es una aplicación moderna del IoT para monitoreo y asistencia médica. — Verdadero
+10. El futuro del IoT incluye mayor integración con tecnologías inmersivas como VR y hápticos. — Verdadero

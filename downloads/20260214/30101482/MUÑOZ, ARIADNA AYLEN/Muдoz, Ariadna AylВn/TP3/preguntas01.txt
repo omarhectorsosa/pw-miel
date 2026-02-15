@@ -1,0 +1,39 @@
+El Internet de las Cosas (IoT) solo se aplica en entornos domésticos.  
+❌ Falso
+IoT se aplica en hogares, ciudades, industrias, automóviles y más.
+
+Los sensores de IoT pueden detectar tanto temperatura como video en tiempo real.  
+✅ Verdadero
+Capturan desde datos simples hasta complejos como video.
+
+La conectividad 5G no tiene impacto en el desarrollo de IoT.  
+❌ Falso
+El 5G mejora la velocidad y confiabilidad de transmisión de datos.
+
+Una de las etapas clave del funcionamiento de IoT es procesar los datos.  
+✅ Verdadero
+Es la tercera etapa, después de capturar y compartir.
+
+Las ciudades inteligentes usan IoT para monitorear infraestructuras y prevenir inundaciones.  
+✅ Verdadero
+Sensores en desagües ayudan a detectar niveles de agua.
+
+La telesalud no se beneficia del uso de dispositivos IoT.  
+❌ Falso
+IoT permite monitoreo remoto y herramientas quirúrgicas inteligentes.
+
+Los sensores en fábricas inteligentes pueden prever fallas mecánicas.  
+✅ Verdadero
+Ayudan a mantener la eficiencia operativa.
+
+La computación en la nube no está relacionada con el desarrollo de IoT.  
+❌ Falso
+La nube permite almacenar y procesar grandes volúmenes de datos.
+
+El futuro de IoT incluye experiencias sensoriales más realistas gracias a tecnologías como realidad virtual y audio 3D.  
+✅ Verdadero
+Se espera una integración más fluida con la experiencia humana.
+
+Los datos generados por IoT no se utilizan para tomar decisiones estratégicas.  
+❌ Falso
+El análisis de datos de IoT fundamenta decisiones confiables.

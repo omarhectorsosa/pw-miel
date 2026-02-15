@@ -1,0 +1,59 @@
+1. ¿Qué es Internet?
+a) Una computadora personal
+b) Una red de redes que conecta computadoras en todo el mundo ✔
+c) Un programa de mensajería
+d) Un sistema operativo
+
+2. ¿Cuál es el protocolo fundamental de Internet?
+a) HTTP
+b) FTP
+c) TCP/IP ✔
+d) SMTP
+
+3. ¿Qué herramienta permite visualizar páginas web?
+a) Procesador de texto
+b) Navegador ✔
+c) Editor de imágenes
+d) Antivirus
+
+4. ¿Qué identifica de manera única a un dispositivo en la red?
+a) URL
+b) Dirección IP ✔
+c) Nombre de usuario
+d) Contraseña
+
+5. ¿Cuál de los siguientes NO es un servicio de Internet?
+a) Correo electrónico
+b) World Wide Web
+c) Buscadores
+d) Sistema operativo ✔
+
+6. ¿Qué buscador organiza y clasifica información en la Web?
+a) Photoshop
+b) Google ✔
+c) Excel
+d) Outlook
+
+7. ¿Qué caracteriza a la Web 2.0?
+a) Uso exclusivo académico
+b) Participación activa de los usuarios ✔
+c) Solo páginas estáticas
+d) Ausencia de interacción
+
+8. ¿Cuál fue creada primero?
+a) Internet ✔
+b) La World Wide Web
+c) Redes sociales
+d) Aplicaciones móviles
+
+9. ¿Qué protocolo se utiliza para transferir archivos?
+a) FTP ✔
+b) SMTP
+c) POP3
+d) DNS
+
+10. ¿Qué impacto tiene Internet en la comunicación social?
+a) Ninguno
+b) La limita
+c) La transforma y amplía ✔
+d) La elimina

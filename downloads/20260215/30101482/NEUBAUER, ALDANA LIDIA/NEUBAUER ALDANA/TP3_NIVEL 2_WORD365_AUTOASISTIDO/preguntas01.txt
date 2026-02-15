@@ -1,0 +1,11 @@
+
+1. IoT es una red de objetos conectados que capturan y transmiten datos. (Verdadero)
+2. La tecnología 5G no influye en el crecimiento de IoT. (Falso)
+3. Los sensores son fundamentales para el funcionamiento de IoT. (Verdadero)
+4. IoT solo se utiliza en el ámbito doméstico. (Falso)
+5. Las ciudades inteligentes utilizan IoT para gestionar problemas urbanos. (Verdadero)
+6. Los automóviles conectados no dependen de IoT. (Falso)
+7. El procesamiento de datos es una de las etapas clave del funcionamiento de IoT. (Verdadero)
+8. La computación en la nube no tiene relación con IoT. (Falso)
+9. La telesalud es una aplicación mencionada en el texto. (Verdadero)
+10. El IoT industrial es uno de los mayores generadores de datos. (Verdadero)
