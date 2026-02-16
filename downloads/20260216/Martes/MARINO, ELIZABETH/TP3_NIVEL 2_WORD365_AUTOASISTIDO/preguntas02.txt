@@ -1,0 +1,62 @@
+
+PREGUNTAS DE SELECCIÓN MÚLTIPLE – INTERNET DE LAS COSAS (IoT)
+
+1. ¿Qué es el Internet de las Cosas (IoT)?
+a) Una red social para compartir información.
+b) Una red de computadoras sin conexión a internet.
+c) Una red de objetos físicos conectados a internet con sensores. (Correcta)
+d) Un tipo de software de oficina.
+
+2. ¿Cuál es la función principal de los sensores en los dispositivos IoT?
+a) Almacenar información.
+b) Capturar datos del entorno. (Correcta)
+c) Proteger contra virus.
+d) Conectar usuarios entre sí.
+
+3. ¿Con qué concepto se asocia el IoT en el ámbito industrial?
+a) Web 2.0.
+b) Industria 2.0.
+c) Comercio electrónico.
+d) Industria 4.0. (Correcta)
+
+4. ¿Cuál de las siguientes tecnologías NO es clave para el desarrollo del IoT?
+a) Computación en la nube.
+b) Big Data.
+c) Inteligencia artificial.
+d) Procesadores de texto. (Correcta)
+
+5. ¿Qué tecnología de red permite mayor velocidad y confiabilidad en IoT?
+a) Bluetooth clásico.
+b) Redes analógicas.
+c) 5G. (Correcta)
+d) Radio AM.
+
+6. ¿Cuál es el orden correcto de las etapas del IoT?
+a) Procesar – Capturar – Actuar – Compartir.
+b) Capturar – Compartir – Procesar – Actuar. (Correcta)
+c) Compartir – Procesar – Capturar – Actuar.
+d) Actuar – Procesar – Compartir – Capturar.
+
+7. ¿Cuál es un ejemplo de aplicación del IoT?
+a) Edición de documentos.
+b) Uso de correos electrónicos.
+c) Hogares inteligentes. (Correcta)
+d) Programas de dibujo.
+
+8. ¿Para qué se utiliza el IoT en las ciudades inteligentes?
+a) Para entretenimiento únicamente.
+b) Para eliminar el tránsito.
+c) Para monitorear y gestionar problemas urbanos. (Correcta)
+d) Para reemplazar gobiernos.
+
+9. ¿Cuál es un beneficio del IoT industrial (IIoT)?
+a) Aumentar el consumo de energía.
+b) Optimizar procesos y prever fallas. (Correcta)
+c) Reducir el uso de sensores.
+d) Eliminar la automatización.
+
+10. Según el texto, el futuro del IoT se caracteriza por:
+a) La desaparición de internet.
+b) El uso exclusivo en fábricas.
+c) Una mayor integración entre tecnología y experiencia humana. (Correcta)
+d) La reducción del uso de datos.

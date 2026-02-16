@@ -1,0 +1,33 @@
+Preguntas Verdadero o Falso – Internet de las Cosas (IoT)
+
+1.  El Internet de las Cosas (IoT) es una red de objetos físicos
+    conectados a internet que pueden recopilar y transmitir datos.
+    Respuesta correcta: Verdadero
+
+2.  IoT funciona únicamente mediante conexión Wi-Fi y no puede utilizar
+    otras tecnologías de red. Respuesta correcta: Falso
+
+3.  La Inteligencia Artificial y el Machine Learning potencian el
+    análisis de datos generados por dispositivos IoT. Respuesta
+    correcta: Verdadero
+
+4.  Una de las etapas del funcionamiento del IoT es la captura de datos
+    mediante sensores. Respuesta correcta: Verdadero
+
+5.  El IoT no tiene aplicaciones en el ámbito de la salud. Respuesta
+    correcta: Falso
+
+6.  El IoT Industrial (IIoT) se aplica en procesos de manufactura y
+    cadenas de suministro. Respuesta correcta: Verdadero
+
+7.  Los sensores de IoT han aumentado considerablemente su costo
+    desde 2004. Respuesta correcta: Falso
+
+8.  Las ciudades inteligentes utilizan tecnología IoT para monitorear y
+    mejorar la infraestructura urbana. Respuesta correcta: Verdadero
+
+9.  El procesamiento de datos en IoT puede realizarse en la nube o
+    mediante edge computing. Respuesta correcta: Verdadero
+
+10. El futuro del IoT no tiene relación con el desarrollo del 5G.
+    Respuesta correcta: Falso

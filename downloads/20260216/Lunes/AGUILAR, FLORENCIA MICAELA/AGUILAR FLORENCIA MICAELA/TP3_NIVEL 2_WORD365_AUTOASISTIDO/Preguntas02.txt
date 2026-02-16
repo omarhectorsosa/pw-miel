@@ -1,0 +1,94 @@
+Aquí tenés 10 preguntas de selección múltiple basadas exclusivamente en el documento Internet.pdf, cada una con 4 opciones y la respuesta correcta indicada.
+Toda la información está sustentada en el contenido del archivo.
+
+?? Preguntas de selección múltiple (con respuesta correcta)
+
+1. ¿Qué describe mejor al Internet de las Cosas (IoT)?
+A. Una red exclusiva de computadoras personales
+B. Una red de objetos con sensores que pueden transmitir y recibir datos
+C. Un software para automatizar procesos industriales
+D. Un tipo de servidor en la nube
+Respuesta correcta: B 1
+
+2. ¿Cuál de estas tecnologías ha impulsado el avance del IoT al permitir manejar grandes volúmenes de datos?
+A. Bluetooth 2.0
+B. Almancenamiento local únicamente
+C. Big Data
+D. Conexiones satelitales antiguas
+Respuesta correcta: C 2
+
+3. ¿Qué factor contribuyó a la expansión del IoT según el documento?
+A. El aumento en el precio de los sensores
+B. La reducción del costo de los sensores de IoT
+C. La desaparición de la inteligencia artificial
+D. La limitación del poder de cómputo
+Respuesta correcta: B 3
+
+4. ¿Cuál es la primera etapa en el funcionamiento del IoT?
+A. Procesar los datos
+B. Compartir los datos
+C. Actuar sobre los datos
+D. Capturar los datos
+Respuesta correcta: D 4
+
+5. ¿Qué aplicación corresponde a una ciudad inteligente?
+A. Calcular calorías quemadas durante el ejercicio
+B. Detectar niveles de agua en desagües para prevenir inundaciones
+C. Reproducir música según el clima
+D. Controlar la temperatura corporal humana
+Respuesta correcta: B 5
+
+6. ¿Qué tecnología incorporan los automóviles conectados mencionados en el documento?
+A. Sistemas ADAS para asistencia al conductor
+B. Cámaras de vapor
+C. Sistemas de frenos mecánicos sin sensores
+D. Conexiones exclusivamente por cable
+Respuesta correcta: A 6
+
+7. ¿Qué elemento permite que un hogar inteligente controle dispositivos a distancia?
+A. Señales ultrasónicas sin sensores
+B. Protocolos como Z?Wave o Zigbee
+C. Exclusivamente cableado Ethernet
+D. Tarjetas magnéticas
+Respuesta correcta: B 7
+
+8. ¿Cuál es el mayor generador de datos dentro del ecosistema del IoT?
+A. IoT doméstico
+B. IoT en el comercio minorista
+C. IoT industrial (IIoT)
+D. IoT educativo
+Respuesta correcta: C 8
+
+9. ¿Qué tipo de dispositivos destacan en telesalud según el texto?
+A. Consolas de videojuegos médicas
+B. Herramientas quirúrgicas inteligentes y wearables
+C. Robots industriales
+D. Luces inteligentes para hospitales
+Respuesta correcta: B 9
+
+10. ¿Qué se espera para el futuro del IoT según el documento?
+A. Menor interacción entre humanos y tecnología
+B. Eliminación de la realidad virtual
+C. Experiencias inmersivas gracias a audio 3D, VR y sensaciones hápticas
+D. Un uso exclusivo de redes 3G
+Respuesta correcta: C 10
+
+Si querés, puedo generar otras 10 preguntas, un examen completo, preguntas tipo PISA, o incluso un Kahoot listo para usar. ¿Querés otro formato?
+1https://ingunlamedu-my.sharepoint.com/personal/faguilar_alumno_unlam_edu_ar/Documents/Archivos%20de%20Microsoft%C2%A0Copilot%20Chat/Internet.pdf
+2https://ingunlamedu-my.sharepoint.com/personal/faguilar_alumno_unlam_edu_ar/Documents/Archivos%20de%20Microsoft%C2%A0Copilot%20Chat/Internet.pdf
+3https://ingunlamedu-my.sharepoint.com/personal/faguilar_alumno_unlam_edu_ar/Documents/Archivos%20de%20Microsoft%C2%A0Copilot%20Chat/Internet.pdf
+4https://ingunlamedu-my.sharepoint.com/personal/faguilar_alumno_unlam_edu_ar/Documents/Archivos%20de%20Microsoft%C2%A0Copilot%20Chat/Internet.pdf
+5https://ingunlamedu-my.sharepoint.com/personal/faguilar_alumno_unlam_edu_ar/Documents/Archivos%20de%20Microsoft%C2%A0Copilot%20Chat/Internet.pdf
+6https://ingunlamedu-my.sharepoint.com/personal/faguilar_alumno_unlam_edu_ar/Documents/Archivos%20de%20Microsoft%C2%A0Copilot%20Chat/Internet.pdf
+7https://ingunlamedu-my.sharepoint.com/personal/faguilar_alumno_unlam_edu_ar/Documents/Archivos%20de%20Microsoft%C2%A0Copilot%20Chat/Internet.pdf
+8https://ingunlamedu-my.sharepoint.com/personal/faguilar_alumno_unlam_edu_ar/Documents/Archivos%20de%20Microsoft%C2%A0Copilot%20Chat/Internet.pdf
+9https://ingunlamedu-my.sharepoint.com/personal/faguilar_alumno_unlam_edu_ar/Documents/Archivos%20de%20Microsoft%C2%A0Copilot%20Chat/Internet.pdf
+10https://ingunlamedu-my.sharepoint.com/personal/faguilar_alumno_unlam_edu_ar/Documents/Archivos%20de%20Microsoft%C2%A0Copilot%20Chat/Internet.pdf
+---------------
+
+------------------------------------------------------------
+
+---------------
+
+------------------------------------------------------------
+

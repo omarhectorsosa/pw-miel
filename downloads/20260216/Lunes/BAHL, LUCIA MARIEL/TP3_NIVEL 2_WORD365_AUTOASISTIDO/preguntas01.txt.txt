@@ -1,0 +1,41 @@
+10 Preguntas Verdadero/Falso con respuestas 
+
+1- IoT es una red de objetos físicos capaces de conectarse a Internet para recopilar y compartir datos.  
+Respuesta: Verdadero
+El texto define IoT como una red de dispositivos conectados que capturan y transmiten información.
+
+2- Los sensores no son necesarios para el funcionamiento de los dispositivos IoT.  
+Respuesta: Falso
+ Los sensores son esenciales porque permiten obtener datos del entorno.
+
+3-La inteligencia artificial y el machine learning potencian el análisis de datos dentro de IoT.  
+Respuesta: Verdadero
+El documento menciona que estas tecnologías permiten interpretar grandes volúmenes de datos y mejorar decisiones.
+
+4- El costo de los sensores ha aumentado en los últimos años, lo que frenó el crecimiento de IoT.  
+Respuesta: Falso
+El texto indica que los sensores se abarataron, favoreciendo la expansión de IoT.
+
+5-Una de las etapas del funcionamiento de IoT es la captura de datos mediante sensores.  
+Respuesta: Verdadero
+La primera etapa del funcionamiento es precisamente capturar datos del entorno.
+
+6- Las ciudades inteligentes son un ejemplo de aplicación de IoT.  
+Respuesta: Verdadero
+El documento incluye a las ciudades inteligentes como uno de los casos de uso más relevantes.
+
+7- IoT no tiene aplicaciones en el comercio minorista.  
+Respuesta: Falso
+El texto menciona estanterías inteligentes, cámaras y seguimiento de entregas como usos en retail.
+
+8- El mantenimiento predictivo en fábricas es una de las aplicaciones industriales de IoT.  
+Respuesta: Verdadero
+En la sección de IIoT se destaca el mantenimiento predictivo como un beneficio clave.
+
+9-Los automóviles conectados no forman parte del ecosistema IoT.  
+Respuesta: Falso
+Los autos conectados son un ejemplo directo de IoT aplicado al transporte.
+
+10-El futuro de IoT incluye experiencias inmersivas y mayor integración con tecnologías avanzadas.  
+Respuesta: Verdadero
+El texto menciona realidad virtual, audio 3D y personalización avanzada como parte del futuro de IoT.

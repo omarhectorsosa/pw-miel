@@ -1,0 +1,11 @@
+
+1. IoT es una red de objetos físicos equipados con sensores que pueden transmitir y recibir datos. - Verdadero
+2. La tecnología 5G no tiene relación con el crecimiento del IoT. - Falso
+3. El costo promedio de los sensores de IoT ha aumentado desde 2004. - Falso
+4. El funcionamiento del IoT se compone de cuatro etapas: capturar, compartir, procesar y actuar sobre los datos. - Verdadero
+5. Los hogares inteligentes utilizan dispositivos que pueden controlarse de forma remota mediante aplicaciones móviles. - Verdadero
+6. Los automóviles modernos no incorporan tecnología IoT. - Falso
+7. La telesalud utiliza dispositivos IoT para monitorear pacientes y facilitar intervenciones a distancia. - Verdadero
+8. La IoT industrial (IIoT) es el sector que menos datos genera actualmente. - Falso
+9. Las ciudades inteligentes usan sensores y medidores para gestionar problemas urbanos como tránsito e inundaciones. - Verdadero
+10. El futuro del IoT incluye integración con IA, experiencias inmersivas y conectividad global más rápida. - Verdadero

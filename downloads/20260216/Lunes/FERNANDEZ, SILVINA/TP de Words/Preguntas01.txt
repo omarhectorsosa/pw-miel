@@ -1,0 +1,36 @@
+Aquí tienes 10 preguntas de verdadero/falso sobre el texto de **Internet de las Cosas (IoT)**, con sus respuestas correctas:  
+
+---
+
+### Preguntas de verdadero/falso  
+
+1. **IoT se refiere a una red de objetos y dispositivos conectados que transmiten y reciben datos.**  
+✔ Verdadero  
+
+2. **La conectividad de IoT se basa únicamente en Wi-Fi y no utiliza otras tecnologías como 5G.**  
+✘ Falso  
+
+3. **El precio promedio de los sensores de IoT ha disminuido más de un 70% desde 2004.**  
+✔ Verdadero  
+
+4. **La inteligencia artificial y el machine learning no tienen relación con IoT.**  
+✘ Falso  
+
+5. **Las cuatro etapas clave de IoT son: capturar, compartir, procesar y actuar a partir de los datos.**  
+✔ Verdadero  
+
+6. **Los hogares inteligentes utilizan protocolos como Z-Wave o Zigbee para la comunicación entre dispositivos.**  
+✔ Verdadero  
+
+7. **Los automóviles conectados con IoT no pueden interactuar con semáforos ni peatones.**  
+✘ Falso  
+
+8. **La telesalud con IoT permite monitorear pacientes de forma remota y realizar cirugías guiadas.**  
+✔ Verdadero  
+
+9. **La gestión del tránsito con IoT se basa en sensores y cámaras que ayudan a reducir la congestión.**  
+✔ Verdadero  
+
+10. **El futuro de IoT no contempla avances como realidad virtual, audio 3D o experiencias hápticas.**  
+✘ Falso  
+

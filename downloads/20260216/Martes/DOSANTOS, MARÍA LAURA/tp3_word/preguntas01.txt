@@ -1,0 +1,11 @@
+CUESTIONARIO IoT - Verdadero/Falso
+1. El Internet de las Cosas (IoT) es una red de dispositivos conectados que transmiten y reciben datos. (Verdadero)
+2. La conectividad de IoT se basa únicamente en Wi-Fi y no ha evolucionado hacia 5G. (Falso)
+3. En 2021 había más de 10.000 millones de dispositivos IoT en el mundo. (Verdadero)
+4. Los sensores de IoT han aumentado de precio desde 2004. (Falso)
+5. Una de las cuatro etapas clave de IoT es capturar datos mediante sensores. (Verdadero)
+6. Los hogares inteligentes usan protocolos como Z-Wave o Zigbee para comunicarse. (Verdadero)
+7. Los automóviles conectados no utilizan IoT para asistencia al conductor. (Falso)
+8. La telesalud con IoT permite monitoreo remoto de pacientes. (Verdadero)
+9. La IIoT es el menor productor de datos digitales en la actualidad. (Falso)
+10. El futuro de IoT incluye integración con tecnologías como realidad virtual y audio 3D. (Verdadero)

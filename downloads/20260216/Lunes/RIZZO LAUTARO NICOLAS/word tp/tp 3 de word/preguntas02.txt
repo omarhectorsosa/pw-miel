@@ -1,0 +1,73 @@
+
+PREGUNTAS DE SELECCIÓN MÚLTIPLE SOBRE IoT (con respuestas correctas)
+
+1. ¿Qué es el Internet de las Cosas (IoT)?
+A) Una red social móvil
+B) Una red de objetos con sensores que transmiten datos
+C) Un tipo de inteligencia artificial
+D) Un software de análisis
+Respuesta correcta: B
+
+2. ¿Qué tecnología impulsó fuertemente el crecimiento del IoT?
+A) Microondas
+B) Bluetooth únicamente
+C) Conectividad 5G
+D) Motores eléctricos
+Respuesta correcta: C
+
+3. ¿Qué función cumplen los sensores en IoT?
+A) Reducen el peso del dispositivo
+B) Capturan datos del entorno
+C) Aumentan la velocidad de Internet
+D) Sustituyen el almacenamiento en la nube
+Respuesta correcta: B
+
+4. ¿Cuál es una de las etapas del funcionamiento del IoT?
+A) Desfragmentación de datos
+B) Compartir datos
+C) Eliminación de errores
+D) Marketing automatizado
+Respuesta correcta: B
+
+5. ¿Cuál de los siguientes es un ejemplo de aplicación de IoT en hogares?
+A) Robots industriales
+B) Sistemas de iluminación inteligentes
+C) Centrales nucleares
+D) Turbinas eólicas
+Respuesta correcta: B
+
+6. ¿Qué papel cumple la nube en IoT?
+A) Aumenta el peso del hardware
+B) Almacena y procesa grandes cantidades de datos
+C) Bloquea la conexión entre dispositivos
+D) Reemplaza sensores
+Respuesta correcta: B
+
+7. ¿Qué sector es el mayor generador de datos en IoT?
+A) Educación
+B) IoT Industrial (IIoT)
+C) Agricultura
+D) Videojuegos
+Respuesta correcta: B
+
+8. ¿Qué permite la telesalud mediante IoT?
+A) Crear videojuegos
+B) Monitoreo remoto y diagnósticos médicos
+C) Controlar drones
+D) Mejorar el sonido de los móviles
+Respuesta correcta: B
+
+9. ¿Qué beneficio brindan las ciudades inteligentes gracias al IoT?
+A) Mayor congestión de tránsito
+B) Eliminación de semáforos
+C) Monitoreo urbano y prevención de problemas
+D) Aumento de impuestos
+Respuesta correcta: C
+
+10. ¿Qué se espera del futuro del IoT?
+A) Su desaparición
+B) Menor integración tecnológica
+C) Experiencias inmersivas con VR y hápticos
+D) Limitación del acceso a Internet
+Respuesta correcta: C
+

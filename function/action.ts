@@ -19,7 +19,7 @@ export async function getPracticalWork(
 
   const entregaKey = `E${dateFolder}`;
   const entregaRaw = process.env[entregaKey]; // "1,INTERNET"
-
+  
   if (!entregaRaw) {
     throw new Error(`❌ Error ${origin}: No existe la variable de entorno ${entregaKey}`);
   }
@@ -45,26 +45,24 @@ export async function getPracticalWork(
   const logFilePath = path.join(rootDir, 'log.txt');
   logRunStart(logFilePath, `${entregaTematica} [${origin}]`);
   
-  const studentsByCommission = data.students;
-
   // 🔁 Comisiones
-  for (const commissionCode of Object.keys(studentsByCommission)) {
+  for (const commissionCode of Object.keys(data.commisions)) {
+
+    const commission = data.commisions[commissionCode];
+    const day = commission.day; 
 
     writeLog(logFilePath, ` `);
     writeLog(logFilePath, `========================================`);
-    writeLog(logFilePath, `📘 Corrigiendo comisión ${commissionCode}`);
-    const studentsInCommission = studentsByCommission[commissionCode];
+    writeLog(logFilePath, `📘 Descargando comisión ${commissionCode}[${day}]`);
 
-    const studentIds = Object.keys(studentsInCommission)
+    const studentIds = Object.keys(commission.students)
       .sort((a, b) => {
-        const nameA = studentsInCommission[a].name.toUpperCase();
-        const nameB = studentsInCommission[b].name.toUpperCase();
+        const nameA = commission.students[a].name.toUpperCase();
+        const nameB = commission.students[b].name.toUpperCase();
         return nameA.localeCompare(nameB, 'es');
       })
       .slice(start_index, end_index);
 
-    console.log ( `Procesando alumnos ${start_index} a ${end_index - 1} (total: ${studentIds.length})`);
-    
     writeLog(
       logFilePath,
       `Procesando alumnos ${start_index} a ${end_index - 1} (total: ${studentIds.length})`
@@ -73,7 +71,7 @@ export async function getPracticalWork(
     // 🔁 Estudiantes
     for (const studentId of studentIds) {
 
-      const student = studentsInCommission[studentId];
+      const student = commission.students[studentId];
       const nameStudent = student.name;
 
       try {
@@ -96,7 +94,7 @@ export async function getPracticalWork(
 
         await studentLink.click();
         
-        await waitTimeAndLogCustom(page, 'Esperando corregir..', 5);
+        //await waitTimeAndLogCustom(page, 'Esperando corregir..', 5);
 
         const corregirLink = page.getByRole('link', { name: '[CORREGIR]' });
         const totalCorrecciones = await corregirLink.count();
@@ -129,6 +127,7 @@ export async function getPracticalWork(
           page,
           rootDir,
           commissionCode,
+          day,
           studentId,
           nameStudent,
           entregaIndex
@@ -187,53 +186,54 @@ export async function seePracticalWork(
   const logFilePath = path.join(rootDir, 'log.txt');
   logRunStart(logFilePath, `${entregaTematica} [${origin}]`);
 
-  const studentsByCommission = data.students;
+  // 🔁 Comisiones
+  for (const commissionCode of Object.keys(data.commisions)) {
 
-  for (const commissionCode of Object.keys(studentsByCommission)) {
+    const commission = data.commisions[commissionCode];
+    const day = commission.day; 
 
     writeLog(logFilePath, ` `);
     writeLog(logFilePath, `========================================`);
-    writeLog(logFilePath, `📘 Corrigiendo comisión ${commissionCode}`);
+    writeLog(logFilePath, `📘 Corrigiendo comisión ${commissionCode}[${day}]`);
 
-    const studentsInCommission = studentsByCommission[commissionCode];
-
-    const studentIds = Object.keys(studentsInCommission)
-      .sort((a, b) =>
-        studentsInCommission[a].name.localeCompare(
-          studentsInCommission[b].name,
-          'es'
-        )
-      )
+    const studentIds = Object.keys(commission.students)
+      .sort((a, b) => {
+        const nameA = commission.students[a].name.toUpperCase();
+        const nameB = commission.students[b].name.toUpperCase();
+        return nameA.localeCompare(nameB, 'es');
+      })
       .slice(start_index, end_index);
 
     writeLog(
       logFilePath,
-      `👥 Alumnos ${start_index} a ${end_index - 1} (total: ${studentIds.length})`
+      `👥 Procesando alumnos ${start_index} a ${end_index - 1} (total: ${studentIds.length})`
     );
 
     for (const studentId of studentIds) {
 
-      const student = studentsInCommission[studentId];
+      const student = commission.students[studentId];
       const nameStudent = student.name;
 
       const estado = getStudentStatus(
         rootDir,
-        commissionCode,
+        day,
         studentId,
         entregaIndex
       );
 
-      if (!estado) {
+      console.log(`Estado actual (${nameStudent})[${estado}]`);
+
+      if (estado === null) {  
         writeLog(
-          logFilePath,
-          `⚠️ Sin estado para ${nameStudent} (${studentId}) — se omite`
+            logFilePath,
+            `❌  No se encontro ningun estado del ${nameStudent} (${studentId}) — revisar estado.csv`
         );
-        continue;
+        continue
       }
 
       const message = getStudentMessage(
         rootDir,
-        commissionCode,
+        day,
         studentId,
         entregaIndex
       );
@@ -243,8 +243,7 @@ export async function seePracticalWork(
       writeLog(logFilePath, '');
       writeLog(logFilePath, `Comenzando corrección práctico de ${nameStudent} (${studentId} [${commissionCode}])`);
 
-      await waitTimeAndLogCustom(page, 'Esperando listado alumno..', 2);
-
+      //await waitTimeAndLogCustom(page, 'Esperando listado alumno..', 5);
       // 🔍 Verificar link del estudiante
       const studentLink = page.getByRole('link', { name: nameStudent });
 
@@ -286,7 +285,7 @@ export async function seePracticalWork(
         await seeAndCorrect(
           page,
           rootDir,
-          commissionCode,
+          day,
           studentId,
           nameStudent,
           estado,
@@ -339,24 +338,23 @@ export async function setAbisenceInTeam(
   logRunStart(logFilePath, `${entregaTematica} [${origin}]`);
 
   const studentsByCommission = data.students;
-  
-  // await waitTimeAndLogCustom(page, `Inicio inhabilitación`,5);
 
-  for (const commissionCode of Object.keys(studentsByCommission)) {
+   // 🔁 Comisiones
+  for (const commissionCode of Object.keys(data.commisions)) {
+
+    const commission = data.commisions[commissionCode];
+    const day = commission.day; 
 
     writeLog(logFilePath, ` `);
     writeLog(logFilePath, `========================================`);
-    writeLog(logFilePath, `📘 Inhabilitando en comisión ${commissionCode}`);
+    writeLog(logFilePath, `📘 Corrigiendo comisión ${commissionCode}[${day}]`);
 
-    const studentsInCommission = studentsByCommission[commissionCode];
-
-    const studentIds = Object.keys(studentsInCommission)
-      .sort((a, b) =>
-        studentsInCommission[a].name.localeCompare(
-          studentsInCommission[b].name,
-          'es'
-        )
-      )
+    const studentIds = Object.keys(commission.students)
+      .sort((a, b) => {
+        const nameA = commission.students[a].name.toUpperCase();
+        const nameB = commission.students[b].name.toUpperCase();
+        return nameA.localeCompare(nameB, 'es');
+      })
       .slice(start_index, end_index);
 
     writeLog(
@@ -366,17 +364,17 @@ export async function setAbisenceInTeam(
 
     for (const studentId of studentIds) {
 
-        const student = studentsInCommission[studentId];
-        const nameStudent = student.name;
+      const student = commission.students[studentId];
+      const nameStudent = student.name;
 
         const estado = getStudentStatus(
           rootDir,
-          commissionCode,
+          day,
           studentId,
           entregaIndex
         );
 
-        if (!estado) {
+        if (estado === null) {
           writeLog(
             logFilePath,
             `⚠️ Sin estado para ${nameStudent} (${studentId}) — se omite`
@@ -407,29 +405,29 @@ export async function setAbisenceInTeam(
               });
 
               if (await messageBox.count() === 0) {
+                await page.getByRole('link', { name: 'Cancelar' }).click();
                 writeLog(
                   logFilePath,
-                  `❌ No se pudo mostrar el cuadro de mensaje para «${nameStudent}» (${studentId}) - [${commissionCode}]. Se cancela la operación.`
+                  `⚠️ No se pudo mostrar el cuadro de mensaje para «${nameStudent}» (${studentId}) - [${commissionCode}]. Se cancela la operación.`
                 );
-                await page.getByRole('link', { name: 'Cancelar' }).click();
               } else {
                 await messageBox.fill(
                   'Se deshabilita por entrega de TPs fuera de termino.'
                 );
                 await page.getByRole('link', { name: 'Aceptar' }).click();
-                writeLog(logFilePath, `⚠️  Alumno ${nameStudent} INHABILITADO`);
+                writeLog(
+                  logFilePath,
+                   `⛔ Alumno ${nameStudent} INHABILITADO`
+                );
               }   
-              await waitTimeAndLogCustom(page, `Fin de inhabilitación`,5);
         } else {
           writeLog(
             logFilePath,
             `ℹ️  El estudiante «${nameStudent}» (${studentId}) - [${commissionCode}] no se inhabilita,  estado=${estado}.`
           );          
-        }  
+        }
+        await waitTimeAndLogCustom(page, `Fin de inhabilitación`,5);
     }    
   }
 
-}      
-
-
-
+} 

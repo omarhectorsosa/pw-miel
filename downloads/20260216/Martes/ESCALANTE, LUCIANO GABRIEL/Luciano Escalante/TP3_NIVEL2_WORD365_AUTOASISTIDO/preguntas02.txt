@@ -1,0 +1,71 @@
+Preguntas de Selección Múltiple – Internet de las Cosas (IoT)
+
+1.  ¿Qué es el Internet de las Cosas (IoT)?
+
+a)  Una red social digital.
+b)  Una red de dispositivos conectados que recopilan y transmiten datos.
+c)  Un sistema operativo para computadoras.
+d)  Un tipo de antivirus. Respuesta correcta: b)
+
+2.  ¿Cuál es uno de los principales objetivos de IoT?
+
+a)  Reemplazar completamente a los humanos.
+b)  Reducir el uso de electricidad.
+c)  Automatizar procesos y mejorar la toma de decisiones.
+d)  Eliminar el uso de internet. Respuesta correcta: c)
+
+3.  ¿Cuál de las siguientes tecnologías impulsa el crecimiento de IoT?
+
+a)  Disquetes.
+b)  Big Data e Inteligencia Artificial.
+c)  Máquinas de escribir.
+d)  Fax analógico. Respuesta correcta: b)
+
+4.  ¿Cuál es la primera etapa del funcionamiento de IoT?
+
+a)  Procesar los datos.
+b)  Actuar automáticamente.
+c)  Capturar datos mediante sensores.
+d)  Eliminar información. Respuesta correcta: c)
+
+5.  ¿Qué permite la computación en la nube en IoT?
+
+a)  Reducir la velocidad de conexión.
+b)  Almacenar y procesar grandes volúmenes de datos.
+c)  Desconectar dispositivos.
+d)  Evitar el uso de sensores. Respuesta correcta: b)
+
+6.  ¿En qué ámbito se aplica IoT industrial (IIoT)?
+
+a)  Solo en redes sociales.
+b)  En fábricas y cadenas de suministro.
+c)  Únicamente en videojuegos.
+d)  En imprentas tradicionales. Respuesta correcta: b)
+
+7.  ¿Qué pueden hacer los sensores en una ciudad inteligente?
+
+a)  Detectar niveles de agua y prevenir inundaciones.
+b)  Imprimir documentos.
+c)  Cambiar el clima.
+d)  Eliminar el tránsito. Respuesta correcta: a)
+
+8.  ¿Cómo contribuye IoT en la salud?
+
+a)  Eliminando hospitales.
+b)  Permitiendo monitoreo remoto de pacientes.
+c)  Sustituyendo médicos completamente.
+d)  Evitando diagnósticos. Respuesta correcta: b)
+
+9.  ¿Qué tecnología mejora la velocidad y conectividad de IoT?
+
+a)  5G.
+b)  Telégrafo.
+c)  Radio AM.
+d)  CD-ROM. Respuesta correcta: a)
+
+10. ¿Qué se espera en el futuro de IoT?
+
+a)  Menor integración tecnológica.
+b)  Desaparición de la inteligencia artificial.
+c)  Mayor integración con IA y experiencias inmersivas.
+d)  Eliminación de la nube. Respuesta correcta: c)

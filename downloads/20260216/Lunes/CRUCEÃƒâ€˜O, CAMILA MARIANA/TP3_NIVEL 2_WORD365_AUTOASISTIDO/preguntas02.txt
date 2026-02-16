@@ -1,0 +1,70 @@
+
+1. ¿Qué es el Internet de las Cosas (IoT)?
+A. Una red de computadoras tradicionales conectadas por cables
+B. Una red de objetos equipados con sensores que transmiten y reciben datos
+C. Un tipo de software para monitorear redes
+D. Un formato de almacenamiento digital
+Respuesta correcta: B
+
+2. ¿Qué tecnología contribuyó al crecimiento de IoT ofreciendo conectividad más rápida y confiable?
+A. USB 3.0
+B. 4K y 8K
+C. 5G
+D. Bluetooth clásico
+Respuesta correcta: C
+
+3. ¿Cuál es la primera etapa del funcionamiento de IoT?
+A. Compartir datos
+B. Actuar
+C. Procesar datos
+D. Capturar datos
+Respuesta correcta: D
+
+4. ¿Cuál de las siguientes es una aplicación de IoT en hogares inteligentes?
+A. Fabricación automatizada
+B. Monitoreo de inventarios
+C. Control remoto de iluminación y climatización
+D. Análisis financiero
+Respuesta correcta: C
+
+5. ¿Qué factor permitió la masificación de los sensores en IoT?
+A. Aumento del consumo energético
+B. Reducción de su precio en más del 70% desde 2004
+C. Incremento en su tamaño físico
+D. Restricciones de fabricación
+Respuesta correcta: B
+
+6. ¿Qué caracteriza a las ciudades inteligentes?
+A. Se enfocan solo en turismo
+B. Eliminan la necesidad de servicios públicos
+C. Aplican tecnología para reducir problemas urbanos
+D. No usan datos
+Respuesta correcta: C
+
+7. ¿Qué sector genera más datos IoT?
+A. Educación
+B. Entretenimiento
+C. IoT industrial (IIoT)
+D. Agricultura
+Respuesta correcta: C
+
+8. ¿Cuál es la función de los sistemas ADAS en autos conectados?
+A. Aumentar potencia del motor
+B. Mejorar rendimiento del combustible
+C. Evitar colisiones y planificar rutas
+D. Mover el vehículo con energía solar
+Respuesta correcta: C
+
+9. ¿Qué permitió manejar grandes volúmenes de datos generados por IoT?
+A. Disquetes
+B. Computación en la nube
+C. SMS
+D. Televisión por cable
+Respuesta correcta: B
+
+10. ¿Qué se espera para el futuro del IoT?
+A. Que desaparezca
+B. Que solo se use en automóviles
+C. Integración con VR, háptica e IA personalizada
+D. Que se limite a dispositivos domésticos
+Respuesta correcta: C

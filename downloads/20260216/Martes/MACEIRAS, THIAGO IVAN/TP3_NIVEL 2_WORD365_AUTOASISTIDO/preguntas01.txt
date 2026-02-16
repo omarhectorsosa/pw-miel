@@ -1,0 +1,30 @@
+✅ Preguntas verdadero/falso
+1.El IoT se define como una red de objetos y dispositivos capaces de transmitir y recibir datos.
+Respuesta: Verdadero
+
+2.La conectividad 5G no tiene impacto en el desarrollo del IoT.
+Respuesta: Falso
+
+3.El precio promedio de los sensores ha disminuido más del 70% desde 2004, favoreciendo la expansión del IoT.
+Respuesta: Verdadero
+
+4.El funcionamiento del IoT se describe en cuatro etapas: capturar, compartir, procesar y actuar.
+Respuesta: Verdadero
+
+5.Los hogares inteligentes son un ejemplo de aplicación práctica del IoT.
+Respuesta: Verdadero
+
+6.El IoT no tiene aplicaciones en el sector salud.
+Respuesta: Falso
+
+7.El IIoT (Internet Industrial de las Cosas) es uno de los principales productores de datos en vigilancia, transporte y manufactura.
+Respuesta: Verdadero
+
+8.En las cadenas de suministro, el IoT permite el seguimiento en tiempo real de materias primas y logística.
+Respuesta: Verdadero
+
+9.El futuro del IoT no contempla la integración con tecnologías como realidad virtual o experiencias inmersivas.
+Respuesta: Falso
+
+10.El IoT impactará en áreas como trabajo, salud, viajes y relaciones humanas.
+Respuesta: Verdadero

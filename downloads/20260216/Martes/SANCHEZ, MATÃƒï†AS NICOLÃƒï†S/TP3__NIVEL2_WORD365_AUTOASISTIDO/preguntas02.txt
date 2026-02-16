@@ -1,0 +1,70 @@
+
+1. ¿Qué es el Internet de las Cosas (IoT)?
+A. Una red social para dispositivos
+B. Una red de objetos físicos conectados que pueden transmitir y recibir datos
+C. Un sistema operativo para sensores
+D. Una plataforma exclusiva de la industria automotriz
+Respuesta correcta: B
+
+2. ¿Cuál de los siguientes NO es un componente clave del IoT?
+A. Sensores
+B. Conectividad
+C. Software
+D. Combustibles fósiles
+Respuesta correcta: D
+
+3. ¿Qué avance permitió reducir más del 70% el costo de los sensores IoT desde 2004?
+A. El crecimiento del mercado global de sensores
+B. La desaparición del Wi‑Fi
+C. La prohibición de las redes 5G
+D. La eliminación de la computación en la nube
+Respuesta correcta: A
+
+4. ¿Cuál es la segunda etapa del funcionamiento del IoT?
+A. Procesar los datos
+B. Actuar sobre los datos
+C. Compartir los datos
+D. Eliminar los datos
+Respuesta correcta: C
+
+5. ¿Qué aplicación del IoT permite controlar iluminación, climatización y electrodomésticos a distancia?
+A. Telesalud
+B. Ciudades inteligentes
+C. Hogares inteligentes
+D. IIoT industrial
+Respuesta correcta: C
+
+6. ¿Qué característica distingue a los automóviles conectados modernos?
+A. Pueden funcionar sin sensores
+B. Integran ADAS y comunicación con fuentes externas
+C. No utilizan inteligencia artificial
+D. No generan datos
+Respuesta correcta: B
+
+7. ¿Qué solución IoT permite mejorar las experiencias en tiendas mediante RFID, beacons y cámaras inteligentes?
+A. Redes inteligentes
+B. Comercio minorista inteligente
+C. Gestión del tránsito
+D. Ciudades inteligentes
+Respuesta correcta: B
+
+8. ¿Cuál es una de las principales funciones del IoT en la gestión del tránsito?
+A. Detectar niveles de glucosa en sangre
+B. Sincronizar señales de tránsito automáticamente
+C. Aumentar el precio del combustible
+D. Controlar inventarios de supermercados
+Respuesta correcta: B
+
+9. ¿Qué industria es la mayor generadora de datos IoT según el documento?
+A. Entretenimiento
+B. Agricultura
+C. IoT industrial (IIoT)
+D. Educación
+Respuesta correcta: C
+
+10. ¿Qué se espera para el futuro del IoT según el texto?
+A. Menor integración con IA
+B. Eliminación gradual de las redes 5G
+C. Experiencias inmersivas como VR y audio 3D
+D. Desaparición de dispositivos inteligentes
+Respuesta correcta: C

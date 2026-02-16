@@ -1,0 +1,39 @@
+Aquí tienes un conjunto de **10 preguntas de verdadero/falso** basadas en el documento sobre *Internet de las Cosas (IoT)*, junto con sus respuestas correctas:  
+
+---
+
+## 📝 Preguntas de verdadero/falso
+
+1. El IoT se refiere a la conexión de objetos físicos a internet para transmitir y recibir datos.  
+**Respuesta:** Verdadero ✅  
+
+2. En 2021 había menos de 1.000 millones de dispositivos IoT en el mundo.  
+**Respuesta:** Falso ❌ (Había más de 10.000 millones)  
+
+3. El proceso de funcionamiento del IoT incluye cuatro etapas: capturar, compartir, procesar y actuar.  
+**Respuesta:** Verdadero ✅  
+
+4. Los sensores son uno de los factores clave que han impulsado la expansión del IoT.  
+**Respuesta:** Verdadero ✅  
+
+5. El IoT solo se aplica en hogares inteligentes y no en industrias.  
+**Respuesta:** Falso ❌ (También existe el IIoT en fábricas, cadenas de suministro, transporte, etc.)  
+
+6. Las ciudades inteligentes utilizan IoT para monitorear tránsito, drenajes e infraestructura urbana.  
+**Respuesta:** Verdadero ✅  
+
+7. El comercio minorista no se beneficia del IoT.  
+**Respuesta:** Falso ❌ (Se usan estanterías inteligentes, RFID y promociones en tiempo real)  
+
+8. El futuro del IoT incluye integración con tecnologías como realidad virtual y audio 3D.  
+**Respuesta:** Verdadero ✅  
+
+9. La conectividad 5G no tiene impacto en el desarrollo del IoT.  
+**Respuesta:** Falso ❌ (Es clave para experiencias compartidas y mayor velocidad)  
+
+10. El IoT genera grandes volúmenes de datos que requieren Big Data y analíticas avanzadas para ser útiles.  
+**Respuesta:** Verdadero ✅  
+
+---
+
+¿Quieres que te prepare también un **mini examen tipo test** con opciones múltiples (A, B, C, D) para practicar más a fondo?

@@ -1,0 +1,65 @@
+Aquí tenés 10 preguntas de selección múltiple basadas directamente en el texto, cada una con 4 opciones y su respuesta correcta señalada.
+
+? Preguntas de selección múltiple (con respuestas correctas)
+
+1. ¿Qué es IoT según el texto?
+A. Una red exclusiva de computadoras personales.
+B. Un sistema de sensores sin conexión a Internet.
+C. Una red de objetos conectados que transmiten y reciben datos. ??
+D. Una tecnología que solo se usa en hogares inteligentes.
+
+2. ¿Cuál de los siguientes factores impulsó la evolución de IoT?
+A. La disminución en el uso de sensores.
+B. La eliminación del Big Data.
+C. La conectividad avanzada y accesible. ??
+D. La reducción de la capacidad de cómputo.
+
+3. ¿Cuál es la primera etapa del funcionamiento de IoT?
+A. Procesar datos.
+B. Capturar datos mediante sensores. ??
+C. Generar alertas automáticas.
+D. Almacenar los datos en servidores locales.
+
+4. ¿Cuál de estas aplicaciones corresponde al uso de IoT en ciudades inteligentes?
+A. Control de videojuegos en línea.
+B. Sensores en desagües para prevenir inundaciones. ??
+C. Enfriamiento de servidores en centros de datos.
+D. Control de inventario en empresas de software.
+
+5. ¿Qué afirma el texto sobre los sensores de IoT?
+A. Son cada vez más caros y difíciles de producir.
+B. No han cambiado desde 2004.
+C. Han disminuido más del 70% en costo desde 2004. ??
+D. Solo miden temperatura y humedad.
+
+6. ¿Cuál es un ejemplo de IoT en el comercio minorista?
+A. Sistemas ADAS de vehículos.
+B. Estanterías inteligentes y tecnología RFID. ??
+C. Drones agrícolas automatizados.
+D. Sensores para monitoreo de pacientes.
+
+7. ¿Qué permite IoT en el ámbito automotriz?
+A. Prohibir el uso de teléfonos en vehículos.
+B. Aumentar el consumo de combustible.
+C. Conectividad con semáforos y servicios de tráfico. ??
+D. Eliminar los sistemas de asistencia al conductor.
+
+8. ¿Qué caracteriza a la IoT industrial (IIoT)?
+A. Es la menor productora de datos globales.
+B. Se limita solo al área de la salud.
+C. Es el mayor productor de datos, especialmente por cámaras y manufactura. ??
+D. No se utiliza en logística.
+
+9. ¿Cuál es una aplicación clave de IoT en la fabricación?
+A. Reducir la electricidad disponible.
+B. Detectar o predecir fallas mecánicas. ??
+C. Eliminar la necesidad de sensores.
+D. Aumentar la cantidad de trabajo manual.
+
+10. ¿Qué se espera para el futuro de IoT según el texto?
+A. Que deje de integrarse con IA.
+B. Menor conectividad global.
+C. Integración con tecnologías inmersivas como VR y háptica. ??
+D. Uso exclusivo en la industria militar.
+
+Si querés, puedo generar otro set de preguntas, un cuestionario para examen, o incluso un mapa conceptual en imagen o PowerPoint. ¿Deseás algo más?

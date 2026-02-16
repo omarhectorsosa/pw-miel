@@ -1,0 +1,11 @@
+
+1. Los dispositivos de IoT pueden conectarse únicamente mediante Wi‑Fi. - Falso
+2. La IoT se utiliza ampliamente en entornos industriales y está relacionada con la Industria 4.0. - Verdadero
+3. El precio promedio de los sensores de IoT ha aumentado un 70% desde 2004. - Falso
+4. La computación en la nube ha sido clave para el crecimiento de IoT. - Verdadero
+5. Una de las etapas clave de IoT es compartir los datos recogidos por los dispositivos. - Verdadero
+6. Los hogares inteligentes pueden usar sensores y dispositivos IoT para controlar iluminación, seguridad y electrodomésticos. - Verdadero
+7. Los automóviles actuales no utilizan IoT para funciones como asistencia al conductor. - Falso
+8. La telesalud basada en IoT se limita solo a relojes inteligentes y no incluye herramientas quirúrgicas inteligentes. - Falso
+9. En una fábrica inteligente, los sensores IoT pueden predecir fallas mecánicas antes de que ocurran. - Verdadero
+10. El futuro de IoT incluye experiencias inmersivas con realidad virtual, audio 3D y tecnología háptica. - Verdadero

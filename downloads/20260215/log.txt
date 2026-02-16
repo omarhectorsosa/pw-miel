@@ -154,3 +154,54 @@
 [2026-02-15T04:44:53.459Z] 👥 Alumnos 35 a 39 (total: 5)
 [2026-02-15T04:44:53.459Z] ℹ️  El estudiante «RUIZ ESPINOLA, LAURA SOFIA» (44685656) - [30101472] no se inhabilita,  estado=7.
 [2026-02-15T04:44:53.459Z] ℹ️  El estudiante «SALABERRY GONZÁLEZ, FERNANDA SOFÍA» (42144815) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:44:56.283Z] ⚠️  Alumno SANCHEZ MARTINEZ, TOBIAS HERNAN INHABILITADO
+[2026-02-15T04:45:01.286Z] ℹ️  El estudiante «SANCHEZ, ALEJANDRO NICOLAS» (37932287) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:45:01.287Z] ℹ️  El estudiante «SANCHEZ, MATÃƒï†AS NICOLÃƒï†S» (45073401) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:45:01.287Z]  
+[2026-02-15T04:45:01.287Z] ========================================
+[2026-02-15T04:45:01.288Z] 📘 Inhabilitando en comisión 30101474
+[2026-02-15T04:45:01.289Z] 👥 Alumnos 35 a 39 (total: 5)
+[2026-02-15T04:45:03.209Z] ❌ No se pudo mostrar el cuadro de mensaje para «SOSA FORCADO, MELANIE MICHELLE» (42427630) - [30101474]. Se cancela la operación.
+[2026-02-15T04:45:08.423Z] ℹ️  El estudiante «TELLO, BRUNO JAVIER» (46360242) - [30101474] no se inhabilita,  estado=7.
+[2026-02-15T04:45:10.539Z] ❌ No se pudo mostrar el cuadro de mensaje para «TOKARCZUK, AGUSTINA MICAELA» (43054151) - [30101474]. Se cancela la operación.
+[2026-02-15T04:45:17.661Z] ❌ No se pudo mostrar el cuadro de mensaje para «VIDAL, SOL MILAGROS VIDAL» (46344911) - [30101474]. Se cancela la operación.
+[2026-02-15T04:45:25.089Z] ⚠️  Alumno ZELAYA, FIORELLA RAQUEL ZELAYA INHABILITADO
+[2026-02-15T04:45:40.342Z] 🚀 =======================================================
+[2026-02-15T04:45:40.342Z] 🚀 Inicio de corrida — Entrega: WORD [test-0009]
+[2026-02-15T04:45:40.342Z] 🚀 =======================================================
+[2026-02-15T04:45:40.342Z]  
+[2026-02-15T04:45:40.342Z] ========================================
+[2026-02-15T04:45:40.342Z] 📘 Inhabilitando en comisión 30101472
+[2026-02-15T04:45:40.342Z] 👥 Alumnos 40 a 44 (total: 5)
+[2026-02-15T04:45:40.343Z] ℹ️  El estudiante «SILVESTRE, LUCÍA MACARENA» (41622669) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:45:40.343Z] ℹ️  El estudiante «SIRNA BIANCA AGOSTINA» (40511545) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:45:40.343Z] ℹ️  El estudiante «TARQUI CATUMO, MARIANA MAGDALENA» (44940158) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:45:40.343Z] ℹ️  El estudiante «VERGARA, NURIA» (43326645) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:45:42.608Z] ⚠️  Alumno VITALLER, NICOLAS GONZALO INHABILITADO
+[2026-02-15T04:45:47.608Z]  
+[2026-02-15T04:45:47.609Z] ========================================
+[2026-02-15T04:45:47.609Z] 📘 Inhabilitando en comisión 30101474
+[2026-02-15T04:45:47.610Z] 👥 Alumnos 40 a 44 (total: 0)
+[2026-02-15T04:45:56.524Z] 🚀 =======================================================
+[2026-02-15T04:45:56.524Z] 🚀 Inicio de corrida — Entrega: WORD [test-0010]
+[2026-02-15T04:45:56.524Z] 🚀 =======================================================
+[2026-02-15T04:45:56.524Z]  
+[2026-02-15T04:45:56.524Z] ========================================
+[2026-02-15T04:45:56.524Z] 📘 Inhabilitando en comisión 30101472
+[2026-02-15T04:45:56.525Z] 👥 Alumnos 45 a 49 (total: 1)
+[2026-02-15T04:45:56.525Z] ℹ️  El estudiante «WALSER, JAVIER AGUSTIN» (41351708) - [30101472] no se inhabilita,  estado=7.
+[2026-02-15T04:45:56.525Z]  
+[2026-02-15T04:45:56.525Z] ========================================
+[2026-02-15T04:45:56.525Z] 📘 Inhabilitando en comisión 30101474
+[2026-02-15T04:45:56.525Z] 👥 Alumnos 45 a 49 (total: 0)
+[2026-02-15T04:46:05.273Z] 🚀 =======================================================
+[2026-02-15T04:46:05.275Z] 🚀 Inicio de corrida — Entrega: WORD [test-0011]
+[2026-02-15T04:46:05.275Z] 🚀 =======================================================
+[2026-02-15T04:46:05.275Z]  
+[2026-02-15T04:46:05.275Z] ========================================
+[2026-02-15T04:46:05.275Z] 📘 Inhabilitando en comisión 30101472
+[2026-02-15T04:46:05.275Z] 👥 Alumnos 50 a 54 (total: 0)
+[2026-02-15T04:46:05.275Z]  
+[2026-02-15T04:46:05.275Z] ========================================
+[2026-02-15T04:46:05.275Z] 📘 Inhabilitando en comisión 30101474
+[2026-02-15T04:46:05.275Z] 👥 Alumnos 50 a 54 (total: 0)

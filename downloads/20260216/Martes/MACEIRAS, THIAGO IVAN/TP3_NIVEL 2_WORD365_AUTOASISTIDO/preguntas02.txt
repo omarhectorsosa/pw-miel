@@ -1,0 +1,70 @@
+📑 Preguntas de selección múltiple
+¿Qué significa IoT?
+a) Internet of Technology
+b) Internet of Things
+c) International Online Tools
+d) Intelligent Operational Trends
+Respuesta correcta: b) Internet of Things
+
+¿Cuál de estos factores impulsó el crecimiento del IoT?
+a) Sensores más baratos
+b) Conectividad 5G
+c) Big Data y nube
+d) Todas las anteriores
+Respuesta correcta: d) Todas las anteriores
+
+¿Cuántas etapas principales tiene el funcionamiento del IoT?
+a) 2
+b) 3
+c) 4
+d) 5
+Respuesta correcta: c) 4
+
+¿Cuál es la primera etapa del funcionamiento del IoT?
+a) Procesar datos
+b) Capturar datos
+c) Actuar con base en datos
+d) Compartir datos
+Respuesta correcta: b) Capturar datos
+
+¿Cuál de los siguientes NO es un ejemplo de aplicación del IoT?
+a) Hogares inteligentes
+b) Ciudades inteligentes
+c) Automóviles conectados
+d) Pintura artística digital
+Respuesta correcta: d) Pintura artística digital
+
+¿Qué sector produce la mayor cantidad de datos mediante IoT?
+a) Educación
+b) Industria (IIoT)
+c) Entretenimiento
+d) Agricultura doméstica
+Respuesta correcta: b) Industria (IIoT)
+
+¿Qué permite el IoT en las cadenas de suministro?
+a) Seguimiento en tiempo real de materias primas
+b) Eliminación de procesos logísticos
+c) Sustitución de trabajadores humanos
+d) Reducción de la conectividad
+Respuesta correcta: a) Seguimiento en tiempo real de materias primas
+
+¿Qué tecnología potencia el análisis de datos del IoT?
+a) Realidad aumentada
+b) Inteligencia artificial y machine learning
+c) Blockchain
+d) GPS
+Respuesta correcta: b) Inteligencia artificial y machine learning
+
+¿Cuál de estas áreas se menciona como impactada por el futuro del IoT?
+a) Trabajo y salud
+b) Viajes y relaciones humanas
+c) Compras y bienes raíces
+d) Todas las anteriores
+Respuesta correcta: d) Todas las anteriores
+
+¿Qué tipo de experiencias se proyectan para el futuro del IoT?
+a) Experiencias sensoriales inmersivas con VR y audio 3D
+b) Experiencias limitadas solo a texto
+c) Experiencias exclusivamente industriales
+d) Experiencias sin interacción humana
+Respuesta correcta: a) Experiencias sensoriales inmersivas con VR y audio 3D

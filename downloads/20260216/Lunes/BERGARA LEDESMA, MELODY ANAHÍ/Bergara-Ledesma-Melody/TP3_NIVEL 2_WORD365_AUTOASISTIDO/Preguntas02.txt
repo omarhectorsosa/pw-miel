@@ -1,0 +1,70 @@
+
+1. ¿Qué es el Internet de las Cosas (IoT)?
+A) Un tipo de red social
+B) Una red de objetos conectados que capturan y comparten datos
+C) Un videojuego
+D) Un sistema para correo electrónico
+Respuesta correcta: B
+
+2. ¿Cuál es una de las tecnologías clave que impulsó el crecimiento del IoT?
+A) Sensores más económicos
+B) Máquinas de escribir
+C) Televisión analógica
+D) Cintas magnéticas
+Respuesta correcta: A
+
+3. ¿Qué etapa forma parte del funcionamiento del IoT?
+A) Crear datos ficticios
+B) Capturar datos
+C) Eliminar datos
+D) Destruir información
+Respuesta correcta: B
+
+4. ¿Qué ha ocurrido con el precio de los sensores de IoT desde 2004?
+A) Aumentaron un 70%
+B) Disminuyeron más del 70%
+C) Se duplicaron
+D) Se mantuvieron igual
+Respuesta correcta: B
+
+5. ¿Cuál de los siguientes es un uso del IoT?
+A) Libros digitales automáticos
+B) Ciudades inteligentes
+C) Pintura autónoma
+D) Ventilación natural
+Respuesta correcta: B
+
+6. ¿Qué permite el IoT en los automóviles conectados?
+A) Que no necesiten sensores
+B) Conectarse con semáforos y fuentes externas
+C) Ignorar señales de tránsito
+D) Usarse sin ningún tipo de software
+Respuesta correcta: B
+
+7. ¿Qué sector genera la mayor cantidad de datos según el documento?
+A) Entretenimiento
+B) IoT industrial (IIoT)
+C) Educación
+D) Moda
+Respuesta correcta: B
+
+8. ¿Qué pueden hacer los sensores en una fábrica inteligente?
+A) Provocar fallas
+B) Detectar y prever problemas mecánicos
+C) Desactivar máquinas al azar
+D) Reducir producción automáticamente
+Respuesta correcta: B
+
+9. ¿Cómo ayuda el IoT en el comercio minorista?
+A) Bloqueando acceso a productos
+B) Eliminando inventarios
+C) Enviando promociones en tiempo real
+D) Quitando precios
+Respuesta correcta: C
+
+10. ¿Qué se espera del futuro del IoT?
+A) Menor integración con humanos
+B) Integración fluida mediante tecnologías inmersivas
+C) Uso limitado a teléfonos
+D) Eliminación de la realidad virtual
+Respuesta correcta: B

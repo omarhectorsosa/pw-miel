@@ -1,0 +1,70 @@
+
+1. ¿Qué describe mejor al Internet de las Cosas (IoT)?
+A) Una red exclusiva de computadoras conectadas entre sí
+B) Una red de objetos equipados con sensores que envían y reciben datos
+C) Un sistema para almacenar información en servidores locales
+D) Un protocolo de comunicación inalámbrica
+Respuesta correcta: B
+
+2. ¿Cuál de las siguientes tecnologías impulsa actualmente la conectividad IoT más allá del Wi‑Fi?
+A) USB
+B) 3G
+C) 5G
+D) Bluetooth tradicional
+Respuesta correcta: C
+
+3. ¿Qué fue clave para el crecimiento del IoT según el documento?
+A) El aumento del costo de los sensores
+B) La caída del precio de los sensores más del 70%
+C) La desaparición del almacenamiento en la nube
+D) La reducción del uso de Big Data
+Respuesta correcta: B
+
+4. ¿Cuál es la primera etapa del funcionamiento de IoT?
+A) Actuar sobre los datos
+B) Compartir los datos
+C) Capturar los datos
+D) Procesar los datos
+Respuesta correcta: C
+
+5. ¿Qué aplicación de IoT permite prevenir inundaciones en ciudades inteligentes?
+A) Cámaras de seguridad urbanas
+B) Sensores en desagües pluviales
+C) Radares de velocidad
+D) Semáforos automatizados
+Respuesta correcta: B
+
+6. ¿Qué distingue a los automóviles modernos gracias al IoT?
+A) Pueden funcionar sin combustible
+B) Incorporan sistemas ADAS basados en sensores IoT
+C) Eliminan la necesidad de frenos mecánicos
+D) Solo se conectan por medio de satélites
+Respuesta correcta: B
+
+7. ¿Qué avance en telesalud destaca el documento?
+A) Solo el uso de apps móviles de consulta
+B) Dispositivos IoT que permiten cirugía guiada y monitoreo remoto
+C) Que los pacientes deben estar presencialmente en todo procedimiento
+D) El reemplazo total del personal médico
+Respuesta correcta: B
+
+8. ¿Qué sector genera más datos dentro del ecosistema IoT?
+A) Educación
+B) Turismo
+C) IoT industrial (IIoT)
+D) Agricultura manual
+Respuesta correcta: C
+
+9. ¿Cuál es una ventaja del IoT en la cadena de suministro?
+A) Reduce el uso de sensores
+B) Permite rastrear materiales y envíos en tiempo real
+C) Elimina la necesidad de logística
+D) Aumenta la incertidumbre en las entregas
+Respuesta correcta: B
+
+10. ¿Qué tecnología se menciona como parte del futuro de IoT?
+A) Teléfonos analógicos
+B) Realidad virtual avanzada y audio 3D
+C) Televisión por cable
+D) Conexiones por módem
+Respuesta correcta: B

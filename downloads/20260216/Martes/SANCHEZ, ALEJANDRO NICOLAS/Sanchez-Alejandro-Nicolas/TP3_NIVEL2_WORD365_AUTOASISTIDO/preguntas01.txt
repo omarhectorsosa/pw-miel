@@ -1,0 +1,20 @@
+1. El término IoT se refiere únicamente a objetos que se conectan de forma física mediante cables a una red.
+Respuesta: Falso.
+2. La Inteligencia Artificial y el Machine Learning se utilizan para que las redes de IoT brinden información más precisa y sofisticada.
+Respuesta: Verdadero.
+3. Se espera que para el año 2025 la generación de datos globales supere los 73 zettabytes.
+Respuesta: Verdadero.
+4. Desde el año 2004, el precio promedio de los sensores de IoT ha subido más de un 70%.
+Respuesta: Falso.
+5. El procesamiento "edge" consiste en almacenar los datos localmente en lugar de enviarlos siempre a una nube.
+Respuesta: Verdadero.
+6. En las ciudades inteligentes, el IoT puede ayudar a prevenir inundaciones mediante sensores en los desagües.
+Respuesta: Verdadero.
+7. El texto afirma que la conectividad 5G es menos confiable que el Wi-Fi tradicional para el manejo de grandes volúmenes de datos.
+Respuesta: Falso.
+8. La IoT Industrial (IIoT) es actualmente el mayor productor de datos y el de más rápido crecimiento.
+Respuesta: Verdadero.
+9. En las fábricas inteligentes, los sensores pueden prever problemas mecánicos antes de que ocurran.
+Respuesta: Verdadero.
+10. El concepto de "Telesalud" mencionado incluye el uso de herramientas quirúrgicas inteligentes para cirugías guiadas a distancia.
+Respuesta: Verdadero.

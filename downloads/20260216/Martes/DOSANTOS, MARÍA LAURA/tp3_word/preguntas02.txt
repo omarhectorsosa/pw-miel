@@ -1,0 +1,70 @@
+
+1. ¿Qué es el Internet de las Cosas (IoT)?
+A. Una red social para dispositivos móviles
+B. Una red de objetos conectados que transmiten y reciben datos
+C. Un software de inteligencia artificial
+D. Un sistema de almacenamiento en la nube
+Respuesta correcta: B
+
+2. ¿Cuál es uno de los propósitos principales del IoT?
+A. Aumentar el tamaño de los dispositivos electrónicos
+B. Sustituir completamente al ser humano
+C. Informar o automatizar acciones mediante datos
+D. Eliminar la necesidad de redes inalámbricas
+Respuesta correcta: C
+
+3. ¿Qué factor impulsó la evolución del IoT?
+A. Reducción de la velocidad de conexión
+B. Mejoras en sensores y disminución de costos
+C. Eliminación del Big Data
+D. Menor capacidad de almacenamiento
+Respuesta correcta: B
+
+4. ¿Cuál de las siguientes NO es una etapa del funcionamiento del IoT?
+A. Capturar datos
+B. Compartir datos
+C. Procesar datos
+D. Destruir datos
+Respuesta correcta: D
+
+5. ¿Qué aplicación corresponde a los hogares inteligentes?
+A. Sincronización de señales de tránsito
+B. Control remoto de luces y electrodomésticos
+C. Diagnóstico remoto en medicina
+D. Optimización del consumo energético industrial
+Respuesta correcta: B
+
+6. ¿Qué sector utiliza herramientas quirúrgicas inteligentes y monitoreo remoto?
+A. Industria automotriz
+B. Comercio minorista
+C. Telesalud
+D. Manufactura pesada
+Respuesta correcta: C
+
+7. ¿Cuál es el mayor generador de datos dentro del IoT?
+A. Hogares inteligentes
+B. Redes sociales
+C. IIoT (Internet Industrial de las Cosas)
+D. Videojuegos en línea
+Respuesta correcta: C
+
+8. ¿Qué beneficio aporta el IoT a las cadenas de suministro?
+A. Mayor tiempo de entrega
+B. Menor transparencia para el cliente
+C. Supervisión logística en tiempo real
+D. Eliminación de sensores
+Respuesta correcta: C
+
+9. ¿Qué innovación futura permitirá experiencias compartidas globalmente?
+A. Blockchain
+B. 5G
+C. Cables submarinos
+D. Realidad aumentada básica
+Respuesta correcta: B
+
+10. ¿Qué se espera del futuro del IoT en la experiencia humana?
+A. Menor integración entre tecnología y personas
+B. Interacción más limitada y menos personalizada
+C. Integración más fluida y experiencias inmersivas como audio 3D y realidad virtual avanzada
+D. Reemplazo total de smartphones
+Respuesta correcta: C
