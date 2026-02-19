@@ -565,12 +565,29 @@ function saveAbsence(
       return;
   }
 
-  // 👉 Si existe → reemplazar SIN agregar \n
+  console.log(`Before: ${line}`)
+
+  // 👉 asegurar que mensaje y check siempre queden vacíos
+  let cols = line.split(';');
+   
+  // asegurar 11 columnas
+  while (cols.length < 11) {
+    cols.push('');
+  }
+
+  cols[9] = '';  // mensaje
+  cols[10] = ''; // check
+
+  line = cols.join(';');
+  
+  console.log(`After: ${line}`)
+
+  // 👉 reemplazo sin \n
   if (found) {
     found.lines[found.index] = line;
     fs.writeFileSync(filePath, found.lines.join('\n'));
   } 
-  // 👉 Si no existe → append CON \n
+  // 👉 append con \n
   else {
     fs.appendFileSync(filePath, line + '\n');
   }
@@ -579,16 +596,16 @@ function saveAbsence(
 }
 
 function saveDelivery(
-  dirDir: string,
+  dayDir: string,
   commission: string,
   studentId: string,
   studentName: string,
   entregaIndex: number
 ) {
-  const filePath = path.join(dirDir, `estado.csv`);
+  const filePath = path.join(dayDir, `estado.csv`);
   ensureHeader(filePath);
 
-  const found = findStudentRecord(dirDir, commission, studentId);
+  const found = findStudentRecord(dayDir, commission, studentId);
   const r = found?.record;
 
   let line = '';
@@ -622,6 +639,23 @@ function saveDelivery(
       return;
   }
 
+  console.log(`Before: ${line}`)
+
+  // 👉 asegurar que mensaje y check siempre queden vacíos
+  let cols = line.split(';');
+   
+  // asegurar 11 columnas
+  while (cols.length < 11) {
+    cols.push('');
+  }
+
+  cols[9] = '';  // mensaje
+  cols[10] = ''; // check
+
+  line = cols.join(';');
+  
+  console.log(`After: ${line}`)
+
   // 👉 reemplazo sin \n
   if (found) {
     found.lines[found.index] = line;
@@ -632,8 +666,9 @@ function saveDelivery(
     fs.appendFileSync(filePath, line + '\n');
   }
 
-  updateTotals(dirDir, entregaIndex);
+  updateTotals(dayDir, entregaIndex);
 }
+
 
 function replaceAbsencetByDelivery
 (
@@ -689,6 +724,9 @@ function replaceAbsencetByDelivery
 
       // reconstruir la línea con el nombre actualizado
       parts[2] = studentName;
+
+      parts[9] = '';  // mensaje
+      parts[10] = ''; // check
 
       return parts.join(';');
     }

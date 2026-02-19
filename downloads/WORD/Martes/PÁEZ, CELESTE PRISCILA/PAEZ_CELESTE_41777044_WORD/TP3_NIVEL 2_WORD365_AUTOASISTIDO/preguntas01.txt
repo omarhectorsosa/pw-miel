@@ -1,0 +1,19 @@
+1. IoT es una red de objetos físicos conectados a Internet que pueden capturar y enviar datos. — Verdadero
+
+2. El funcionamiento de IoT se basa únicamente en sensores y no requiere software. — Falso
+
+3. La reducción del costo de los sensores fue un factor clave para la expansión de IoT. — Verdadero
+
+4. El proceso de IoT incluye capturar, compartir, procesar y actuar sobre los datos. — Verdadero
+
+5. Las aplicaciones de IoT se limitan únicamente a hogares inteligentes. — Falso
+
+6. El IoT industrial (IIoT) se utiliza para mejorar procesos en fábricas y cadenas de suministro. — Verdadero
+
+7. El Big Data no tiene relación con el crecimiento del IoT. — Falso
+
+8. El 5G permite manejar mayores volúmenes de datos en IoT. — Verdadero
+
+9. Las ciudades inteligentes usan IoT para gestionar tránsito, iluminación y drenaje. — Verdadero
+
+10. El futuro de IoT incluye experiencias inmersivas como VR y tecnologías hápticas. — Verdadero

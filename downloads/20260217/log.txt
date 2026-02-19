@@ -1,0 +1,928 @@
+[2026-02-18T00:49:16.942Z] 🚀 =======================================================
+[2026-02-18T00:49:16.942Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0001]
+[2026-02-18T00:49:16.942Z] 🚀 =======================================================
+[2026-02-18T00:49:16.943Z]  
+[2026-02-18T00:49:16.944Z] ========================================
+[2026-02-18T00:49:16.946Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:49:16.957Z] Procesando alumnos 0 a 4 (total: 5)
+[2026-02-18T00:49:17.920Z] 
+[2026-02-18T00:49:17.920Z] Comenzando busqueda práctico de DOSANTOS, MARÍA LAURA (31307264 [30101482])
+[2026-02-18T00:49:18.907Z] 👤 DOSANTOS, MARÍA LAURA (31307264)
+[2026-02-18T00:49:20.979Z] ℹ️ Se encontro archivo para descargar DOSANTOS, MARÍA LAURA (31307264) — se procede a analizar si existe estado.
+[2026-02-18T00:49:20.980Z] ⬇️  Descargando archivo…
+[2026-02-18T00:49:21.110Z] ✅ Descarga OK — marialaura_dosantos_excel123.zip
+[2026-02-18T00:49:21.110Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:49:21.110Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:49:21.125Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:49:21.125Z] 🔍 DOSANTOS, MARÍA LAURA (31307264) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:49:21.125Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:49:21.133Z] ✔ Validado OK: marialaura_dosantos_excel123.zip
+[2026-02-18T00:49:22.303Z] 
+[2026-02-18T00:49:22.303Z] Comenzando busqueda práctico de ESCALANTE, LUCIANO GABRIEL (42353334 [30101482])
+[2026-02-18T00:49:23.285Z] 👤 ESCALANTE, LUCIANO GABRIEL (42353334)
+[2026-02-18T00:49:23.320Z] ❌  No se encontro ninguna seccion de descarga ESCALANTE, LUCIANO GABRIEL (42353334) — revisar su perfil
+[2026-02-18T00:49:23.320Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:49:24.438Z] 
+[2026-02-18T00:49:24.441Z] Comenzando busqueda práctico de ESCALERA, LEANDRO AGUSTIN (43444202 [30101482])
+[2026-02-18T00:49:25.295Z] 👤 ESCALERA, LEANDRO AGUSTIN (43444202)
+[2026-02-18T00:49:25.337Z] ❌  No se encontro ninguna seccion de descarga ESCALERA, LEANDRO AGUSTIN (43444202) — revisar su perfil
+[2026-02-18T00:49:25.337Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:49:26.426Z] 
+[2026-02-18T00:49:26.427Z] Comenzando busqueda práctico de FRANCIA, MARCELA NATALIA (33152536 [30101482])
+[2026-02-18T00:49:27.587Z] 👤 FRANCIA, MARCELA NATALIA (33152536)
+[2026-02-18T00:49:27.655Z] ❌  No se encontro ninguna seccion de descarga FRANCIA, MARCELA NATALIA (33152536) — revisar su perfil
+[2026-02-18T00:49:27.656Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:49:28.840Z] 
+[2026-02-18T00:49:28.841Z] Comenzando busqueda práctico de GALLEGO, RODRIGO NAHUEL (42489636 [30101482])
+[2026-02-18T00:49:29.977Z] 👤 GALLEGO, RODRIGO NAHUEL (42489636)
+[2026-02-18T00:49:30.027Z] ❌  No se encontro ninguna seccion de descarga GALLEGO, RODRIGO NAHUEL (42489636) — revisar su perfil
+[2026-02-18T00:49:30.027Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:49:30.496Z]  
+[2026-02-18T00:49:30.496Z] ========================================
+[2026-02-18T00:49:30.496Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:49:30.496Z] Procesando alumnos 0 a 4 (total: 5)
+[2026-02-18T00:49:31.135Z] 
+[2026-02-18T00:49:31.135Z] Comenzando busqueda práctico de AGUILAR, FLORENCIA MICAELA (44239429 [30101491])
+[2026-02-18T00:49:32.093Z] 👤 AGUILAR, FLORENCIA MICAELA (44239429)
+[2026-02-18T00:49:34.199Z] ℹ️ Se encontro archivo para descargar AGUILAR, FLORENCIA MICAELA (44239429) — se procede a analizar si existe estado.
+[2026-02-18T00:49:34.200Z] ⬇️  Descargando archivo…
+[2026-02-18T00:49:34.363Z] ✅ Descarga OK — AGUILAR-FLORENCIA-MICAELA_2.zip
+[2026-02-18T00:49:34.364Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:49:34.365Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:49:34.378Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:49:34.378Z] 🔍 AGUILAR, FLORENCIA MICAELA (44239429) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:49:34.379Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:49:34.383Z] ✔ Validado OK: AGUILAR-FLORENCIA-MICAELA_2.zip
+[2026-02-18T00:49:35.588Z] 
+[2026-02-18T00:49:35.589Z] Comenzando busqueda práctico de AGUILAR, MATIAS LAUTARO (44354414 [30101491])
+[2026-02-18T00:49:36.693Z] 👤 AGUILAR, MATIAS LAUTARO (44354414)
+[2026-02-18T00:49:36.762Z] ❌  No se encontro ninguna seccion de descarga AGUILAR, MATIAS LAUTARO (44354414) — revisar su perfil
+[2026-02-18T00:49:36.762Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:49:37.816Z] 
+[2026-02-18T00:49:37.816Z] Comenzando busqueda práctico de AGUIRRE, LUCILA GUILLERMINA (43506620 [30101491])
+[2026-02-18T00:49:38.808Z] 👤 AGUIRRE, LUCILA GUILLERMINA (43506620)
+[2026-02-18T00:49:40.925Z] ℹ️ Se encontro archivo para descargar AGUIRRE, LUCILA GUILLERMINA (43506620) — se procede a analizar si existe estado.
+[2026-02-18T00:49:40.926Z] ⬇️  Descargando archivo…
+[2026-02-18T00:49:41.075Z] ✅ Descarga OK — TP3-Excel-Aguirre-Lucila.zip
+[2026-02-18T00:49:41.075Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:49:41.076Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:49:41.087Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:49:41.087Z] 🔍 AGUIRRE, LUCILA GUILLERMINA (43506620) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:49:41.087Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:49:41.096Z] ✔ Validado OK: TP3-Excel-Aguirre-Lucila.zip
+[2026-02-18T00:49:42.308Z] 
+[2026-02-18T00:49:42.309Z] Comenzando busqueda práctico de ALMARAZ, MAURO AGUSTÍN (42394294 [30101491])
+[2026-02-18T00:49:43.462Z] 👤 ALMARAZ, MAURO AGUSTÍN (42394294)
+[2026-02-18T00:49:43.525Z] ❌  No se encontro ninguna seccion de descarga ALMARAZ, MAURO AGUSTÍN (42394294) — revisar su perfil
+[2026-02-18T00:49:43.525Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:49:44.738Z] 
+[2026-02-18T00:49:44.739Z] Comenzando busqueda práctico de ALMARAZ, NICOLÃƒï†S ARIEL (45744864 [30101491])
+[2026-02-18T00:49:45.823Z] 👤 ALMARAZ, NICOLÃƒï†S ARIEL (45744864)
+[2026-02-18T00:49:45.881Z] ❌  No se encontro ninguna seccion de descarga ALMARAZ, NICOLÃƒï†S ARIEL (45744864) — revisar su perfil
+[2026-02-18T00:49:45.881Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:49:46.497Z] 🏁 =============================================================
+[2026-02-18T00:49:46.500Z] 🏁 Fin de corrida
+[2026-02-18T00:49:46.501Z] 🏁 =============================================================
+[2026-02-18T00:49:46.501Z] 
+[2026-02-18T00:49:58.078Z] 🚀 =======================================================
+[2026-02-18T00:49:58.080Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0002]
+[2026-02-18T00:49:58.081Z] 🚀 =======================================================
+[2026-02-18T00:49:58.081Z]  
+[2026-02-18T00:49:58.082Z] ========================================
+[2026-02-18T00:49:58.082Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:49:58.083Z] Procesando alumnos 5 a 9 (total: 5)
+[2026-02-18T00:49:59.136Z] 
+[2026-02-18T00:49:59.138Z] Comenzando busqueda práctico de GAMBARTE, MAXIMO (44355194 [30101482])
+[2026-02-18T00:50:00.250Z] 👤 GAMBARTE, MAXIMO (44355194)
+[2026-02-18T00:50:00.351Z] ❌  No se encontro ninguna seccion de descarga GAMBARTE, MAXIMO (44355194) — revisar su perfil
+[2026-02-18T00:50:00.351Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:50:01.656Z] 
+[2026-02-18T00:50:01.659Z] Comenzando busqueda práctico de GARCÍA, MARTINA IARA (45042979 [30101482])
+[2026-02-18T00:50:02.853Z] 👤 GARCÍA, MARTINA IARA (45042979)
+[2026-02-18T00:50:05.007Z] ℹ️ Se encontro archivo para descargar GARCÍA, MARTINA IARA (45042979) — se procede a analizar si existe estado.
+[2026-02-18T00:50:05.009Z] ⬇️  Descargando archivo…
+[2026-02-18T00:50:05.144Z] ✅ Descarga OK — Garcia-Martina---Entrega-Jueves-19022026.zip
+[2026-02-18T00:50:05.144Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:50:05.144Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:50:05.160Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:50:05.160Z] 🔍 GARCÍA, MARTINA IARA (45042979) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:50:05.160Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:50:05.168Z] ✔ Validado OK: Garcia-Martina---Entrega-Jueves-19022026.zip
+[2026-02-18T00:50:06.385Z] 
+[2026-02-18T00:50:06.385Z] Comenzando busqueda práctico de GARRIDO, JOAQUIN (44302586 [30101482])
+[2026-02-18T00:50:07.543Z] 👤 GARRIDO, JOAQUIN (44302586)
+[2026-02-18T00:50:07.596Z] ❌  No se encontro ninguna seccion de descarga GARRIDO, JOAQUIN (44302586) — revisar su perfil
+[2026-02-18T00:50:07.596Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:50:08.818Z] 
+[2026-02-18T00:50:08.818Z] Comenzando busqueda práctico de GAUJÁN, JULIETA BELEN (42196152 [30101482])
+[2026-02-18T00:50:09.915Z] 👤 GAUJÁN, JULIETA BELEN (42196152)
+[2026-02-18T00:50:09.968Z] ❌  No se encontro ninguna seccion de descarga GAUJÁN, JULIETA BELEN (42196152) — revisar su perfil
+[2026-02-18T00:50:09.968Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:50:11.181Z] 
+[2026-02-18T00:50:11.183Z] Comenzando busqueda práctico de GOMEZ LACASA, RAMIRO (45237271 [30101482])
+[2026-02-18T00:50:12.282Z] 👤 GOMEZ LACASA, RAMIRO (45237271)
+[2026-02-18T00:50:12.336Z] ❌  No se encontro ninguna seccion de descarga GOMEZ LACASA, RAMIRO (45237271) — revisar su perfil
+[2026-02-18T00:50:12.337Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:50:12.856Z]  
+[2026-02-18T00:50:12.858Z] ========================================
+[2026-02-18T00:50:12.859Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:50:12.859Z] Procesando alumnos 5 a 9 (total: 5)
+[2026-02-18T00:50:13.440Z] 
+[2026-02-18T00:50:13.441Z] Comenzando busqueda práctico de ARIAS RIOS ELIZABETH (33786888 [30101491])
+[2026-02-18T00:50:14.590Z] 👤 ARIAS RIOS ELIZABETH (33786888)
+[2026-02-18T00:50:16.717Z] ℹ️ Se encontro archivo para descargar ARIAS RIOS ELIZABETH (33786888) — se procede a analizar si existe estado.
+[2026-02-18T00:50:16.718Z] ⬇️  Descargando archivo…
+[2026-02-18T00:50:16.956Z] ✅ Descarga OK — TPS1-2-3-EXCEL-NIVEL2-ARIAS-RIOS.zip
+[2026-02-18T00:50:16.956Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:50:16.956Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:50:16.962Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:50:16.962Z] 🔍 ARIAS RIOS ELIZABETH (33786888) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:50:16.962Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:50:16.967Z] ✔ Validado OK: TPS1-2-3-EXCEL-NIVEL2-ARIAS-RIOS.zip
+[2026-02-18T00:50:18.049Z] 
+[2026-02-18T00:50:18.049Z] Comenzando busqueda práctico de BAHL, LUCIA MARIEL (33088259 [30101491])
+[2026-02-18T00:50:19.165Z] 👤 BAHL, LUCIA MARIEL (33088259)
+[2026-02-18T00:50:19.211Z] ❌  No se encontro ninguna seccion de descarga BAHL, LUCIA MARIEL (33088259) — revisar su perfil
+[2026-02-18T00:50:19.212Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:50:20.401Z] 
+[2026-02-18T00:50:20.401Z] Comenzando busqueda práctico de BALSA, MARIANELA AILEN (43723510 [30101491])
+[2026-02-18T00:50:21.468Z] 👤 BALSA, MARIANELA AILEN (43723510)
+[2026-02-18T00:50:21.521Z] ❌  No se encontro ninguna seccion de descarga BALSA, MARIANELA AILEN (43723510) — revisar su perfil
+[2026-02-18T00:50:21.521Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:50:22.616Z] 
+[2026-02-18T00:50:22.616Z] Comenzando busqueda práctico de BASILE, MATEO DAVID (45238348 [30101491])
+[2026-02-18T00:50:23.737Z] 👤 BASILE, MATEO DAVID (45238348)
+[2026-02-18T00:50:23.796Z] ❌  No se encontro ninguna seccion de descarga BASILE, MATEO DAVID (45238348) — revisar su perfil
+[2026-02-18T00:50:23.796Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:50:24.914Z] 
+[2026-02-18T00:50:24.914Z] Comenzando busqueda práctico de BERGARA LEDESMA, MELODY ANAHÍ (41744020 [30101491])
+[2026-02-18T00:50:26.050Z] 👤 BERGARA LEDESMA, MELODY ANAHÍ (41744020)
+[2026-02-18T00:50:26.052Z] 🚫 El alumno BERGARA LEDESMA, MELODY ANAHÍ (41744020) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:50:26.053Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:50:26.662Z] 🏁 =============================================================
+[2026-02-18T00:50:26.664Z] 🏁 Fin de corrida
+[2026-02-18T00:50:26.665Z] 🏁 =============================================================
+[2026-02-18T00:50:26.666Z] 
+[2026-02-18T00:50:38.951Z] 🚀 =======================================================
+[2026-02-18T00:50:38.953Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0003]
+[2026-02-18T00:50:38.953Z] 🚀 =======================================================
+[2026-02-18T00:50:38.953Z]  
+[2026-02-18T00:50:38.954Z] ========================================
+[2026-02-18T00:50:38.954Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:50:38.954Z] Procesando alumnos 10 a 14 (total: 5)
+[2026-02-18T00:50:39.950Z] 
+[2026-02-18T00:50:39.952Z] Comenzando busqueda práctico de JUAREZ, LUCAS DAMIAN (45869090 [30101482])
+[2026-02-18T00:50:40.535Z] ❌ Error test-0003: No se encontró ningún link [CORREGIR] para «JUAREZ, LUCAS DAMIAN» (45869090) en la comisión 30101482.
+[2026-02-18T00:50:41.853Z] 
+[2026-02-18T00:50:41.860Z] Comenzando busqueda práctico de LEIVA, LUDMILA BELEN (43104132 [30101482])
+[2026-02-18T00:50:42.987Z] 👤 LEIVA, LUDMILA BELEN (43104132)
+[2026-02-18T00:50:43.046Z] ❌  No se encontro ninguna seccion de descarga LEIVA, LUDMILA BELEN (43104132) — revisar su perfil
+[2026-02-18T00:50:43.049Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:50:44.226Z] 
+[2026-02-18T00:50:44.226Z] Comenzando busqueda práctico de LEZANO, ANA VANESA (46356110 [30101482])
+[2026-02-18T00:50:45.287Z] 👤 LEZANO, ANA VANESA (46356110)
+[2026-02-18T00:50:45.287Z] 🚫 El alumno LEZANO, ANA VANESA (46356110) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:50:45.289Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:50:46.416Z] 
+[2026-02-18T00:50:46.416Z] Comenzando busqueda práctico de LOMBARDO, MATIAS NICOLAS (43584721 [30101482])
+[2026-02-18T00:50:47.525Z] 👤 LOMBARDO, MATIAS NICOLAS (43584721)
+[2026-02-18T00:50:47.584Z] ❌  No se encontro ninguna seccion de descarga LOMBARDO, MATIAS NICOLAS (43584721) — revisar su perfil
+[2026-02-18T00:50:47.584Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:50:49.003Z] 
+[2026-02-18T00:50:49.003Z] Comenzando busqueda práctico de MACEIRAS, THIAGO IVAN (45068960 [30101482])
+[2026-02-18T00:50:50.183Z] 👤 MACEIRAS, THIAGO IVAN (45068960)
+[2026-02-18T00:50:52.312Z] ℹ️ Se encontro archivo para descargar MACEIRAS, THIAGO IVAN (45068960) — se procede a analizar si existe estado.
+[2026-02-18T00:50:52.318Z] ⬇️  Descargando archivo…
+[2026-02-18T00:50:52.493Z] ✅ Descarga OK — Trabajos-Practicos-1,-2-y-3-Excel-Thiago-Maceiras.zip
+[2026-02-18T00:50:52.493Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:50:52.493Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:50:52.502Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:50:52.503Z] 🔍 MACEIRAS, THIAGO IVAN (45068960) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:50:52.503Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:50:52.511Z] ✔ Validado OK: Trabajos-Practicos-1,-2-y-3-Excel-Thiago-Maceiras.zip
+[2026-02-18T00:50:53.066Z]  
+[2026-02-18T00:50:53.067Z] ========================================
+[2026-02-18T00:50:53.067Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:50:53.067Z] Procesando alumnos 10 a 14 (total: 5)
+[2026-02-18T00:50:53.693Z] 
+[2026-02-18T00:50:53.693Z] Comenzando busqueda práctico de BOGADO, LUNA AYELEN (43721726 [30101491])
+[2026-02-18T00:50:54.844Z] 👤 BOGADO, LUNA AYELEN (43721726)
+[2026-02-18T00:50:56.962Z] ℹ️ Se encontro archivo para descargar BOGADO, LUNA AYELEN (43721726) — se procede a analizar si existe estado.
+[2026-02-18T00:50:56.967Z] ⬇️  Descargando archivo…
+[2026-02-18T00:50:57.854Z] ✅ Descarga OK — EXCEL1-2-3_BOGADO.zip
+[2026-02-18T00:50:57.854Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:50:57.854Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:50:57.878Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:50:57.879Z] 🔍 BOGADO, LUNA AYELEN (43721726) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:50:57.879Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:50:57.896Z] ✔ Validado OK: EXCEL1-2-3_BOGADO.zip
+[2026-02-18T00:50:59.085Z] 
+[2026-02-18T00:50:59.085Z] Comenzando busqueda práctico de BRANDAN ROBERTO MANUEL (34000575 [30101491])
+[2026-02-18T00:51:00.193Z] 👤 BRANDAN ROBERTO MANUEL (34000575)
+[2026-02-18T00:51:00.194Z] 🚫 El alumno BRANDAN ROBERTO MANUEL (34000575) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:51:00.195Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:51:01.459Z] 
+[2026-02-18T00:51:01.460Z] Comenzando busqueda práctico de CARDOZO PORCO, ELISA (43239607 [30101491])
+[2026-02-18T00:51:02.523Z] 👤 CARDOZO PORCO, ELISA (43239607)
+[2026-02-18T00:51:02.607Z] ❌  No se encontro ninguna seccion de descarga CARDOZO PORCO, ELISA (43239607) — revisar su perfil
+[2026-02-18T00:51:02.607Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:51:03.751Z] 
+[2026-02-18T00:51:03.753Z] Comenzando busqueda práctico de CASTILLO, YESICA SOFIA (30061670 [30101491])
+[2026-02-18T00:51:04.667Z] 👤 CASTILLO, YESICA SOFIA (30061670)
+[2026-02-18T00:51:04.744Z] ❌  No se encontro ninguna seccion de descarga CASTILLO, YESICA SOFIA (30061670) — revisar su perfil
+[2026-02-18T00:51:04.744Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:51:05.868Z] 
+[2026-02-18T00:51:05.870Z] Comenzando busqueda práctico de CASTRO, MICAELA MABEL (41200873 [30101491])
+[2026-02-18T00:51:06.760Z] 👤 CASTRO, MICAELA MABEL (41200873)
+[2026-02-18T00:51:06.851Z] ❌  No se encontro ninguna seccion de descarga CASTRO, MICAELA MABEL (41200873) — revisar su perfil
+[2026-02-18T00:51:06.851Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:51:07.381Z] 🏁 =============================================================
+[2026-02-18T00:51:07.381Z] 🏁 Fin de corrida
+[2026-02-18T00:51:07.381Z] 🏁 =============================================================
+[2026-02-18T00:51:07.381Z] 
+[2026-02-18T00:53:34.553Z] 🚀 =======================================================
+[2026-02-18T00:53:34.554Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0001]
+[2026-02-18T00:53:34.554Z] 🚀 =======================================================
+[2026-02-18T00:53:34.554Z]  
+[2026-02-18T00:53:34.554Z] ========================================
+[2026-02-18T00:53:34.554Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:53:34.575Z] Procesando alumnos 0 a 4 (total: 5)
+[2026-02-18T00:53:35.549Z] 
+[2026-02-18T00:53:35.549Z] Comenzando busqueda práctico de DOSANTOS, MARÍA LAURA (31307264 [30101482])
+[2026-02-18T00:53:36.681Z] 👤 DOSANTOS, MARÍA LAURA (31307264)
+[2026-02-18T00:53:38.811Z] ℹ️ Se encontro archivo para descargar DOSANTOS, MARÍA LAURA (31307264) — se procede a analizar si existe estado.
+[2026-02-18T00:53:38.811Z] 🔍 DOSANTOS, MARÍA LAURA (31307264) ya se encuentra registrado en estado E  — se omite
+[2026-02-18T00:53:39.947Z] 
+[2026-02-18T00:53:39.948Z] Comenzando busqueda práctico de ESCALANTE, LUCIANO GABRIEL (42353334 [30101482])
+[2026-02-18T00:53:41.071Z] 👤 ESCALANTE, LUCIANO GABRIEL (42353334)
+[2026-02-18T00:53:41.127Z] ❌  No se encontro ninguna seccion de descarga ESCALANTE, LUCIANO GABRIEL (42353334) — revisar su perfil
+[2026-02-18T00:53:41.127Z] 🔍 ESCALANTE, LUCIANO GABRIEL (42353334) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:53:42.315Z] 
+[2026-02-18T00:53:42.315Z] Comenzando busqueda práctico de ESCALERA, LEANDRO AGUSTIN (43444202 [30101482])
+[2026-02-18T00:53:43.348Z] 👤 ESCALERA, LEANDRO AGUSTIN (43444202)
+[2026-02-18T00:53:43.408Z] ❌  No se encontro ninguna seccion de descarga ESCALERA, LEANDRO AGUSTIN (43444202) — revisar su perfil
+[2026-02-18T00:53:43.411Z] 🔍 ESCALERA, LEANDRO AGUSTIN (43444202) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:53:44.519Z] 
+[2026-02-18T00:53:44.520Z] Comenzando busqueda práctico de FRANCIA, MARCELA NATALIA (33152536 [30101482])
+[2026-02-18T00:53:45.527Z] 👤 FRANCIA, MARCELA NATALIA (33152536)
+[2026-02-18T00:53:45.575Z] ❌  No se encontro ninguna seccion de descarga FRANCIA, MARCELA NATALIA (33152536) — revisar su perfil
+[2026-02-18T00:53:45.576Z] 🔍 FRANCIA, MARCELA NATALIA (33152536) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:53:46.740Z] 
+[2026-02-18T00:53:46.740Z] Comenzando busqueda práctico de GALLEGO, RODRIGO NAHUEL (42489636 [30101482])
+[2026-02-18T00:53:47.829Z] 👤 GALLEGO, RODRIGO NAHUEL (42489636)
+[2026-02-18T00:53:47.897Z] ❌  No se encontro ninguna seccion de descarga GALLEGO, RODRIGO NAHUEL (42489636) — revisar su perfil
+[2026-02-18T00:53:47.898Z] 🔍 GALLEGO, RODRIGO NAHUEL (42489636) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:53:48.529Z]  
+[2026-02-18T00:53:48.530Z] ========================================
+[2026-02-18T00:53:48.532Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:53:48.532Z] Procesando alumnos 0 a 4 (total: 5)
+[2026-02-18T00:53:49.105Z] 
+[2026-02-18T00:53:49.105Z] Comenzando busqueda práctico de AGUILAR, FLORENCIA MICAELA (44239429 [30101491])
+[2026-02-18T00:53:50.072Z] 👤 AGUILAR, FLORENCIA MICAELA (44239429)
+[2026-02-18T00:53:52.146Z] ℹ️ Se encontro archivo para descargar AGUILAR, FLORENCIA MICAELA (44239429) — se procede a analizar si existe estado.
+[2026-02-18T00:53:52.146Z] 🔍 AGUILAR, FLORENCIA MICAELA (44239429) ya se encuentra registrado en estado E  — se omite
+[2026-02-18T00:53:53.286Z] 
+[2026-02-18T00:53:53.291Z] Comenzando busqueda práctico de AGUILAR, MATIAS LAUTARO (44354414 [30101491])
+[2026-02-18T00:53:54.288Z] 👤 AGUILAR, MATIAS LAUTARO (44354414)
+[2026-02-18T00:53:54.344Z] ❌  No se encontro ninguna seccion de descarga AGUILAR, MATIAS LAUTARO (44354414) — revisar su perfil
+[2026-02-18T00:53:54.344Z] 🔍 AGUILAR, MATIAS LAUTARO (44354414) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:53:55.463Z] 
+[2026-02-18T00:53:55.464Z] Comenzando busqueda práctico de AGUIRRE, LUCILA GUILLERMINA (43506620 [30101491])
+[2026-02-18T00:53:56.445Z] 👤 AGUIRRE, LUCILA GUILLERMINA (43506620)
+[2026-02-18T00:53:58.551Z] ℹ️ Se encontro archivo para descargar AGUIRRE, LUCILA GUILLERMINA (43506620) — se procede a analizar si existe estado.
+[2026-02-18T00:53:58.551Z] 🔍 AGUIRRE, LUCILA GUILLERMINA (43506620) ya se encuentra registrado en estado E  — se omite
+[2026-02-18T00:53:59.757Z] 
+[2026-02-18T00:53:59.759Z] Comenzando busqueda práctico de ALMARAZ, MAURO AGUSTÍN (42394294 [30101491])
+[2026-02-18T00:54:00.884Z] 👤 ALMARAZ, MAURO AGUSTÍN (42394294)
+[2026-02-18T00:54:00.936Z] ❌  No se encontro ninguna seccion de descarga ALMARAZ, MAURO AGUSTÍN (42394294) — revisar su perfil
+[2026-02-18T00:54:00.936Z] 🔍 ALMARAZ, MAURO AGUSTÍN (42394294) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:54:02.083Z] 
+[2026-02-18T00:54:02.083Z] Comenzando busqueda práctico de ALMARAZ, NICOLÃƒï†S ARIEL (45744864 [30101491])
+[2026-02-18T00:54:03.227Z] 👤 ALMARAZ, NICOLÃƒï†S ARIEL (45744864)
+[2026-02-18T00:54:03.293Z] ❌  No se encontro ninguna seccion de descarga ALMARAZ, NICOLÃƒï†S ARIEL (45744864) — revisar su perfil
+[2026-02-18T00:54:03.293Z] 🔍 ALMARAZ, NICOLÃƒï†S ARIEL (45744864) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:54:03.849Z] 🏁 =============================================================
+[2026-02-18T00:54:03.849Z] 🏁 Fin de corrida
+[2026-02-18T00:54:03.849Z] 🏁 =============================================================
+[2026-02-18T00:54:03.849Z] 
+[2026-02-18T00:54:15.778Z] 🚀 =======================================================
+[2026-02-18T00:54:15.779Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0002]
+[2026-02-18T00:54:15.780Z] 🚀 =======================================================
+[2026-02-18T00:54:15.780Z]  
+[2026-02-18T00:54:15.780Z] ========================================
+[2026-02-18T00:54:15.780Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:54:15.780Z] Procesando alumnos 5 a 9 (total: 5)
+[2026-02-18T00:54:16.740Z] 
+[2026-02-18T00:54:16.741Z] Comenzando busqueda práctico de GAMBARTE, MAXIMO (44355194 [30101482])
+[2026-02-18T00:54:17.831Z] 👤 GAMBARTE, MAXIMO (44355194)
+[2026-02-18T00:54:17.896Z] ❌  No se encontro ninguna seccion de descarga GAMBARTE, MAXIMO (44355194) — revisar su perfil
+[2026-02-18T00:54:17.896Z] 🔍 GAMBARTE, MAXIMO (44355194) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:54:19.068Z] 
+[2026-02-18T00:54:19.068Z] Comenzando busqueda práctico de GARCÍA, MARTINA IARA (45042979 [30101482])
+[2026-02-18T00:54:20.106Z] 👤 GARCÍA, MARTINA IARA (45042979)
+[2026-02-18T00:54:22.221Z] ℹ️ Se encontro archivo para descargar GARCÍA, MARTINA IARA (45042979) — se procede a analizar si existe estado.
+[2026-02-18T00:54:22.223Z] 🔍 GARCÍA, MARTINA IARA (45042979) ya se encuentra registrado en estado E  — se omite
+[2026-02-18T00:54:23.293Z] 
+[2026-02-18T00:54:23.293Z] Comenzando busqueda práctico de GARRIDO, JOAQUIN (44302586 [30101482])
+[2026-02-18T00:54:24.355Z] 👤 GARRIDO, JOAQUIN (44302586)
+[2026-02-18T00:54:24.396Z] ❌  No se encontro ninguna seccion de descarga GARRIDO, JOAQUIN (44302586) — revisar su perfil
+[2026-02-18T00:54:24.396Z] 🔍 GARRIDO, JOAQUIN (44302586) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:54:25.571Z] 
+[2026-02-18T00:54:25.571Z] Comenzando busqueda práctico de GAUJÁN, JULIETA BELEN (42196152 [30101482])
+[2026-02-18T00:54:26.645Z] 👤 GAUJÁN, JULIETA BELEN (42196152)
+[2026-02-18T00:54:26.704Z] ❌  No se encontro ninguna seccion de descarga GAUJÁN, JULIETA BELEN (42196152) — revisar su perfil
+[2026-02-18T00:54:26.707Z] 🔍 GAUJÁN, JULIETA BELEN (42196152) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:54:27.957Z] 
+[2026-02-18T00:54:27.957Z] Comenzando busqueda práctico de GOMEZ LACASA, RAMIRO (45237271 [30101482])
+[2026-02-18T00:54:29.062Z] 👤 GOMEZ LACASA, RAMIRO (45237271)
+[2026-02-18T00:54:29.126Z] ❌  No se encontro ninguna seccion de descarga GOMEZ LACASA, RAMIRO (45237271) — revisar su perfil
+[2026-02-18T00:54:29.126Z] 🔍 GOMEZ LACASA, RAMIRO (45237271) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:54:29.614Z]  
+[2026-02-18T00:54:29.615Z] ========================================
+[2026-02-18T00:54:29.616Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:54:29.617Z] Procesando alumnos 5 a 9 (total: 5)
+[2026-02-18T00:54:30.173Z] 
+[2026-02-18T00:54:30.174Z] Comenzando busqueda práctico de ARIAS RIOS ELIZABETH (33786888 [30101491])
+[2026-02-18T00:54:31.086Z] 👤 ARIAS RIOS ELIZABETH (33786888)
+[2026-02-18T00:54:33.297Z] ℹ️ Se encontro archivo para descargar ARIAS RIOS ELIZABETH (33786888) — se procede a analizar si existe estado.
+[2026-02-18T00:54:33.298Z] 🔍 ARIAS RIOS ELIZABETH (33786888) ya se encuentra registrado en estado E  — se omite
+[2026-02-18T00:54:34.381Z] 
+[2026-02-18T00:54:34.382Z] Comenzando busqueda práctico de BAHL, LUCIA MARIEL (33088259 [30101491])
+[2026-02-18T00:54:35.537Z] 👤 BAHL, LUCIA MARIEL (33088259)
+[2026-02-18T00:54:35.589Z] ❌  No se encontro ninguna seccion de descarga BAHL, LUCIA MARIEL (33088259) — revisar su perfil
+[2026-02-18T00:54:35.589Z] 🔍 BAHL, LUCIA MARIEL (33088259) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:54:36.739Z] 
+[2026-02-18T00:54:36.740Z] Comenzando busqueda práctico de BALSA, MARIANELA AILEN (43723510 [30101491])
+[2026-02-18T00:54:37.908Z] 👤 BALSA, MARIANELA AILEN (43723510)
+[2026-02-18T00:54:37.956Z] ❌  No se encontro ninguna seccion de descarga BALSA, MARIANELA AILEN (43723510) — revisar su perfil
+[2026-02-18T00:54:37.956Z] 🔍 BALSA, MARIANELA AILEN (43723510) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:54:39.142Z] 
+[2026-02-18T00:54:39.143Z] Comenzando busqueda práctico de BASILE, MATEO DAVID (45238348 [30101491])
+[2026-02-18T00:54:40.124Z] 👤 BASILE, MATEO DAVID (45238348)
+[2026-02-18T00:54:40.176Z] ❌  No se encontro ninguna seccion de descarga BASILE, MATEO DAVID (45238348) — revisar su perfil
+[2026-02-18T00:54:40.176Z] 🔍 BASILE, MATEO DAVID (45238348) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:54:41.449Z] 
+[2026-02-18T00:54:41.452Z] Comenzando busqueda práctico de BERGARA LEDESMA, MELODY ANAHÍ (41744020 [30101491])
+[2026-02-18T00:54:42.639Z] 👤 BERGARA LEDESMA, MELODY ANAHÍ (41744020)
+[2026-02-18T00:54:42.640Z] 🚫 El alumno BERGARA LEDESMA, MELODY ANAHÍ (41744020) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:54:42.640Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:54:43.144Z] 🏁 =============================================================
+[2026-02-18T00:54:43.144Z] 🏁 Fin de corrida
+[2026-02-18T00:54:43.144Z] 🏁 =============================================================
+[2026-02-18T00:54:43.144Z] 
+[2026-02-18T00:54:55.552Z] 🚀 =======================================================
+[2026-02-18T00:54:55.552Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0003]
+[2026-02-18T00:54:55.552Z] 🚀 =======================================================
+[2026-02-18T00:54:55.552Z]  
+[2026-02-18T00:54:55.552Z] ========================================
+[2026-02-18T00:54:55.552Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:54:55.552Z] Procesando alumnos 10 a 14 (total: 5)
+[2026-02-18T00:54:56.515Z] 
+[2026-02-18T00:54:56.515Z] Comenzando busqueda práctico de JUAREZ, LUCAS DAMIAN (45869090 [30101482])
+[2026-02-18T00:54:57.750Z] 👤 JUAREZ, LUCAS DAMIAN (45869090)
+[2026-02-18T00:54:59.922Z] ℹ️ Se encontro archivo para descargar JUAREZ, LUCAS DAMIAN (45869090) — se procede a analizar si existe estado.
+[2026-02-18T00:54:59.924Z] ⬇️  Descargando archivo…
+[2026-02-18T00:55:00.121Z] ✅ Descarga OK — LUCAS-DAMIAN-JUAREZ_1.zip
+[2026-02-18T00:55:00.121Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:55:00.122Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:55:00.140Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:55:00.140Z] 🔍 JUAREZ, LUCAS DAMIAN (45869090) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:55:00.140Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:55:00.148Z] ✔ Validado OK: LUCAS-DAMIAN-JUAREZ_1.zip
+[2026-02-18T00:55:01.349Z] 
+[2026-02-18T00:55:01.349Z] Comenzando busqueda práctico de LEIVA, LUDMILA BELEN (43104132 [30101482])
+[2026-02-18T00:55:02.379Z] 👤 LEIVA, LUDMILA BELEN (43104132)
+[2026-02-18T00:55:02.518Z] ❌  No se encontro ninguna seccion de descarga LEIVA, LUDMILA BELEN (43104132) — revisar su perfil
+[2026-02-18T00:55:02.518Z] 🔍 LEIVA, LUDMILA BELEN (43104132) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:55:03.722Z] 
+[2026-02-18T00:55:03.723Z] Comenzando busqueda práctico de LEZANO, ANA VANESA (46356110 [30101482])
+[2026-02-18T00:55:04.829Z] 👤 LEZANO, ANA VANESA (46356110)
+[2026-02-18T00:55:04.830Z] 🚫 El alumno LEZANO, ANA VANESA (46356110) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:55:04.830Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:55:06.089Z] 
+[2026-02-18T00:55:06.090Z] Comenzando busqueda práctico de LOMBARDO, MATIAS NICOLAS (43584721 [30101482])
+[2026-02-18T00:55:07.211Z] 👤 LOMBARDO, MATIAS NICOLAS (43584721)
+[2026-02-18T00:55:07.265Z] ❌  No se encontro ninguna seccion de descarga LOMBARDO, MATIAS NICOLAS (43584721) — revisar su perfil
+[2026-02-18T00:55:07.265Z] 🔍 LOMBARDO, MATIAS NICOLAS (43584721) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:55:08.467Z] 
+[2026-02-18T00:55:08.467Z] Comenzando busqueda práctico de MACEIRAS, THIAGO IVAN (45068960 [30101482])
+[2026-02-18T00:55:09.605Z] 👤 MACEIRAS, THIAGO IVAN (45068960)
+[2026-02-18T00:55:11.721Z] ℹ️ Se encontro archivo para descargar MACEIRAS, THIAGO IVAN (45068960) — se procede a analizar si existe estado.
+[2026-02-18T00:55:11.722Z] 🔍 MACEIRAS, THIAGO IVAN (45068960) ya se encuentra registrado en estado E  — se omite
+[2026-02-18T00:55:12.301Z]  
+[2026-02-18T00:55:12.302Z] ========================================
+[2026-02-18T00:55:12.302Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:55:12.302Z] Procesando alumnos 10 a 14 (total: 5)
+[2026-02-18T00:55:12.954Z] 
+[2026-02-18T00:55:12.955Z] Comenzando busqueda práctico de BOGADO, LUNA AYELEN (43721726 [30101491])
+[2026-02-18T00:55:13.986Z] 👤 BOGADO, LUNA AYELEN (43721726)
+[2026-02-18T00:55:16.109Z] ℹ️ Se encontro archivo para descargar BOGADO, LUNA AYELEN (43721726) — se procede a analizar si existe estado.
+[2026-02-18T00:55:16.111Z] 🔍 BOGADO, LUNA AYELEN (43721726) ya se encuentra registrado en estado E  — se omite
+[2026-02-18T00:55:20.103Z] 
+[2026-02-18T00:55:20.104Z] Comenzando busqueda práctico de BRANDAN ROBERTO MANUEL (34000575 [30101491])
+[2026-02-18T00:55:21.271Z] 👤 BRANDAN ROBERTO MANUEL (34000575)
+[2026-02-18T00:55:21.274Z] 🚫 El alumno BRANDAN ROBERTO MANUEL (34000575) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:55:21.274Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:55:22.528Z] 
+[2026-02-18T00:55:22.528Z] Comenzando busqueda práctico de CARDOZO PORCO, ELISA (43239607 [30101491])
+[2026-02-18T00:55:23.713Z] 👤 CARDOZO PORCO, ELISA (43239607)
+[2026-02-18T00:55:23.776Z] ❌  No se encontro ninguna seccion de descarga CARDOZO PORCO, ELISA (43239607) — revisar su perfil
+[2026-02-18T00:55:23.776Z] 🔍 CARDOZO PORCO, ELISA (43239607) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:55:24.886Z] 
+[2026-02-18T00:55:24.886Z] Comenzando busqueda práctico de CASTILLO, YESICA SOFIA (30061670 [30101491])
+[2026-02-18T00:55:25.997Z] 👤 CASTILLO, YESICA SOFIA (30061670)
+[2026-02-18T00:55:26.047Z] ❌  No se encontro ninguna seccion de descarga CASTILLO, YESICA SOFIA (30061670) — revisar su perfil
+[2026-02-18T00:55:26.047Z] 🔍 CASTILLO, YESICA SOFIA (30061670) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:55:27.070Z] 
+[2026-02-18T00:55:27.070Z] Comenzando busqueda práctico de CASTRO, MICAELA MABEL (41200873 [30101491])
+[2026-02-18T00:55:28.181Z] 👤 CASTRO, MICAELA MABEL (41200873)
+[2026-02-18T00:55:28.232Z] ❌  No se encontro ninguna seccion de descarga CASTRO, MICAELA MABEL (41200873) — revisar su perfil
+[2026-02-18T00:55:28.232Z] 🔍 CASTRO, MICAELA MABEL (41200873) ya se encuentra registrado en estado 0  — se omite
+[2026-02-18T00:55:28.717Z] 🏁 =============================================================
+[2026-02-18T00:55:28.717Z] 🏁 Fin de corrida
+[2026-02-18T00:55:28.718Z] 🏁 =============================================================
+[2026-02-18T00:55:28.718Z] 
+[2026-02-18T00:55:42.878Z] 🚀 =======================================================
+[2026-02-18T00:55:42.879Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0004]
+[2026-02-18T00:55:42.879Z] 🚀 =======================================================
+[2026-02-18T00:55:42.879Z]  
+[2026-02-18T00:55:42.879Z] ========================================
+[2026-02-18T00:55:42.879Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:55:42.879Z] Procesando alumnos 15 a 19 (total: 5)
+[2026-02-18T00:55:43.837Z] 
+[2026-02-18T00:55:43.837Z] Comenzando busqueda práctico de MARINO, ELIZABETH (38619442 [30101482])
+[2026-02-18T00:55:45.054Z] 👤 MARINO, ELIZABETH (38619442)
+[2026-02-18T00:55:45.114Z] ❌  No se encontro ninguna seccion de descarga MARINO, ELIZABETH (38619442) — revisar su perfil
+[2026-02-18T00:55:45.114Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:55:46.279Z] 
+[2026-02-18T00:55:46.281Z] Comenzando busqueda práctico de MAZA, MATIAS ALBERTO (33035038 [30101482])
+[2026-02-18T00:55:47.271Z] 👤 MAZA, MATIAS ALBERTO (33035038)
+[2026-02-18T00:55:47.312Z] ❌  No se encontro ninguna seccion de descarga MAZA, MATIAS ALBERTO (33035038) — revisar su perfil
+[2026-02-18T00:55:47.312Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:55:48.530Z] 
+[2026-02-18T00:55:48.531Z] Comenzando busqueda práctico de MIRANDA, LUCILA SOLEDAD (41470161 [30101482])
+[2026-02-18T00:55:49.607Z] 👤 MIRANDA, LUCILA SOLEDAD (41470161)
+[2026-02-18T00:55:49.664Z] ❌  No se encontro ninguna seccion de descarga MIRANDA, LUCILA SOLEDAD (41470161) — revisar su perfil
+[2026-02-18T00:55:49.664Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:55:50.645Z] 
+[2026-02-18T00:55:50.645Z] Comenzando busqueda práctico de MIRANDA, MAGDALENA (42587948 [30101482])
+[2026-02-18T00:55:51.849Z] 👤 MIRANDA, MAGDALENA (42587948)
+[2026-02-18T00:55:51.910Z] ❌  No se encontro ninguna seccion de descarga MIRANDA, MAGDALENA (42587948) — revisar su perfil
+[2026-02-18T00:55:51.910Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:55:53.111Z] 
+[2026-02-18T00:55:53.112Z] Comenzando busqueda práctico de MUÑOZ, ARIADNA AYLEN (45011630 [30101482])
+[2026-02-18T00:55:54.211Z] 👤 MUÑOZ, ARIADNA AYLEN (45011630)
+[2026-02-18T00:55:54.263Z] ❌  No se encontro ninguna seccion de descarga MUÑOZ, ARIADNA AYLEN (45011630) — revisar su perfil
+[2026-02-18T00:55:54.263Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:55:54.746Z]  
+[2026-02-18T00:55:54.747Z] ========================================
+[2026-02-18T00:55:54.748Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:55:54.748Z] Procesando alumnos 15 a 19 (total: 5)
+[2026-02-18T00:55:55.340Z] 
+[2026-02-18T00:55:55.340Z] Comenzando busqueda práctico de CASTRO, MIGUEL ANGEL (22606388 [30101491])
+[2026-02-18T00:55:56.392Z] 👤 CASTRO, MIGUEL ANGEL (22606388)
+[2026-02-18T00:55:56.442Z] ❌  No se encontro ninguna seccion de descarga CASTRO, MIGUEL ANGEL (22606388) — revisar su perfil
+[2026-02-18T00:55:56.442Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:55:57.397Z] 
+[2026-02-18T00:55:57.397Z] Comenzando busqueda práctico de CHAVERO, CINTIA (29801629 [30101491])
+[2026-02-18T00:55:58.477Z] 👤 CHAVERO, CINTIA (29801629)
+[2026-02-18T00:55:58.477Z] 🚫 El alumno CHAVERO, CINTIA (29801629) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:55:58.477Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:55:59.662Z] 
+[2026-02-18T00:55:59.662Z] Comenzando busqueda práctico de CHURRUARIN, ARIEL (39167544 [30101491])
+[2026-02-18T00:56:00.544Z] 👤 CHURRUARIN, ARIEL (39167544)
+[2026-02-18T00:56:00.702Z] ❌  No se encontro ninguna seccion de descarga CHURRUARIN, ARIEL (39167544) — revisar su perfil
+[2026-02-18T00:56:00.704Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:56:05.198Z] 
+[2026-02-18T00:56:05.199Z] Comenzando busqueda práctico de CORONEL COLMAN, MARÍA FLORENCIA (44392905 [30101491])
+[2026-02-18T00:56:06.204Z] 👤 CORONEL COLMAN, MARÍA FLORENCIA (44392905)
+[2026-02-18T00:56:06.256Z] ❌  No se encontro ninguna seccion de descarga CORONEL COLMAN, MARÍA FLORENCIA (44392905) — revisar su perfil
+[2026-02-18T00:56:06.256Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:56:07.357Z] 
+[2026-02-18T00:56:07.357Z] Comenzando busqueda práctico de CORONEL, VANESA MARIELA (27217827 [30101491])
+[2026-02-18T00:56:08.361Z] 👤 CORONEL, VANESA MARIELA (27217827)
+[2026-02-18T00:56:10.469Z] ℹ️ Se encontro archivo para descargar CORONEL, VANESA MARIELA (27217827) — se procede a analizar si existe estado.
+[2026-02-18T00:56:10.474Z] ⬇️  Descargando archivo…
+[2026-02-18T00:56:10.656Z] ✅ Descarga OK — TP-Excel-Coronel-Vanesa-Mariela.zip
+[2026-02-18T00:56:10.656Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:56:10.656Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:56:10.672Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:56:10.672Z] 🔍 CORONEL, VANESA MARIELA (27217827) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:56:10.672Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:56:10.678Z] ✔ Validado OK: TP-Excel-Coronel-Vanesa-Mariela.zip
+[2026-02-18T00:56:11.096Z] 🏁 =============================================================
+[2026-02-18T00:56:11.097Z] 🏁 Fin de corrida
+[2026-02-18T00:56:11.097Z] 🏁 =============================================================
+[2026-02-18T00:56:11.097Z] 
+[2026-02-18T00:56:25.911Z] 🚀 =======================================================
+[2026-02-18T00:56:25.911Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0005]
+[2026-02-18T00:56:25.911Z] 🚀 =======================================================
+[2026-02-18T00:56:25.911Z]  
+[2026-02-18T00:56:25.911Z] ========================================
+[2026-02-18T00:56:25.915Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:56:25.915Z] Procesando alumnos 20 a 24 (total: 5)
+[2026-02-18T00:56:26.919Z] 
+[2026-02-18T00:56:26.919Z] Comenzando busqueda práctico de NARVAEZ, LUCIA BELEN (43202459 [30101482])
+[2026-02-18T00:56:28.171Z] 👤 NARVAEZ, LUCIA BELEN (43202459)
+[2026-02-18T00:56:30.316Z] ℹ️ Se encontro archivo para descargar NARVAEZ, LUCIA BELEN (43202459) — se procede a analizar si existe estado.
+[2026-02-18T00:56:30.317Z] ⬇️  Descargando archivo…
+[2026-02-18T00:56:30.789Z] ✅ Descarga OK — Narvaez-Lucia---43202459---Excel.zip
+[2026-02-18T00:56:30.791Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:56:30.791Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:56:30.858Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:56:30.859Z] 🔍 NARVAEZ, LUCIA BELEN (43202459) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:56:30.859Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:56:30.869Z] ✔ Validado OK: Narvaez-Lucia---43202459---Excel.zip
+[2026-02-18T00:56:32.051Z] 
+[2026-02-18T00:56:32.053Z] Comenzando busqueda práctico de NECEFOR, SHEILA MARIEL (38073768 [30101482])
+[2026-02-18T00:56:33.132Z] 👤 NECEFOR, SHEILA MARIEL (38073768)
+[2026-02-18T00:56:33.188Z] ❌  No se encontro ninguna seccion de descarga NECEFOR, SHEILA MARIEL (38073768) — revisar su perfil
+[2026-02-18T00:56:33.188Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:56:34.357Z] 
+[2026-02-18T00:56:34.359Z] Comenzando busqueda práctico de NEUBAUER, ALDANA LIDIA (41677908 [30101482])
+[2026-02-18T00:56:35.355Z] 👤 NEUBAUER, ALDANA LIDIA (41677908)
+[2026-02-18T00:56:35.402Z] ❌  No se encontro ninguna seccion de descarga NEUBAUER, ALDANA LIDIA (41677908) — revisar su perfil
+[2026-02-18T00:56:35.402Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:56:36.532Z] 
+[2026-02-18T00:56:36.533Z] Comenzando busqueda práctico de NINA, BELLA HAYDEE (43443117 [30101482])
+[2026-02-18T00:56:37.716Z] 👤 NINA, BELLA HAYDEE (43443117)
+[2026-02-18T00:56:37.750Z] ❌  No se encontro ninguna seccion de descarga NINA, BELLA HAYDEE (43443117) — revisar su perfil
+[2026-02-18T00:56:37.750Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:56:38.993Z] 
+[2026-02-18T00:56:38.993Z] Comenzando busqueda práctico de NOGUERA, DAIANA C?NDIDA (38325306 [30101482])
+[2026-02-18T00:56:40.065Z] 👤 NOGUERA, DAIANA C?NDIDA (38325306)
+[2026-02-18T00:56:40.116Z] ❌  No se encontro ninguna seccion de descarga NOGUERA, DAIANA C?NDIDA (38325306) — revisar su perfil
+[2026-02-18T00:56:40.116Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:56:40.683Z]  
+[2026-02-18T00:56:40.683Z] ========================================
+[2026-02-18T00:56:40.683Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:56:40.684Z] Procesando alumnos 20 a 24 (total: 5)
+[2026-02-18T00:56:41.282Z] 
+[2026-02-18T00:56:41.282Z] Comenzando busqueda práctico de CRISTALDO, AMBAR MAILEN (46349468 [30101491])
+[2026-02-18T00:56:42.447Z] 👤 CRISTALDO, AMBAR MAILEN (46349468)
+[2026-02-18T00:56:42.524Z] ❌  No se encontro ninguna seccion de descarga CRISTALDO, AMBAR MAILEN (46349468) — revisar su perfil
+[2026-02-18T00:56:42.524Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:56:43.623Z] 
+[2026-02-18T00:56:43.623Z] Comenzando busqueda práctico de CRISTALDO, ORNELLA NAHIR (41005643 [30101491])
+[2026-02-18T00:56:44.695Z] 👤 CRISTALDO, ORNELLA NAHIR (41005643)
+[2026-02-18T00:56:46.802Z] ℹ️ Se encontro archivo para descargar CRISTALDO, ORNELLA NAHIR (41005643) — se procede a analizar si existe estado.
+[2026-02-18T00:56:46.803Z] ⬇️  Descargando archivo…
+[2026-02-18T00:56:46.987Z] ✅ Descarga OK — EXCEL-CRISTALDO-ORNELLA-D.zip
+[2026-02-18T00:56:46.987Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:56:46.987Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:56:46.998Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:56:46.998Z] 🔍 CRISTALDO, ORNELLA NAHIR (41005643) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:56:46.998Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:56:47.003Z] ✔ Validado OK: EXCEL-CRISTALDO-ORNELLA-D.zip
+[2026-02-18T00:56:48.129Z] 
+[2026-02-18T00:56:48.130Z] Comenzando busqueda práctico de CRUCEÃƒâ€˜O, CAMILA MARIANA (46276674 [30101491])
+[2026-02-18T00:56:49.198Z] 👤 CRUCEÃƒâ€˜O, CAMILA MARIANA (46276674)
+[2026-02-18T00:56:49.254Z] ❌  No se encontro ninguna seccion de descarga CRUCEÃƒâ€˜O, CAMILA MARIANA (46276674) — revisar su perfil
+[2026-02-18T00:56:49.255Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:56:50.323Z] 
+[2026-02-18T00:56:50.325Z] Comenzando busqueda práctico de DARROZA GARCIA, CAMILA BELÉN (41543883 [30101491])
+[2026-02-18T00:56:51.512Z] 👤 DARROZA GARCIA, CAMILA BELÉN (41543883)
+[2026-02-18T00:56:51.583Z] ❌  No se encontro ninguna seccion de descarga DARROZA GARCIA, CAMILA BELÉN (41543883) — revisar su perfil
+[2026-02-18T00:56:51.584Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:56:52.702Z] 
+[2026-02-18T00:56:52.702Z] Comenzando busqueda práctico de DIAZ FERRANTINI, MAITENA (44816493 [30101491])
+[2026-02-18T00:56:53.731Z] 👤 DIAZ FERRANTINI, MAITENA (44816493)
+[2026-02-18T00:56:55.839Z] ℹ️ Se encontro archivo para descargar DIAZ FERRANTINI, MAITENA (44816493) — se procede a analizar si existe estado.
+[2026-02-18T00:56:55.845Z] ⬇️  Descargando archivo…
+[2026-02-18T00:56:56.026Z] ✅ Descarga OK — EXCEL-(1,2y3).zip
+[2026-02-18T00:56:56.026Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:56:56.026Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:56:56.033Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:56:56.033Z] 🔍 DIAZ FERRANTINI, MAITENA (44816493) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:56:56.033Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:56:56.037Z] ✔ Validado OK: EXCEL-(1,2y3).zip
+[2026-02-18T00:56:56.519Z] 🏁 =============================================================
+[2026-02-18T00:56:56.520Z] 🏁 Fin de corrida
+[2026-02-18T00:56:56.520Z] 🏁 =============================================================
+[2026-02-18T00:56:56.520Z] 
+[2026-02-18T00:57:10.973Z] 🚀 =======================================================
+[2026-02-18T00:57:10.974Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0006]
+[2026-02-18T00:57:10.975Z] 🚀 =======================================================
+[2026-02-18T00:57:10.976Z]  
+[2026-02-18T00:57:10.976Z] ========================================
+[2026-02-18T00:57:10.976Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:57:10.976Z] Procesando alumnos 25 a 29 (total: 5)
+[2026-02-18T00:57:11.972Z] 
+[2026-02-18T00:57:11.973Z] Comenzando busqueda práctico de NÚÑEZ, CAMILA (41921227 [30101482])
+[2026-02-18T00:57:13.202Z] 👤 NÚÑEZ, CAMILA (41921227)
+[2026-02-18T00:57:13.292Z] ❌  No se encontro ninguna seccion de descarga NÚÑEZ, CAMILA (41921227) — revisar su perfil
+[2026-02-18T00:57:13.292Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:57:14.644Z] 
+[2026-02-18T00:57:14.645Z] Comenzando busqueda práctico de ORTEGA CAYLLANTE, LENNY BRENDA (94688214 [30101482])
+[2026-02-18T00:57:15.650Z] 👤 ORTEGA CAYLLANTE, LENNY BRENDA (94688214)
+[2026-02-18T00:57:15.714Z] ❌  No se encontro ninguna seccion de descarga ORTEGA CAYLLANTE, LENNY BRENDA (94688214) — revisar su perfil
+[2026-02-18T00:57:15.714Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:57:16.889Z] 
+[2026-02-18T00:57:16.890Z] Comenzando busqueda práctico de OSUNA PILAR (44939038 [30101482])
+[2026-02-18T00:57:17.889Z] 👤 OSUNA PILAR (44939038)
+[2026-02-18T00:57:19.990Z] ℹ️ Se encontro archivo para descargar OSUNA PILAR (44939038) — se procede a analizar si existe estado.
+[2026-02-18T00:57:19.994Z] ⬇️  Descargando archivo…
+[2026-02-18T00:57:20.172Z] ✅ Descarga OK — Osuna-Pilar-Agustina,-44939038.zip
+[2026-02-18T00:57:20.172Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:57:20.172Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:57:20.183Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:57:20.183Z] 🔍 OSUNA PILAR (44939038) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:57:20.183Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:57:20.190Z] ✔ Validado OK: Osuna-Pilar-Agustina,-44939038.zip
+[2026-02-18T00:57:21.331Z] 
+[2026-02-18T00:57:21.331Z] Comenzando busqueda práctico de QUIROGA, AGUSTIN (39978349 [30101482])
+[2026-02-18T00:57:22.265Z] 👤 QUIROGA, AGUSTIN (39978349)
+[2026-02-18T00:57:22.266Z] 🚫 El alumno QUIROGA, AGUSTIN (39978349) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:57:22.266Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:57:23.553Z] 
+[2026-02-18T00:57:23.553Z] Comenzando busqueda práctico de RAGGIO, FACUNDO ESTEBAN (34873652 [30101482])
+[2026-02-18T00:57:24.748Z] 👤 RAGGIO, FACUNDO ESTEBAN (34873652)
+[2026-02-18T00:57:24.801Z] ❌  No se encontro ninguna seccion de descarga RAGGIO, FACUNDO ESTEBAN (34873652) — revisar su perfil
+[2026-02-18T00:57:24.801Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:57:25.306Z]  
+[2026-02-18T00:57:25.306Z] ========================================
+[2026-02-18T00:57:25.307Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:57:25.307Z] Procesando alumnos 25 a 29 (total: 5)
+[2026-02-18T00:57:25.982Z] 
+[2026-02-18T00:57:25.982Z] Comenzando busqueda práctico de ENCINA, FLORENCIA MAIA (41853542 [30101491])
+[2026-02-18T00:57:27.055Z] 👤 ENCINA, FLORENCIA MAIA (41853542)
+[2026-02-18T00:57:27.115Z] ❌  No se encontro ninguna seccion de descarga ENCINA, FLORENCIA MAIA (41853542) — revisar su perfil
+[2026-02-18T00:57:27.116Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:57:28.263Z] 
+[2026-02-18T00:57:28.263Z] Comenzando busqueda práctico de FERNANDEZ, SILVINA (19043067 [30101491])
+[2026-02-18T00:57:29.438Z] 👤 FERNANDEZ, SILVINA (19043067)
+[2026-02-18T00:57:29.498Z] ❌  No se encontro ninguna seccion de descarga FERNANDEZ, SILVINA (19043067) — revisar su perfil
+[2026-02-18T00:57:29.498Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:57:30.707Z] 
+[2026-02-18T00:57:30.707Z] Comenzando busqueda práctico de ORTEGA, MIGUEL ALEJANDRO (43922269 [30101491])
+[2026-02-18T00:57:31.847Z] 👤 ORTEGA, MIGUEL ALEJANDRO (43922269)
+[2026-02-18T00:57:31.903Z] ❌  No se encontro ninguna seccion de descarga ORTEGA, MIGUEL ALEJANDRO (43922269) — revisar su perfil
+[2026-02-18T00:57:31.903Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:57:32.979Z] 
+[2026-02-18T00:57:32.979Z] Comenzando busqueda práctico de PACHECO, LUDMILA NAHIR (46564479 [30101491])
+[2026-02-18T00:57:34.076Z] 👤 PACHECO, LUDMILA NAHIR (46564479)
+[2026-02-18T00:57:34.125Z] ❌  No se encontro ninguna seccion de descarga PACHECO, LUDMILA NAHIR (46564479) — revisar su perfil
+[2026-02-18T00:57:34.125Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:57:35.122Z] 
+[2026-02-18T00:57:35.122Z] Comenzando busqueda práctico de PÁEZ, CELESTE PRISCILA (41777044 [30101491])
+[2026-02-18T00:57:36.820Z] 👤 PÁEZ, CELESTE PRISCILA (41777044)
+[2026-02-18T00:57:36.875Z] ❌  No se encontro ninguna seccion de descarga PÁEZ, CELESTE PRISCILA (41777044) — revisar su perfil
+[2026-02-18T00:57:36.875Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:57:37.346Z] 🏁 =============================================================
+[2026-02-18T00:57:37.347Z] 🏁 Fin de corrida
+[2026-02-18T00:57:37.347Z] 🏁 =============================================================
+[2026-02-18T00:57:37.347Z] 
+[2026-02-18T00:57:51.005Z] 🚀 =======================================================
+[2026-02-18T00:57:51.009Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0007]
+[2026-02-18T00:57:51.010Z] 🚀 =======================================================
+[2026-02-18T00:57:51.011Z]  
+[2026-02-18T00:57:51.011Z] ========================================
+[2026-02-18T00:57:51.011Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:57:51.011Z] Procesando alumnos 30 a 34 (total: 5)
+[2026-02-18T00:57:52.042Z] 
+[2026-02-18T00:57:52.042Z] Comenzando busqueda práctico de RIVAS, ROBERTO FABIAN (40233227 [30101482])
+[2026-02-18T00:57:53.025Z] 👤 RIVAS, ROBERTO FABIAN (40233227)
+[2026-02-18T00:57:53.121Z] ❌  No se encontro ninguna seccion de descarga RIVAS, ROBERTO FABIAN (40233227) — revisar su perfil
+[2026-02-18T00:57:53.170Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:57:54.254Z] 
+[2026-02-18T00:57:54.255Z] Comenzando busqueda práctico de ROCA, FLORENCIA NATALIA (33933581 [30101482])
+[2026-02-18T00:57:55.252Z] 👤 ROCA, FLORENCIA NATALIA (33933581)
+[2026-02-18T00:57:55.252Z] 🚫 El alumno ROCA, FLORENCIA NATALIA (33933581) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:57:55.252Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:57:56.471Z] 
+[2026-02-18T00:57:56.471Z] Comenzando busqueda práctico de RODRIGUEZ MARIA LAURA (27658996 [30101482])
+[2026-02-18T00:57:57.469Z] 👤 RODRIGUEZ MARIA LAURA (27658996)
+[2026-02-18T00:57:57.533Z] ❌  No se encontro ninguna seccion de descarga RODRIGUEZ MARIA LAURA (27658996) — revisar su perfil
+[2026-02-18T00:57:57.533Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:57:58.726Z] 
+[2026-02-18T00:57:58.726Z] Comenzando busqueda práctico de RODRIGUEZ, CARLA GISELE (39159087 [30101482])
+[2026-02-18T00:57:59.922Z] 👤 RODRIGUEZ, CARLA GISELE (39159087)
+[2026-02-18T00:58:00.003Z] ❌  No se encontro ninguna seccion de descarga RODRIGUEZ, CARLA GISELE (39159087) — revisar su perfil
+[2026-02-18T00:58:00.003Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:58:01.182Z] 
+[2026-02-18T00:58:01.183Z] Comenzando busqueda práctico de RODRIGUEZ, MELANY BELEN (39830102 [30101482])
+[2026-02-18T00:58:02.221Z] 👤 RODRIGUEZ, MELANY BELEN (39830102)
+[2026-02-18T00:58:02.222Z] 🚫 El alumno RODRIGUEZ, MELANY BELEN (39830102) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:58:02.222Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:58:02.651Z]  
+[2026-02-18T00:58:02.652Z] ========================================
+[2026-02-18T00:58:02.652Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:58:02.652Z] Procesando alumnos 30 a 34 (total: 5)
+[2026-02-18T00:58:03.251Z] 
+[2026-02-18T00:58:03.251Z] Comenzando busqueda práctico de PASINI, AGUSTINA VICTORIA (43916507 [30101491])
+[2026-02-18T00:58:04.271Z] 👤 PASINI, AGUSTINA VICTORIA (43916507)
+[2026-02-18T00:58:04.331Z] ❌  No se encontro ninguna seccion de descarga PASINI, AGUSTINA VICTORIA (43916507) — revisar su perfil
+[2026-02-18T00:58:04.331Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:58:05.523Z] 
+[2026-02-18T00:58:05.524Z] Comenzando busqueda práctico de RIZZO LAUTARO NICOLAS (45128008 [30101491])
+[2026-02-18T00:58:06.584Z] 👤 RIZZO LAUTARO NICOLAS (45128008)
+[2026-02-18T00:58:08.719Z] ℹ️ Se encontro archivo para descargar RIZZO LAUTARO NICOLAS (45128008) — se procede a analizar si existe estado.
+[2026-02-18T00:58:08.720Z] ⬇️  Descargando archivo…
+[2026-02-18T00:58:08.899Z] ✅ Descarga OK — TP-DE-EXCEL.zip
+[2026-02-18T00:58:08.899Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:58:08.899Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:58:08.909Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:58:08.909Z] 🔍 RIZZO LAUTARO NICOLAS (45128008) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:58:08.909Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:58:08.918Z] ✔ Validado OK: TP-DE-EXCEL.zip
+[2026-02-18T00:58:10.087Z] 
+[2026-02-18T00:58:10.087Z] Comenzando busqueda práctico de ROCCA, IRINA ANA (43629448 [30101491])
+[2026-02-18T00:58:11.150Z] 👤 ROCCA, IRINA ANA (43629448)
+[2026-02-18T00:58:11.150Z] 🚫 El alumno ROCCA, IRINA ANA (43629448) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:58:11.150Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:58:12.227Z] 
+[2026-02-18T00:58:12.227Z] Comenzando busqueda práctico de SAMPER, SOL AGUSTINA (41587072 [30101491])
+[2026-02-18T00:58:13.368Z] 👤 SAMPER, SOL AGUSTINA (41587072)
+[2026-02-18T00:58:15.505Z] ℹ️ Se encontro archivo para descargar SAMPER, SOL AGUSTINA (41587072) — se procede a analizar si existe estado.
+[2026-02-18T00:58:15.515Z] ⬇️  Descargando archivo…
+[2026-02-18T00:58:15.643Z] ✅ Descarga OK — Sol-Samper-Excel-TP1-TP2-TP3.zip
+[2026-02-18T00:58:15.643Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:58:15.643Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:58:15.653Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:58:15.653Z] 🔍 SAMPER, SOL AGUSTINA (41587072) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:58:15.653Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:58:15.657Z] ✔ Validado OK: Sol-Samper-Excel-TP1-TP2-TP3.zip
+[2026-02-18T00:58:16.719Z] 
+[2026-02-18T00:58:16.719Z] Comenzando busqueda práctico de SAUCEDO, MARIA JOSE (38126609 [30101491])
+[2026-02-18T00:58:17.835Z] 👤 SAUCEDO, MARIA JOSE (38126609)
+[2026-02-18T00:58:19.971Z] ℹ️ Se encontro archivo para descargar SAUCEDO, MARIA JOSE (38126609) — se procede a analizar si existe estado.
+[2026-02-18T00:58:19.973Z] ⬇️  Descargando archivo…
+[2026-02-18T00:58:22.930Z] ✅ Descarga OK — saucedomariajose.zip
+[2026-02-18T00:58:22.931Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:58:22.931Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:58:22.951Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:58:22.951Z] 🔍 SAUCEDO, MARIA JOSE (38126609) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:58:22.951Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:58:23.032Z] ✔ Validado OK: saucedomariajose.zip
+[2026-02-18T00:58:23.625Z] 🏁 =============================================================
+[2026-02-18T00:58:23.626Z] 🏁 Fin de corrida
+[2026-02-18T00:58:23.626Z] 🏁 =============================================================
+[2026-02-18T00:58:23.626Z] 
+[2026-02-18T00:58:39.106Z] 🚀 =======================================================
+[2026-02-18T00:58:39.106Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0008]
+[2026-02-18T00:58:39.107Z] 🚀 =======================================================
+[2026-02-18T00:58:39.107Z]  
+[2026-02-18T00:58:39.107Z] ========================================
+[2026-02-18T00:58:39.107Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:58:39.107Z] Procesando alumnos 35 a 39 (total: 5)
+[2026-02-18T00:58:40.097Z] 
+[2026-02-18T00:58:40.097Z] Comenzando busqueda práctico de RUIZ ESPINOLA, LAURA SOFIA (44685656 [30101482])
+[2026-02-18T00:58:41.188Z] 👤 RUIZ ESPINOLA, LAURA SOFIA (44685656)
+[2026-02-18T00:58:41.260Z] ❌  No se encontro ninguna seccion de descarga RUIZ ESPINOLA, LAURA SOFIA (44685656) — revisar su perfil
+[2026-02-18T00:58:41.260Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:58:42.401Z] 
+[2026-02-18T00:58:42.402Z] Comenzando busqueda práctico de SALABERRY GONZÁLEZ, FERNANDA SOFÍA (42144815 [30101482])
+[2026-02-18T00:58:43.483Z] 👤 SALABERRY GONZÁLEZ, FERNANDA SOFÍA (42144815)
+[2026-02-18T00:58:45.604Z] ℹ️ Se encontro archivo para descargar SALABERRY GONZÁLEZ, FERNANDA SOFÍA (42144815) — se procede a analizar si existe estado.
+[2026-02-18T00:58:45.607Z] ⬇️  Descargando archivo…
+[2026-02-18T00:58:45.760Z] ✅ Descarga OK — Salaberry-Fernanda-Sofia_2.zip
+[2026-02-18T00:58:45.761Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:58:45.762Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:58:45.780Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:58:45.780Z] 🔍 SALABERRY GONZÁLEZ, FERNANDA SOFÍA (42144815) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:58:45.780Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:58:45.791Z] ✔ Validado OK: Salaberry-Fernanda-Sofia_2.zip
+[2026-02-18T00:58:46.811Z] 
+[2026-02-18T00:58:46.811Z] Comenzando busqueda práctico de SANCHEZ MARTINEZ, TOBIAS HERNAN (42116355 [30101482])
+[2026-02-18T00:58:47.929Z] 👤 SANCHEZ MARTINEZ, TOBIAS HERNAN (42116355)
+[2026-02-18T00:58:47.930Z] 🚫 El alumno SANCHEZ MARTINEZ, TOBIAS HERNAN (42116355) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:58:47.930Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:58:49.196Z] 
+[2026-02-18T00:58:49.196Z] Comenzando busqueda práctico de SANCHEZ, ALEJANDRO NICOLAS (37932287 [30101482])
+[2026-02-18T00:58:50.133Z] 👤 SANCHEZ, ALEJANDRO NICOLAS (37932287)
+[2026-02-18T00:58:50.191Z] ❌  No se encontro ninguna seccion de descarga SANCHEZ, ALEJANDRO NICOLAS (37932287) — revisar su perfil
+[2026-02-18T00:58:50.191Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:58:51.368Z] 
+[2026-02-18T00:58:51.371Z] Comenzando busqueda práctico de SANCHEZ, MATÃƒï†AS NICOLÃƒï†S (45073401 [30101482])
+[2026-02-18T00:58:52.441Z] 👤 SANCHEZ, MATÃƒï†AS NICOLÃƒï†S (45073401)
+[2026-02-18T00:58:54.554Z] ℹ️ Se encontro archivo para descargar SANCHEZ, MATÃƒï†AS NICOLÃƒï†S (45073401) — se procede a analizar si existe estado.
+[2026-02-18T00:58:54.554Z] ⬇️  Descargando archivo…
+[2026-02-18T00:58:54.710Z] ✅ Descarga OK — Sanchez-Matias_1.zip
+[2026-02-18T00:58:54.710Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:58:54.710Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:58:54.715Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:58:54.715Z] 🔍 SANCHEZ, MATÃƒï†AS NICOLÃƒï†S (45073401) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:58:54.715Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:58:54.721Z] ✔ Validado OK: Sanchez-Matias_1.zip
+[2026-02-18T00:58:55.160Z]  
+[2026-02-18T00:58:55.161Z] ========================================
+[2026-02-18T00:58:55.161Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:58:55.161Z] Procesando alumnos 35 a 39 (total: 5)
+[2026-02-18T00:58:55.736Z] 
+[2026-02-18T00:58:55.737Z] Comenzando busqueda práctico de SOSA FORCADO, MELANIE MICHELLE (42427630 [30101491])
+[2026-02-18T00:58:56.746Z] 👤 SOSA FORCADO, MELANIE MICHELLE (42427630)
+[2026-02-18T00:58:56.750Z] 🚫 El alumno SOSA FORCADO, MELANIE MICHELLE (42427630) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:58:56.750Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:58:57.949Z] 
+[2026-02-18T00:58:57.949Z] Comenzando busqueda práctico de TELLO, BRUNO JAVIER (46360242 [30101491])
+[2026-02-18T00:58:58.910Z] 👤 TELLO, BRUNO JAVIER (46360242)
+[2026-02-18T00:59:01.015Z] ℹ️ Se encontro archivo para descargar TELLO, BRUNO JAVIER (46360242) — se procede a analizar si existe estado.
+[2026-02-18T00:59:01.016Z] ⬇️  Descargando archivo…
+[2026-02-18T00:59:01.173Z] ✅ Descarga OK — EXCEL-TP1,2,3-TELLO-BRUNO-46360242.zip
+[2026-02-18T00:59:01.173Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:59:01.173Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:59:01.182Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:59:01.182Z] 🔍 TELLO, BRUNO JAVIER (46360242) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:59:01.182Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:59:01.191Z] ✔ Validado OK: EXCEL-TP1,2,3-TELLO-BRUNO-46360242.zip
+[2026-02-18T00:59:02.219Z] 
+[2026-02-18T00:59:02.219Z] Comenzando busqueda práctico de TOKARCZUK, AGUSTINA MICAELA (43054151 [30101491])
+[2026-02-18T00:59:03.343Z] 👤 TOKARCZUK, AGUSTINA MICAELA (43054151)
+[2026-02-18T00:59:03.344Z] 🚫 El alumno TOKARCZUK, AGUSTINA MICAELA (43054151) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:59:03.344Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:59:04.366Z] 
+[2026-02-18T00:59:04.367Z] Comenzando busqueda práctico de VIDAL, SOL MILAGROS VIDAL (46344911 [30101491])
+[2026-02-18T00:59:05.465Z] 👤 VIDAL, SOL MILAGROS VIDAL (46344911)
+[2026-02-18T00:59:05.466Z] 🚫 El alumno VIDAL, SOL MILAGROS VIDAL (46344911) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:59:05.466Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:59:06.615Z] 
+[2026-02-18T00:59:06.616Z] Comenzando busqueda práctico de ZELAYA, FIORELLA RAQUEL ZELAYA (45402139 [30101491])
+[2026-02-18T00:59:07.658Z] 👤 ZELAYA, FIORELLA RAQUEL ZELAYA (45402139)
+[2026-02-18T00:59:07.659Z] 🚫 El alumno ZELAYA, FIORELLA RAQUEL ZELAYA (45402139) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:59:07.660Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:59:08.157Z] 🏁 =============================================================
+[2026-02-18T00:59:08.157Z] 🏁 Fin de corrida
+[2026-02-18T00:59:08.157Z] 🏁 =============================================================
+[2026-02-18T00:59:08.157Z] 
+[2026-02-18T00:59:24.973Z] 🚀 =======================================================
+[2026-02-18T00:59:24.974Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0009]
+[2026-02-18T00:59:24.974Z] 🚀 =======================================================
+[2026-02-18T00:59:24.974Z]  
+[2026-02-18T00:59:24.974Z] ========================================
+[2026-02-18T00:59:24.974Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:59:24.974Z] Procesando alumnos 40 a 44 (total: 5)
+[2026-02-18T00:59:25.907Z] 
+[2026-02-18T00:59:25.907Z] Comenzando busqueda práctico de SILVESTRE, LUCÍA MACARENA (41622669 [30101482])
+[2026-02-18T00:59:26.987Z] 👤 SILVESTRE, LUCÍA MACARENA (41622669)
+[2026-02-18T00:59:27.081Z] ❌  No se encontro ninguna seccion de descarga SILVESTRE, LUCÍA MACARENA (41622669) — revisar su perfil
+[2026-02-18T00:59:27.081Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:59:28.298Z] 
+[2026-02-18T00:59:28.301Z] Comenzando busqueda práctico de SIRNA BIANCA AGOSTINA (40511545 [30101482])
+[2026-02-18T00:59:29.308Z] 👤 SIRNA BIANCA AGOSTINA (40511545)
+[2026-02-18T00:59:29.371Z] ❌  No se encontro ninguna seccion de descarga SIRNA BIANCA AGOSTINA (40511545) — revisar su perfil
+[2026-02-18T00:59:29.372Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:59:30.406Z] 
+[2026-02-18T00:59:30.407Z] Comenzando busqueda práctico de TARQUI CATUMO, MARIANA MAGDALENA (44940158 [30101482])
+[2026-02-18T00:59:31.482Z] 👤 TARQUI CATUMO, MARIANA MAGDALENA (44940158)
+[2026-02-18T00:59:33.563Z] ℹ️ Se encontro archivo para descargar TARQUI CATUMO, MARIANA MAGDALENA (44940158) — se procede a analizar si existe estado.
+[2026-02-18T00:59:33.564Z] ⬇️  Descargando archivo…
+[2026-02-18T00:59:33.718Z] ✅ Descarga OK — Tarqui-Catumo,-Mariana_2.zip
+[2026-02-18T00:59:33.718Z] 📦 Archivo ZIP detectado
+[2026-02-18T00:59:33.718Z] 🗜️  Descomprimiendo ZIP…
+[2026-02-18T00:59:33.735Z] ✅ ZIP descomprimido correctamente
+[2026-02-18T00:59:33.735Z] 🔍 TARQUI CATUMO, MARIANA MAGDALENA (44940158) estaba en estado 0 (AUSENTE)
+[2026-02-18T00:59:33.735Z] ♻️  Reemplazando estado 0(AUSENTE) → ENTREGADO(E)
+[2026-02-18T00:59:33.742Z] ✔ Validado OK: Tarqui-Catumo,-Mariana_2.zip
+[2026-02-18T00:59:34.871Z] 
+[2026-02-18T00:59:34.871Z] Comenzando busqueda práctico de VERGARA, NURIA (43326645 [30101482])
+[2026-02-18T00:59:35.848Z] 👤 VERGARA, NURIA (43326645)
+[2026-02-18T00:59:35.898Z] ❌  No se encontro ninguna seccion de descarga VERGARA, NURIA (43326645) — revisar su perfil
+[2026-02-18T00:59:35.898Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:59:37.105Z] 
+[2026-02-18T00:59:37.107Z] Comenzando busqueda práctico de VITALLER, NICOLAS GONZALO (38851757 [30101482])
+[2026-02-18T00:59:38.210Z] 👤 VITALLER, NICOLAS GONZALO (38851757)
+[2026-02-18T00:59:38.211Z] 🚫 El alumno VITALLER, NICOLAS GONZALO (38851757) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-18T00:59:38.211Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-18T00:59:38.739Z]  
+[2026-02-18T00:59:38.740Z] ========================================
+[2026-02-18T00:59:38.740Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:59:38.740Z] Procesando alumnos 40 a 44 (total: 0)
+[2026-02-18T00:59:38.740Z] 🏁 =============================================================
+[2026-02-18T00:59:38.740Z] 🏁 Fin de corrida
+[2026-02-18T00:59:38.740Z] 🏁 =============================================================
+[2026-02-18T00:59:38.740Z] 
+[2026-02-18T00:59:53.595Z] 🚀 =======================================================
+[2026-02-18T00:59:53.597Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0010]
+[2026-02-18T00:59:53.597Z] 🚀 =======================================================
+[2026-02-18T00:59:53.597Z]  
+[2026-02-18T00:59:53.597Z] ========================================
+[2026-02-18T00:59:53.597Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T00:59:53.597Z] Procesando alumnos 45 a 49 (total: 1)
+[2026-02-18T00:59:54.581Z] 
+[2026-02-18T00:59:54.581Z] Comenzando busqueda práctico de WALSER, JAVIER AGUSTIN (41351708 [30101482])
+[2026-02-18T00:59:55.655Z] 👤 WALSER, JAVIER AGUSTIN (41351708)
+[2026-02-18T00:59:55.737Z] ❌  No se encontro ninguna seccion de descarga WALSER, JAVIER AGUSTIN (41351708) — revisar su perfil
+[2026-02-18T00:59:55.738Z] ℹ️  Sin entregas → marcado AUSENTE
+[2026-02-18T00:59:56.288Z]  
+[2026-02-18T00:59:56.288Z] ========================================
+[2026-02-18T00:59:56.289Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T00:59:56.289Z] Procesando alumnos 45 a 49 (total: 0)
+[2026-02-18T00:59:56.289Z] 🏁 =============================================================
+[2026-02-18T00:59:56.289Z] 🏁 Fin de corrida
+[2026-02-18T00:59:56.289Z] 🏁 =============================================================
+[2026-02-18T00:59:56.289Z] 
+[2026-02-18T01:00:12.052Z] 🚀 =======================================================
+[2026-02-18T01:00:12.052Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0011]
+[2026-02-18T01:00:12.052Z] 🚀 =======================================================
+[2026-02-18T01:00:12.053Z]  
+[2026-02-18T01:00:12.053Z] ========================================
+[2026-02-18T01:00:12.053Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-18T01:00:12.053Z] Procesando alumnos 50 a 54 (total: 0)
+[2026-02-18T01:00:12.053Z]  
+[2026-02-18T01:00:12.053Z] ========================================
+[2026-02-18T01:00:12.053Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-18T01:00:12.053Z] Procesando alumnos 50 a 54 (total: 0)
+[2026-02-18T01:00:12.053Z] 🏁 =============================================================
+[2026-02-18T01:00:12.053Z] 🏁 Fin de corrida
+[2026-02-18T01:00:12.053Z] 🏁 =============================================================
+[2026-02-18T01:00:12.053Z] 

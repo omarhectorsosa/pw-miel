@@ -40,7 +40,42 @@ export async function getPracticalWork(
   console.log(`📌 Usando ${entregaKey} = ${entregaIndex}`);
 
   const rootDir = path.join('./downloads', dateFolder);
-  fs.mkdirSync(rootDir, { recursive: true });
+  
+  if (!fs.existsSync(rootDir)) {
+    const previousFolders = fs.readdirSync('./downloads')
+      .filter(name => {
+        const full = path.join('./downloads', name);
+        return (
+          fs.statSync(full).isDirectory() &&
+          name < dateFolder
+        );
+      })
+      .sort()
+      .reverse(); // la más cercana anterior
+
+      if (previousFolders.length > 0) {
+      // En el caso que no exista carpeta busca una anterior y la copia     
+        const sourceDir = path.join('./downloads', previousFolders[0]);
+        
+        console.log(`📁 Copiando ${previousFolders[0]} → ${dateFolder}`);
+
+          fs.cpSync(sourceDir, rootDir, {
+            recursive: true,
+            force: true,
+            filter: (src) => {
+              // Excluir log.txt
+              if (src.endsWith(`${path.sep}log.txt`)) {
+                return false;
+              }
+              return true;
+            }
+          });
+      } else {
+      // Si no encuentra nnguna anterior crea una nueva  
+        console.log(`📁 No hay carpeta anterior. Creando ${dateFolder}`);
+        fs.mkdirSync(rootDir, { recursive: true });
+      }
+  }
 
   const logFilePath = path.join(rootDir, 'log.txt');
   logRunStart(logFilePath, `${entregaTematica} [${origin}]`);

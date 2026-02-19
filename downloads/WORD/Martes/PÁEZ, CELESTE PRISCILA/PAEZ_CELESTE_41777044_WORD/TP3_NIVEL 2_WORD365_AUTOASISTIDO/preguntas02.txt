@@ -1,0 +1,69 @@
+1. ¿Qué es IoT?
+A) Una red social
+B) Una red de objetos conectados que capturan y envían datos
+C) Un tipo de software de oficina
+D) Un lenguaje de programación
+Respuesta correcta: B
+
+2. ¿Qué tecnología permitió manejar grandes volúmenes de datos en IoT?
+A) Bluetooth
+B) 3G
+C) 5G
+D) Infrarrojo
+Respuesta correcta: C
+
+3. ¿Cuál de estos factores impulsó la evolución de IoT?
+A) Aumento del precio de los sensores
+B) Reducción del poder de computación
+C) Avances en Big Data
+D) Eliminación de redes inalámbricas
+Respuesta correcta: C
+
+4. ¿Cuál es la primera etapa del funcionamiento de IoT?
+A) Procesar datos
+B) Actuar
+C) Compartir datos
+D) Capturar datos
+Respuesta correcta: D
+
+5. ¿Qué ejemplo corresponde a un hogar inteligente?
+A) Semáforos sincronizados automáticamente
+B) Cámaras de vigilancia urbanas
+C) Control de luces y climatización desde el teléfono
+D) Robots industriales
+Respuesta correcta: C
+
+6. ¿Qué permite IoT en las redes eléctricas inteligentes?
+A) Aumentar el consumo sin control
+B) Detectar fallas y redistribuir energía
+C) Eliminar el uso de sensores
+D) Desconectar paneles solares
+Respuesta correcta: B
+
+7. ¿Qué función cumple IoT en los automóviles conectados?
+A) Evitar el uso de GPS
+B) Facilitar ADAS y comunicación con semáforos
+C) Desactivar sensores de seguridad
+D) Reducir la conectividad
+Respuesta correcta: B
+
+8. ¿Qué sector genera la mayor cantidad de datos IoT?
+A) Educación
+B) Agricultura
+C) IoT industrial (IIoT)
+D) Entretenimiento
+Respuesta correcta: C
+
+9. ¿Qué permite IoT en las cadenas de suministro?
+A) Eliminar el seguimiento de productos
+B) Supervisar logística en tiempo real
+C) Reducir la información disponible
+D) Evitar automatizaciones
+Respuesta correcta: B
+
+10. ¿Qué se espera del futuro de IoT?
+A) Menor integración con la vida humana
+B) Desaparición de la realidad virtual
+C) Experiencias inmersivas y conectividad global rápida
+D) Eliminación del 5G
+Respuesta correcta: C
