@@ -15,10 +15,11 @@ export async function downloadAndSave(
   day: string,
   studentId: string,
   studentName: string,
-  entregaIndex: number
+  entregaIndex: number,
+  logFilePath: string
+
 ): Promise<{ filePath?: string; fileName?: string }> {
 
-    const logFilePath = path.join(rootDir, 'log.txt');
     const dayDir   = path.join(rootDir, day);
 
     fs.mkdirSync(dayDir, { recursive: true });
@@ -411,7 +412,6 @@ export function getStudentMessage(
   return null;
 }
 
-
 function findStudentRecord(
   rootDir: string,
   day: string,
@@ -509,6 +509,81 @@ export function isAbsence(
   return false;
 }
 
+export function copyOrCreateFolder(
+  rootDir: string,
+  dateFolder: string
+) {
+ 
+  if (!fs.existsSync(rootDir)) {
+    const previousFolders = fs.readdirSync('./downloads')
+      .filter(name => {
+        const full = path.join('./downloads', name);
+        return (
+          fs.statSync(full).isDirectory() &&
+          name < dateFolder
+        );
+      })
+      .sort()
+      .reverse(); // la más cercana anterior
+
+      if (previousFolders.length > 0) {
+      // En el caso que no exista carpeta busca una anterior y la copia     
+        const sourceDir = path.join('./downloads', previousFolders[0]);
+        
+        console.log(`📁 Copiando ${previousFolders[0]} → ${dateFolder}`);
+         fs.cpSync(sourceDir, rootDir, {
+          recursive: true,
+          force: true,
+          filter: (src) => {
+            const base = path.basename(src);
+            // Excluir cualquier archivo que cumpla log*.txt
+            if (/^log.*\.txt$/i.test(base)) {
+              return false;
+            }
+            return true;
+          }
+        });
+      } else {
+      // Si no encuentra nnguna anterior crea una nueva  
+        console.log(`📁 No hay carpeta anterior. Creando ${dateFolder}`);
+        fs.mkdirSync(rootDir, { recursive: true });
+      }
+  }
+
+}
+
+export function createOrUseFileLog(
+  rootDir: string,
+  dateFolder: string,
+  origin: String,
+
+) {
+   
+  const now = new Date();
+  const pad = (n: number) => n.toString().padStart(2, '0');
+  const moment = now.getFullYear() + pad(now.getMonth() + 1) + pad(now.getHours()) + pad(now.getMinutes()) + pad(now.getSeconds());
+  console.log(`Momento ${moment}`);
+  
+  if (origin === 'test-0001') {   
+    return path.join(rootDir, `log${moment}.txt`);
+  } else {
+    // Tomar el último "log" creado
+    const logs = fs.readdirSync(rootDir)
+      .filter(file => /^log.*\.txt$/i.test(file))
+      .map(file => ({
+        name: file,
+        time: fs.statSync(path.join(rootDir, file)).mtime.getTime()
+      }))
+      .sort((a, b) => b.time - a.time);
+
+    if (logs.length > 0) {
+      return path.join(rootDir, logs[0].name);
+    } else {
+      // Si no existe ninguno, crear uno nuevo
+      return path.join(rootDir, `log${moment}.txt`);
+    }
+  }
+}
 /* ==================================================
    Escritura de resultados
 ===================================================== */

@@ -1,7 +1,18 @@
 import { Page, expect } from '@playwright/test';
 import fs from 'fs';
 import path from 'path';
-import { downloadAndSave, seeAndCorrect, getStudentStatus,getStudentMessage, getDateFolder, writeLog, waitTimeAndLogCustom, logRunStart, logRunEnd } from './utils';
+import { downloadAndSave, 
+         seeAndCorrect, 
+         getStudentStatus,
+         getStudentMessage, 
+         getDateFolder, 
+         writeLog, 
+         waitTimeAndLogCustom, 
+         logRunStart, 
+         logRunEnd, 
+         copyOrCreateFolder,
+         createOrUseFileLog 
+} from './utils';
 
 export async function getPracticalWork(
   page: Page, 
@@ -16,16 +27,16 @@ export async function getPracticalWork(
 
   // 📁 Carpeta raíz de la corrida
   const dateFolder = getDateFolder();
-
   const entregaKey = `E${dateFolder}`;
   const entregaRaw = process.env[entregaKey]; // "1,INTERNET"
+  let entregaIndexRaw;
+  let entregaTematica;
+  let logFilePath;
+  const rootDir = path.join('./downloads', dateFolder);
   
   if (!entregaRaw) {
     throw new Error(`❌ Error ${origin}: No existe la variable de entorno ${entregaKey}`);
   }
-
-  let entregaIndexRaw;
-  let entregaTematica;
 
   if (entregaRaw) {
     [entregaIndexRaw, entregaTematica] = entregaRaw.split(',');
@@ -39,45 +50,12 @@ export async function getPracticalWork(
 
   console.log(`📌 Usando ${entregaKey} = ${entregaIndex}`);
 
-  const rootDir = path.join('./downloads', dateFolder);
-  
-  if (!fs.existsSync(rootDir)) {
-    const previousFolders = fs.readdirSync('./downloads')
-      .filter(name => {
-        const full = path.join('./downloads', name);
-        return (
-          fs.statSync(full).isDirectory() &&
-          name < dateFolder
-        );
-      })
-      .sort()
-      .reverse(); // la más cercana anterior
+  copyOrCreateFolder(rootDir, dateFolder );
 
-      if (previousFolders.length > 0) {
-      // En el caso que no exista carpeta busca una anterior y la copia     
-        const sourceDir = path.join('./downloads', previousFolders[0]);
-        
-        console.log(`📁 Copiando ${previousFolders[0]} → ${dateFolder}`);
+  logFilePath = createOrUseFileLog(rootDir, dateFolder, origin);
 
-          fs.cpSync(sourceDir, rootDir, {
-            recursive: true,
-            force: true,
-            filter: (src) => {
-              // Excluir log.txt
-              if (src.endsWith(`${path.sep}log.txt`)) {
-                return false;
-              }
-              return true;
-            }
-          });
-      } else {
-      // Si no encuentra nnguna anterior crea una nueva  
-        console.log(`📁 No hay carpeta anterior. Creando ${dateFolder}`);
-        fs.mkdirSync(rootDir, { recursive: true });
-      }
-  }
+  console.log(`Usando log ${logFilePath}`);
 
-  const logFilePath = path.join(rootDir, 'log.txt');
   logRunStart(logFilePath, `${entregaTematica} [${origin}]`);
   
   // 🔁 Comisiones
@@ -165,7 +143,8 @@ export async function getPracticalWork(
           day,
           studentId,
           nameStudent,
-          entregaIndex
+          entregaIndex,
+          logFilePath
         );
 
         // ✅ Validaciones si hubo archivo
@@ -203,6 +182,8 @@ export async function seePracticalWork(
   const dateFolder = getDateFolder();
   const entregaKey = `E${dateFolder}`;
   const entregaRaw = process.env[entregaKey];
+  let logFilePath;
+  const rootDir = path.join('./downloads', dateFolder); 
 
   if (!entregaRaw) {
     throw new Error(`❌ Error ${origin}: No existe ${entregaKey}`);
@@ -215,10 +196,10 @@ export async function seePracticalWork(
     throw new Error(`❌ Error ${origin}: ${entregaKey} inválido`);
   }
 
-  const rootDir = path.join('./downloads', dateFolder);
-  fs.mkdirSync(rootDir, { recursive: true });
+  copyOrCreateFolder(rootDir, dateFolder);
 
-  const logFilePath = path.join(rootDir, 'log.txt');
+  logFilePath = createOrUseFileLog(rootDir, dateFolder, origin);
+
   logRunStart(logFilePath, `${entregaTematica} [${origin}]`);
 
   // 🔁 Comisiones
@@ -354,6 +335,8 @@ export async function setAbisenceInTeam(
   const dateFolder = getDateFolder();
   const entregaKey = `E${dateFolder}`;
   const entregaRaw = process.env[entregaKey];
+  let logFilePath;
+  const rootDir = path.join('./downloads', dateFolder);
 
   if (!entregaRaw) {
     throw new Error(`❌ Error ${origin}: No existe ${entregaKey}`);
@@ -366,10 +349,10 @@ export async function setAbisenceInTeam(
     throw new Error(`❌ Error ${origin}: ${entregaKey} inválido`);
   }
 
-  const rootDir = path.join('./downloads', dateFolder);
-  fs.mkdirSync(rootDir, { recursive: true });
+  copyOrCreateFolder(rootDir, dateFolder);
 
-  const logFilePath = path.join(rootDir, 'log.txt');
+  logFilePath = createOrUseFileLog(rootDir, dateFolder, origin);
+
   logRunStart(logFilePath, `${entregaTematica} [${origin}]`);
 
   const studentsByCommission = data.students;

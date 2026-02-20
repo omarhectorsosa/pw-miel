@@ -1,0 +1,130 @@
+[2026-02-20T01:12:43.708Z] 🚀 =======================================================
+[2026-02-20T01:12:43.708Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0001]
+[2026-02-20T01:12:43.708Z] 🚀 =======================================================
+[2026-02-20T01:12:43.708Z]  
+[2026-02-20T01:12:43.709Z] ========================================
+[2026-02-20T01:12:43.709Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-20T01:12:43.732Z] Procesando alumnos 0 a 4 (total: 5)
+[2026-02-20T01:12:44.935Z] 
+[2026-02-20T01:12:44.935Z] Comenzando busqueda práctico de DOSANTOS, MARÍA LAURA (31307264 [30101482])
+[2026-02-20T01:12:46.080Z] 👤 DOSANTOS, MARÍA LAURA (31307264)
+[2026-02-20T01:12:48.281Z] ℹ️ Se encontro archivo para descargar DOSANTOS, MARÍA LAURA (31307264) — se procede a analizar si existe estado.
+[2026-02-20T01:12:48.281Z] 🔍 DOSANTOS, MARÍA LAURA (31307264) ya se encuentra registrado en estado 7  — se omite
+[2026-02-20T01:12:49.729Z] 
+[2026-02-20T01:12:49.730Z] Comenzando busqueda práctico de ESCALANTE, LUCIANO GABRIEL (42353334 [30101482])
+[2026-02-20T01:12:50.894Z] 👤 ESCALANTE, LUCIANO GABRIEL (42353334)
+[2026-02-20T01:12:53.021Z] ℹ️ Se encontro archivo para descargar ESCALANTE, LUCIANO GABRIEL (42353334) — se procede a analizar si existe estado.
+[2026-02-20T01:12:53.022Z] 🔍 ESCALANTE, LUCIANO GABRIEL (42353334) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:12:54.273Z] 
+[2026-02-20T01:12:54.275Z] Comenzando busqueda práctico de ESCALERA, LEANDRO AGUSTIN (43444202 [30101482])
+[2026-02-20T01:12:55.360Z] 👤 ESCALERA, LEANDRO AGUSTIN (43444202)
+[2026-02-20T01:12:57.494Z] ℹ️ Se encontro archivo para descargar ESCALERA, LEANDRO AGUSTIN (43444202) — se procede a analizar si existe estado.
+[2026-02-20T01:12:57.494Z] 🔍 ESCALERA, LEANDRO AGUSTIN (43444202) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:12:58.822Z] 
+[2026-02-20T01:12:58.824Z] Comenzando busqueda práctico de FRANCIA, MARCELA NATALIA (33152536 [30101482])
+[2026-02-20T01:12:59.992Z] 👤 FRANCIA, MARCELA NATALIA (33152536)
+[2026-02-20T01:13:02.084Z] ℹ️ Se encontro archivo para descargar FRANCIA, MARCELA NATALIA (33152536) — se procede a analizar si existe estado.
+[2026-02-20T01:13:02.085Z] 🔍 FRANCIA, MARCELA NATALIA (33152536) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:13:03.464Z] 
+[2026-02-20T01:13:03.466Z] Comenzando busqueda práctico de GALLEGO, RODRIGO NAHUEL (42489636 [30101482])
+[2026-02-20T01:13:04.823Z] 👤 GALLEGO, RODRIGO NAHUEL (42489636)
+[2026-02-20T01:13:06.936Z] ℹ️ Se encontro archivo para descargar GALLEGO, RODRIGO NAHUEL (42489636) — se procede a analizar si existe estado.
+[2026-02-20T01:13:06.937Z] 🔍 GALLEGO, RODRIGO NAHUEL (42489636) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:13:07.511Z]  
+[2026-02-20T01:13:07.511Z] ========================================
+[2026-02-20T01:13:07.511Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-20T01:13:07.512Z] Procesando alumnos 0 a 4 (total: 5)
+[2026-02-20T01:13:08.230Z] 
+[2026-02-20T01:13:08.230Z] Comenzando busqueda práctico de AGUILAR, FLORENCIA MICAELA (44239429 [30101491])
+[2026-02-20T01:13:09.452Z] 👤 AGUILAR, FLORENCIA MICAELA (44239429)
+[2026-02-20T01:13:11.637Z] ℹ️ Se encontro archivo para descargar AGUILAR, FLORENCIA MICAELA (44239429) — se procede a analizar si existe estado.
+[2026-02-20T01:13:11.637Z] 🔍 AGUILAR, FLORENCIA MICAELA (44239429) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:13:12.696Z] 
+[2026-02-20T01:13:12.697Z] Comenzando busqueda práctico de AGUILAR, MATIAS LAUTARO (44354414 [30101491])
+[2026-02-20T01:13:13.982Z] 👤 AGUILAR, MATIAS LAUTARO (44354414)
+[2026-02-20T01:13:16.100Z] ℹ️ Se encontro archivo para descargar AGUILAR, MATIAS LAUTARO (44354414) — se procede a analizar si existe estado.
+[2026-02-20T01:13:16.101Z] 🔍 AGUILAR, MATIAS LAUTARO (44354414) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:13:17.308Z] 
+[2026-02-20T01:13:17.310Z] Comenzando busqueda práctico de AGUIRRE, LUCILA GUILLERMINA (43506620 [30101491])
+[2026-02-20T01:13:18.584Z] 👤 AGUIRRE, LUCILA GUILLERMINA (43506620)
+[2026-02-20T01:13:20.711Z] ℹ️ Se encontro archivo para descargar AGUIRRE, LUCILA GUILLERMINA (43506620) — se procede a analizar si existe estado.
+[2026-02-20T01:13:20.713Z] 🔍 AGUIRRE, LUCILA GUILLERMINA (43506620) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:13:22.119Z] 
+[2026-02-20T01:13:22.119Z] Comenzando busqueda práctico de ALMARAZ, MAURO AGUSTÍN (42394294 [30101491])
+[2026-02-20T01:13:23.298Z] 👤 ALMARAZ, MAURO AGUSTÍN (42394294)
+[2026-02-20T01:13:25.369Z] ℹ️ Se encontro archivo para descargar ALMARAZ, MAURO AGUSTÍN (42394294) — se procede a analizar si existe estado.
+[2026-02-20T01:13:25.369Z] 🔍 ALMARAZ, MAURO AGUSTÍN (42394294) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:13:26.654Z] 
+[2026-02-20T01:13:26.655Z] Comenzando busqueda práctico de ALMARAZ, NICOLÃƒï†S ARIEL (45744864 [30101491])
+[2026-02-20T01:13:27.787Z] 👤 ALMARAZ, NICOLÃƒï†S ARIEL (45744864)
+[2026-02-20T01:13:29.890Z] ℹ️ Se encontro archivo para descargar ALMARAZ, NICOLÃƒï†S ARIEL (45744864) — se procede a analizar si existe estado.
+[2026-02-20T01:13:29.890Z] 🔍 ALMARAZ, NICOLÃƒï†S ARIEL (45744864) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:13:30.498Z] 🏁 =============================================================
+[2026-02-20T01:13:30.499Z] 🏁 Fin de corrida
+[2026-02-20T01:13:30.499Z] 🏁 =============================================================
+[2026-02-20T01:13:30.499Z] 
+[2026-02-20T01:13:42.948Z] 🚀 =======================================================
+[2026-02-20T01:13:42.948Z] 🚀 Inicio de corrida — Entrega:  EXCEL1 [test-0002]
+[2026-02-20T01:13:42.948Z] 🚀 =======================================================
+[2026-02-20T01:13:42.948Z]  
+[2026-02-20T01:13:42.948Z] ========================================
+[2026-02-20T01:13:42.948Z] 📘 Descargando comisión 30101482[Lunes]
+[2026-02-20T01:13:42.948Z] Procesando alumnos 5 a 9 (total: 5)
+[2026-02-20T01:13:43.963Z] 
+[2026-02-20T01:13:43.963Z] Comenzando busqueda práctico de GAMBARTE, MAXIMO (44355194 [30101482])
+[2026-02-20T01:13:45.023Z] 👤 GAMBARTE, MAXIMO (44355194)
+[2026-02-20T01:13:47.182Z] ℹ️ Se encontro archivo para descargar GAMBARTE, MAXIMO (44355194) — se procede a analizar si existe estado.
+[2026-02-20T01:13:47.182Z] 🔍 GAMBARTE, MAXIMO (44355194) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:13:48.530Z] 
+[2026-02-20T01:13:48.530Z] Comenzando busqueda práctico de GARCÍA, MARTINA IARA (45042979 [30101482])
+[2026-02-20T01:13:49.619Z] 👤 GARCÍA, MARTINA IARA (45042979)
+[2026-02-20T01:13:51.739Z] ℹ️ Se encontro archivo para descargar GARCÍA, MARTINA IARA (45042979) — se procede a analizar si existe estado.
+[2026-02-20T01:13:51.741Z] 🔍 GARCÍA, MARTINA IARA (45042979) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:13:53.225Z] 
+[2026-02-20T01:13:53.226Z] Comenzando busqueda práctico de GARRIDO, JOAQUIN (44302586 [30101482])
+[2026-02-20T01:13:54.416Z] 👤 GARRIDO, JOAQUIN (44302586)
+[2026-02-20T01:13:56.514Z] ℹ️ Se encontro archivo para descargar GARRIDO, JOAQUIN (44302586) — se procede a analizar si existe estado.
+[2026-02-20T01:13:56.515Z] 🔍 GARRIDO, JOAQUIN (44302586) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:13:57.854Z] 
+[2026-02-20T01:13:57.864Z] Comenzando busqueda práctico de GAUJÁN, JULIETA BELEN (42196152 [30101482])
+[2026-02-20T01:13:59.056Z] 👤 GAUJÁN, JULIETA BELEN (42196152)
+[2026-02-20T01:14:01.173Z] ℹ️ Se encontro archivo para descargar GAUJÁN, JULIETA BELEN (42196152) — se procede a analizar si existe estado.
+[2026-02-20T01:14:01.173Z] 🔍 GAUJÁN, JULIETA BELEN (42196152) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:14:02.684Z] 
+[2026-02-20T01:14:02.685Z] Comenzando busqueda práctico de GOMEZ LACASA, RAMIRO (45237271 [30101482])
+[2026-02-20T01:14:03.852Z] 👤 GOMEZ LACASA, RAMIRO (45237271)
+[2026-02-20T01:14:05.950Z] ℹ️ Se encontro archivo para descargar GOMEZ LACASA, RAMIRO (45237271) — se procede a analizar si existe estado.
+[2026-02-20T01:14:05.950Z] 🔍 GOMEZ LACASA, RAMIRO (45237271) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:14:06.675Z]  
+[2026-02-20T01:14:06.676Z] ========================================
+[2026-02-20T01:14:06.677Z] 📘 Descargando comisión 30101491[Martes]
+[2026-02-20T01:14:06.677Z] Procesando alumnos 5 a 9 (total: 5)
+[2026-02-20T01:14:07.342Z] 
+[2026-02-20T01:14:07.342Z] Comenzando busqueda práctico de ARIAS RIOS ELIZABETH (33786888 [30101491])
+[2026-02-20T01:14:08.588Z] 👤 ARIAS RIOS ELIZABETH (33786888)
+[2026-02-20T01:14:10.687Z] ℹ️ Se encontro archivo para descargar ARIAS RIOS ELIZABETH (33786888) — se procede a analizar si existe estado.
+[2026-02-20T01:14:10.688Z] 🔍 ARIAS RIOS ELIZABETH (33786888) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:14:12.004Z] 
+[2026-02-20T01:14:12.005Z] Comenzando busqueda práctico de BAHL, LUCIA MARIEL (33088259 [30101491])
+[2026-02-20T01:14:13.281Z] 👤 BAHL, LUCIA MARIEL (33088259)
+[2026-02-20T01:14:15.381Z] ℹ️ Se encontro archivo para descargar BAHL, LUCIA MARIEL (33088259) — se procede a analizar si existe estado.
+[2026-02-20T01:14:15.382Z] 🔍 BAHL, LUCIA MARIEL (33088259) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:14:16.747Z] 
+[2026-02-20T01:14:16.749Z] Comenzando busqueda práctico de BALSA, MARIANELA AILEN (43723510 [30101491])
+[2026-02-20T01:14:17.796Z] 👤 BALSA, MARIANELA AILEN (43723510)
+[2026-02-20T01:14:19.872Z] ℹ️ Se encontro archivo para descargar BALSA, MARIANELA AILEN (43723510) — se procede a analizar si existe estado.
+[2026-02-20T01:14:19.874Z] 🔍 BALSA, MARIANELA AILEN (43723510) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:14:21.278Z] 
+[2026-02-20T01:14:21.287Z] Comenzando busqueda práctico de BASILE, MATEO DAVID (45238348 [30101491])
+[2026-02-20T01:14:22.402Z] 👤 BASILE, MATEO DAVID (45238348)
+[2026-02-20T01:14:24.520Z] ℹ️ Se encontro archivo para descargar BASILE, MATEO DAVID (45238348) — se procede a analizar si existe estado.
+[2026-02-20T01:14:24.524Z] 🔍 BASILE, MATEO DAVID (45238348) ya se encuentra registrado en estado E  — se omite
+[2026-02-20T01:14:25.888Z] 
+[2026-02-20T01:14:25.893Z] Comenzando busqueda práctico de BERGARA LEDESMA, MELODY ANAHÍ (41744020 [30101491])
+[2026-02-20T01:14:27.195Z] 👤 BERGARA LEDESMA, MELODY ANAHÍ (41744020)
+[2026-02-20T01:14:27.195Z] 🚫 El alumno BERGARA LEDESMA, MELODY ANAHÍ (41744020) se inhabilito por ausente en sus entregas anteriores — revisar su estado
+[2026-02-20T01:14:27.195Z] ℹ️  Sin entregas → marcado AUSENTE(0)
+[2026-02-20T01:14:27.720Z] 🏁 =============================================================
+[2026-02-20T01:14:27.720Z] 🏁 Fin de corrida
+[2026-02-20T01:14:27.720Z] 🏁 =============================================================
+[2026-02-20T01:14:27.720Z] 
